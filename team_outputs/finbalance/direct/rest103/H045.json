@@ -1,0 +1,11 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 3404.25},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 3885.48},
+  {"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 2394.43}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 59196.7, "Inventory": 27715.28, "Accounts Receivable": 8645.5},
+  "liabilities": {"Accounts Payable": 13763.29},
+  "equity": {"Owner's Equity": 80303.14, "Retained Earnings": 1491.05}
+ }}

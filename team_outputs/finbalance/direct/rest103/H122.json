@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["statement_balance_mismatch"], "inconsistency_notes": ["Vendor statement VSTMT-0001 (D042) for Prime Utility Desk shows a closing balance of $0.01 while its only listed open line, BILL-0001, is $272.52 outstanding (consistent with BILL-0001 total $11,349.46 less payment $11,076.94); the statement closing balance does not reconcile with its listed open lines."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

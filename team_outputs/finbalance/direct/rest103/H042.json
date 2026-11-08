@@ -1,0 +1,24 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 17534.5},
+  {"doc_refs": ["D003"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 20470.3},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 47995.34},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 39222.18},
+  {"doc_refs": ["D013"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 13455.64},
+  {"doc_refs": ["D013", "D014"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 65565.69},
+  {"doc_refs": ["D013"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 45218.09},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 47131.42},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Interest Expense", "credit_account": "Card Settlement Clearing", "amount": 863.92},
+  {"doc_refs": ["D010"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 4343.03},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 40044.71},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 5073.47},
+  {"doc_refs": ["D006", "D002"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 17534.5},
+  {"doc_refs": ["D008", "D009"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 250.5},
+  {"doc_refs": ["D011", "D012"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 29.72},
+  {"doc_refs": ["D015", "D016"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 232.45}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 60185.08, "Inventory": -10475.89, "Card Settlement Clearing": 67940.49, "Office Supplies": 2306.45},
+  "liabilities": {"Accounts Payable": 16804.36, "Unearned Revenue": 8908.12, "Accrued Expenses": 4607.13},
+  "equity": {"Retained Earnings": 26769.14, "Owner's Equity": 62867.38}
+ }}

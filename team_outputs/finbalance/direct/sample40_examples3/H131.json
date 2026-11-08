@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_rate_mismatch", "tax_total_mismatch"], "inconsistency_notes": ["D003 BILL-0001 shows Tax Amount $0.01 against a 5.00% rate on a $3,198.88 subtotal (expected $159.94), and subtotal plus shown tax ($3,198.89) does not equal the stated total of $3,358.82."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

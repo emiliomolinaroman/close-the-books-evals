@@ -1,0 +1,29 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 38283.38},
+  {"doc_refs": ["D002"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 957.09},
+  {"doc_refs": ["D002"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 957.08},
+  {"doc_refs": ["D012"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 8089.48},
+  {"doc_refs": ["D012"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 202.24},
+  {"doc_refs": ["D012"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 202.23},
+  {"doc_refs": ["D010"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 29409.39},
+  {"doc_refs": ["D010"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 1764.57},
+  {"doc_refs": ["D010"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 1764.56},
+  {"doc_refs": ["D011"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 52431.75},
+  {"doc_refs": ["D011"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 1310.80},
+  {"doc_refs": ["D011"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 1310.79},
+  {"doc_refs": ["D005", "D015"], "debit_account": "Work In Process", "credit_account": "Cash", "amount": 68458.12},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Work In Process", "credit_account": "Raw Materials Inventory", "amount": 22148.75},
+  {"doc_refs": ["D006"], "debit_account": "Finished Goods Inventory", "credit_account": "Work In Process", "amount": 90606.87},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 133134.64},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 3328.36},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 3328.37},
+  {"doc_refs": ["D007", "D006"], "debit_account": "Cost of Goods Sold", "credit_account": "Finished Goods Inventory", "amount": 90606.87},
+  {"doc_refs": ["D009"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 40197.55},
+  {"doc_refs": ["D008"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 139791.37}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 242707.84, "Raw Materials Inventory": 214651.70, "Work In Process": 114842.77, "Finished Goods Inventory": 74657.34, "Input CGST Receivable": 4234.70, "Input SGST Receivable": 4234.66},
+  "liabilities": {"Accounts Payable": 166119.10, "Accrued Expenses": 16410.88, "CGST Payable": 3328.36, "SGST Payable": 3328.37},
+  "equity": {"Retained Earnings": 138184.95, "Share Capital": 327957.35}
+ }}

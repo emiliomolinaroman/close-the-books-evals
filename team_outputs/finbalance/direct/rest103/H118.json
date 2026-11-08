@@ -1,0 +1,28 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 418342.06},
+  {"doc_refs": ["D003"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 30329.8},
+  {"doc_refs": ["D011", "D010", "D012", "D014"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 2589878.65},
+  {"doc_refs": ["D006"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 162779.81},
+  {"doc_refs": ["D022", "D020", "D021"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 730070.82},
+  {"doc_refs": ["D022"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 60230.84},
+  {"doc_refs": ["D013", "D014", "D012"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 537643.78},
+  {"doc_refs": ["D019", "D018"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 846051.09},
+  {"doc_refs": ["D019"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 52878.19},
+  {"doc_refs": ["D026", "D019"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 898929.28},
+  {"doc_refs": ["D009", "D026"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 515090.02},
+  {"doc_refs": ["D005", "D003", "D026"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 283305.48},
+  {"doc_refs": ["D015", "D026", "D027"], "debit_account": "Reserve Cash", "credit_account": "Cash", "amount": 199054.2},
+  {"doc_refs": ["D007", "D006", "D026"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 147557.07},
+  {"doc_refs": ["D017", "D003"], "debit_account": "Service Revenue", "credit_account": "Accounts Receivable", "amount": 22456.04},
+  {"doc_refs": ["D008", "D026"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 218766.87},
+  {"doc_refs": ["D008", "D026"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 23625.77},
+  {"doc_refs": ["D004", "D003"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 418342.06},
+  {"doc_refs": ["D014", "D011", "D012"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 2052234.87},
+  {"doc_refs": ["D016"], "debit_account": "Utilities Expense", "credit_account": "Accrued Expenses", "amount": 51133.36}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 1906898.94, "Reserve Cash": 199054.2, "Accounts Receivable": 3590534.91, "Prepaid Insurance": 35970.56, "Equipment": 94354.62, "Office Supplies": 14748.71},
+  "liabilities": {"Accounts Payable": 87483.3, "Accrued Expenses": 85720.82, "Unearned Revenue": 1833038.4, "Loans Payable": 609189.61, "Sales Tax Payable": 143438.83},
+  "equity": {"Share Capital": 373828.77, "Retained Earnings": 2708862.21}
+ }}

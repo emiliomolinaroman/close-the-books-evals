@@ -1,0 +1,14 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 4045.35},
+  {"doc_refs": ["D006", "D008"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 2745.42},
+  {"doc_refs": ["D007", "D008"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 2792.62},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 5709.38},
+  {"doc_refs": ["D005", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 5709.38},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 4045.35}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 36939.73, "Accounts Receivable": 4050.66, "Prepaid Insurance": 2058.09},
+  "liabilities": {"Accounts Payable": 1517.67, "Accrued Expenses": 1598.34, "Security Deposits Payable": 10151.52},
+  "equity": {"Retained Earnings": 3327.68, "Owner's Equity": 26453.27}
+ }}

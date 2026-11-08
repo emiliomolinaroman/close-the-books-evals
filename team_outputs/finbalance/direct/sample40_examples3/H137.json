@@ -1,0 +1,11 @@
+{
+ "has_inconsistency": true,
+ "inconsistency_codes": ["deferred_tax_rollforward_mismatch"],
+ "inconsistency_notes": ["Deferred tax memo D019 (DTAX-0001) shows opening liability 0.00 plus current movement 21.52 but states an ending liability of 2,085.75; the rollforward does not reconcile."],
+ "entries": [],
+ "balance_sheet": {
+  "assets": {},
+  "liabilities": {},
+  "equity": {}
+ }
+}

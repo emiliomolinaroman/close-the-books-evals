@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["exchange_rate_mismatch"], "inconsistency_notes": ["Exchange rate notice RATE-0001 (D039): GBP 64,333.46 x 1.3177 = USD 84,772.20, but the notice states a functional amount of USD 84,206.85; the remeasurement memo (D040) uses 84,772.20 as the booked amount."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

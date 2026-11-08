@@ -1,0 +1,12 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 116660.71},
+{"doc_refs": ["D009", "D008"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 623187.89},
+{"doc_refs": ["D007", "D005"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 458567.01},
+{"doc_refs": ["D004", "D003"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 116660.71},
+{"doc_refs": ["D012", "D009"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 623187.89}
+],
+"balance_sheet": {
+"assets": {"Cash": 941650.51, "Accounts Receivable": 575227.72},
+"liabilities": {"Accounts Payable": 28952.93, "Unearned Revenue": 1081754.90},
+"equity": {"Share Capital": 289509.69, "Retained Earnings": 116660.71}}}

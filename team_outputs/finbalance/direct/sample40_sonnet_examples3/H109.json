@@ -1,0 +1,20 @@
+{"has_inconsistency":false,"inconsistency_codes":[],"inconsistency_notes":[],"entries":[
+{"doc_refs":["D003","D002"],"debit_account":"Accounts Receivable","credit_account":"Unearned Revenue","amount":29420.94},
+{"doc_refs":["D003"],"debit_account":"Accounts Receivable","credit_account":"Sales Tax Payable","amount":2133.02},
+{"doc_refs":["D004"],"debit_account":"Unearned Revenue","credit_account":"Service Revenue","amount":2451.74},
+{"doc_refs":["D005","D003"],"debit_account":"Cash","credit_account":"Accounts Receivable","amount":26633.37},
+{"doc_refs":["D012","D011","D013","D015"],"debit_account":"Accounts Receivable","credit_account":"Unearned Revenue","amount":390914.66},
+{"doc_refs":["D014","D015","D013"],"debit_account":"Unearned Revenue","credit_account":"Service Revenue","amount":91424.61},
+{"doc_refs":["D015","D013"],"debit_account":"Unearned Revenue","credit_account":"Service Revenue","amount":24957.5},
+{"doc_refs":["D018","D017"],"debit_account":"Accounts Receivable","credit_account":"Unearned Revenue","amount":60333.82},
+{"doc_refs":["D018"],"debit_account":"Accounts Receivable","credit_account":"Sales Tax Payable","amount":5731.71},
+{"doc_refs":["D018","D020"],"debit_account":"Cash","credit_account":"Accounts Receivable","amount":66065.53},
+{"doc_refs":["D006"],"debit_account":"Utilities Expense","credit_account":"Accounts Payable","amount":9124.07},
+{"doc_refs":["D007","D006"],"debit_account":"Accounts Payable","credit_account":"Cash","amount":7945.13},
+{"doc_refs":["D009"],"debit_account":"Cash","credit_account":"Loans Payable","amount":129708.23},
+{"doc_refs":["D010"],"debit_account":"Loans Payable","credit_account":"Cash","amount":21247.3},
+{"doc_refs":["D010"],"debit_account":"Interest Expense","credit_account":"Cash","amount":2995.75},
+{"doc_refs":["D008"],"debit_account":"Salaries Expense","credit_account":"Cash","amount":15765.45},
+{"doc_refs":["D008"],"debit_account":"Payroll Tax Expense","credit_account":"Cash","amount":1819.81},
+{"doc_refs":["D016","D020","D021"],"debit_account":"Reserve Cash","credit_account":"Cash","amount":162270.8}
+],"balance_sheet":{"assets":{"Cash":134790.32,"Reserve Cash":162270.8,"Accounts Receivable":407791.96,"Prepaid Insurance":2376.04,"Office Supplies":2329.69,"Equipment":16653.87},"liabilities":{"Accounts Payable":10327.81,"Accrued Expenses":3500.67,"Unearned Revenue":376316.82,"Loans Payable":122725.32,"Sales Tax Payable":7864.73},"equity":{"Retained Earnings":123354.25,"Share Capital":82123.08}}}

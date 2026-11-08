@@ -1,0 +1,19 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 3282.42},
+{"doc_refs": ["D002"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 328.24},
+{"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 11493.68},
+{"doc_refs": ["D003"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 2786.97},
+{"doc_refs": ["D003"], "debit_account": "Cash", "credit_account": "Sales Tax Payable", "amount": 1428.07},
+{"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 7226.75},
+{"doc_refs": ["D005", "D004"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 11286.79},
+{"doc_refs": ["D006", "D002"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 3610.66},
+{"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 7764.82},
+{"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 951.73},
+{"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 123.0}
+],
+"balance_sheet": {
+"assets": {"Cash": 23029.14, "Inventory": 11709.67, "Card Settlement Clearing": 2386.46, "Office Supplies": 1188.99, "Input Tax Receivable": 328.24},
+"liabilities": {"Accounts Payable": 2633.01, "Accrued Expenses": 865.16, "Sales Tax Payable": 1428.07},
+"equity": {"Retained Earnings": 7818.83, "Owner's Equity": 25897.43}
+}}

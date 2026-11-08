@@ -1,0 +1,25 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 4576.27},
+{"doc_refs": ["D002"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 457.63},
+{"doc_refs": ["D003", "D014"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 1237.14},
+{"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 5189.51},
+{"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Tax Payable", "amount": 449.87},
+{"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 3877.83},
+{"doc_refs": ["D005", "D004", "D014"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 5537.87},
+{"doc_refs": ["D005", "D004"], "debit_account": "Interest Expense", "credit_account": "Card Settlement Clearing", "amount": 101.51},
+{"doc_refs": ["D011", "D014"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 18670.09},
+{"doc_refs": ["D012", "D014"], "debit_account": "Store Fixtures", "credit_account": "Cash", "amount": 9126.45},
+{"doc_refs": ["D012"], "debit_account": "Store Fixtures", "credit_account": "Notes Payable", "amount": 11114.46},
+{"doc_refs": ["D007", "D014"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 11030.66},
+{"doc_refs": ["D007", "D014"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1499.65},
+{"doc_refs": ["D006", "D002", "D014"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 4333.82},
+{"doc_refs": ["D010"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 919.30},
+{"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 83.85},
+{"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 562.25}
+],
+"balance_sheet": {
+"assets": {"Cash": 19878.15, "Inventory": 20283.72, "Card Settlement Clearing": 1327.46, "Store Fixtures": 28361.63, "Office Supplies": 821.00, "Input Tax Receivable": 457.63, "Accumulated Depreciation": -562.25},
+"liabilities": {"Accounts Payable": 4478.45, "Accrued Expenses": 1289.24, "Loans Payable": 23477.97, "Notes Payable": 11114.46, "Sales Tax Payable": 449.87},
+"equity": {"Retained Earnings": -2584.13, "Owner's Equity": 32341.48}
+}}

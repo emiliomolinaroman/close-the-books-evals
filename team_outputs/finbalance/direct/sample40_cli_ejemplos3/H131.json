@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_rate_mismatch"], "inconsistency_notes": ["BILL-0001 (D003): shown sales tax $0.01 does not equal 5.00% of subtotal $3,198.88 ($159.94); total $3,358.82 implies the correct tax, so shown tax amount conflicts with rate and basis."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

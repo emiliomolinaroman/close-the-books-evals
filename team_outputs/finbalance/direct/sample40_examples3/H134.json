@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["ssp_allocation_mismatch"], "inconsistency_notes": ["D014 states Allocation Total $331,371.88, but the allocated transaction prices (126,451.58 + 203,208.07) sum to the $329,659.65 transaction price; the ASC 606 allocation does not reconcile."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

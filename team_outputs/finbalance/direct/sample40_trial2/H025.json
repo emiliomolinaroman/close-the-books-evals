@@ -1,0 +1,14 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D004"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 27956.50},
+  {"doc_refs": ["D007", "D006"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 30289.39},
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 18321.35},
+  {"doc_refs": ["D005"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 798.28},
+  {"doc_refs": ["D008"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 489.99}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 78674.65, "Accounts Receivable": 69152.32},
+  "liabilities": {"Accounts Payable": 40413.92},
+  "equity": {"Owner's Equity": 88047.08, "Retained Earnings": 19365.97}
+ }
+}

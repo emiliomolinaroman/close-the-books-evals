@@ -1,0 +1,10 @@
+1. `run.py` (solo stdlib) lee el OCR de cada documento, saca los campos `Clave: valor` y las líneas `- A | B`, y entiende números en $, GBP y EUR (1.234,56).
+2. Primero comprueba la aritmética de cada documento para detectar los 23 códigos de inconsistencia; si salta más de uno, se queda con el de mayor prioridad (la causa raíz). Si no hay ninguno, genera los asientos con una regla por tipo de documento (unos 40 tipos) y cierra ingresos y gastos contra Retained Earnings.
+3. Vincula documentos por referencia: albarán↔factura, GRN↔factura de proveedor, orden de trabajo↔factura (por importe), lote↔requisición/MO/CIF, pago↔facturas, arrendamiento↔calendario↔pago, baja de activo↔cobro.
+4. Impuestos: el IVA/GST/sales tax de compras va a Input Tax Receivable y el US sales tax se suma al coste. India GST: CGST+SGST o IGST (según el perfil o el aviso de régimen). Un certificado de exención válido = 0 de impuesto.
+5. Las facturas canceladas (cancellation_note) no se contabilizan, y tampoco las copias secundarias, memos, extractos ni el aging. Las facturas con SOF/ASC606/retainer/calendario de ingresos van a Unearned Revenue y se reconocen según el calendario o la aceptación.
+6. Comprobado: 30/30 en ejemplos_resueltos (F1 de asientos 1,00, estricto 1,00). En el público, la caja calculada cuadra con todos los extractos bancarios y no hay falsas alarmas.
+7. Ojo: los record_id del público delatan el código (…_NEG_…_CODE). run.py NO los usa; solo me han servido para validar que marco los 15 inconsistentes y ninguno más.
+8. Sin datos de oro para ASC 606, FX (remedición y liquidación), impuestos diferidos, modificación de arrendamiento ni retainers: la lógica sigue la especificación, pero los importes no están verificados.
+9. No sé distinguir bien invoice_total_mismatch de tax_total_mismatch cuando las líneas cuadran con el subtotal y el total falla (lo decido por el signo del error). Tampoco valido el tipo implícito del arrendamiento.
+10. Hay detectores probados solo con mutaciones sintéticas (payment_allocation, duplicate_reference, asset_disposal, lease_remeasurement, ssp…): con variantes nuevas del generador pueden dar falsas alarmas o no saltar.

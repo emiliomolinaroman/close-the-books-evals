@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["lease_remeasurement_mismatch"], "inconsistency_notes": ["D025 LEASEMOD-0001: remeasured liability 111759.57 less old liability 96863.13 is 14896.44, but stated liability remeasurement delta is 12603.78 while ROU asset adjustment is 14896.44; they should be equal."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

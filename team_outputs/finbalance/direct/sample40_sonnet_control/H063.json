@@ -1,0 +1,16 @@
+{"has_inconsistency":false,"inconsistency_codes":[],"inconsistency_notes":[],"entries":[
+{"doc_refs":["D011"],"debit_account":"Office Supplies Expense","credit_account":"Accounts Payable","amount":5559.09},
+{"doc_refs":["D003"],"debit_account":"Office Supplies Expense","credit_account":"Accounts Payable","amount":5252.90},
+{"doc_refs":["D002"],"debit_account":"Accounts Receivable","credit_account":"Service Revenue","amount":807.33},
+{"doc_refs":["D010"],"debit_account":"Accounts Receivable","credit_account":"Service Revenue","amount":3583.99},
+{"doc_refs":["D012"],"debit_account":"Accounts Receivable","credit_account":"Service Revenue","amount":4222.18},
+{"doc_refs":["D013"],"debit_account":"Accounts Receivable","credit_account":"Service Revenue","amount":3871.51},
+{"doc_refs":["D007","D014"],"debit_account":"Cash","credit_account":"Loans Payable","amount":21142.44},
+{"doc_refs":["D008","D014"],"debit_account":"Equipment","credit_account":"Cash","amount":10790.87},
+{"doc_refs":["D008"],"debit_account":"Equipment","credit_account":"Notes Payable","amount":21916.90},
+{"doc_refs":["D004","D002","D014"],"debit_account":"Cash","credit_account":"Accounts Receivable","amount":247.12},
+{"doc_refs":["D005","D002","D014"],"debit_account":"Cash","credit_account":"Accounts Receivable","amount":560.21},
+{"doc_refs":["D006","D014"],"debit_account":"Salaries Expense","credit_account":"Cash","amount":17282.11},
+{"doc_refs":["D006","D014"],"debit_account":"Payroll Tax Expense","credit_account":"Cash","amount":1713.22},
+{"doc_refs":["D009","D008"],"debit_account":"Depreciation Expense","credit_account":"Accumulated Depreciation","amount":908.55}
+],"balance_sheet":{"assets":{"Cash":38832.73,"Accounts Receivable":15105.68,"Prepaid Insurance":2604.25,"Office Supplies":1981.87,"Equipment":51168.40,"Accumulated Depreciation":-908.55},"liabilities":{"Accounts Payable":12591.80,"Accrued Expenses":2017.19,"Loans Payable":29369.54,"Notes Payable":21916.90},"equity":{"Owner's Equity":54426.49,"Retained Earnings":-11537.54}}}

@@ -1,0 +1,22 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D004"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 5842.54},
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 10573.02},
+  {"doc_refs": ["D013"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 11.10},
+  {"doc_refs": ["D011"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 14224.36},
+  {"doc_refs": ["D011"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 22470.72},
+  {"doc_refs": ["D010"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 66610.20},
+  {"doc_refs": ["D005"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 6.89},
+  {"doc_refs": ["D009"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 950.74},
+  {"doc_refs": ["D006", "D003"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 7876.82},
+  {"doc_refs": ["D007", "D004"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 5127.36},
+  {"doc_refs": ["D008"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 7924.05},
+  {"doc_refs": ["D008"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 909.04},
+  {"doc_refs": ["D012", "D011"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 1528.96}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 88438.49, "Accounts Receivable": 6876.58, "Office Supplies": 1055.16, "Vehicles": 13656.34, "Equipment": 42900.94, "Accumulated Depreciation": -1528.96},
+  "liabilities": {"Accounts Payable": 4235.70, "Accrued Expenses": 1040.15, "Notes Payable": 28219.31, "Loans Payable": 66610.20},
+  "equity": {"Owner's Equity": 51368.69, "Retained Earnings": -75.50}
+ }
+}

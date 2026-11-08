@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["deferred_tax_rollforward_mismatch"], "inconsistency_notes": ["D019 DTAX-0001: opening deferred tax liability 0.00 plus current movement 21.52 does not equal the stated ending liability 2,085.75."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

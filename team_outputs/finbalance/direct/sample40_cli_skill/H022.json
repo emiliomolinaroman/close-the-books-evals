@@ -1,0 +1,20 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D004"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 20323.54},
+{"doc_refs": ["D012", "D011"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 22821.75},
+{"doc_refs": ["D012"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1882.79},
+{"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 19795.69},
+{"doc_refs": ["D003"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1237.23},
+{"doc_refs": ["D005", "D013"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 598.73},
+{"doc_refs": ["D010", "D013"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 110.05},
+{"doc_refs": ["D007", "D004", "D013"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 20323.54},
+{"doc_refs": ["D008", "D013"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 27167.38},
+{"doc_refs": ["D008", "D013"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 2708.45},
+{"doc_refs": ["D006", "D003", "D013"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 21032.92},
+{"doc_refs": ["D009"], "debit_account": "Repairs Expense", "credit_account": "Accrued Expenses", "amount": 2207.07}
+],
+"balance_sheet": {
+"assets": {"Cash": 44245.65, "Accounts Receivable": 29023.97, "Office Supplies": 3035.43, "Vehicles": 10725.13, "Prepaid Insurance": 2236.69},
+"liabilities": {"Accounts Payable": 4233.69, "Accrued Expenses": 5330.7, "Sales Tax Payable": 3120.02},
+"equity": {"Owner's Equity": 79521.68, "Retained Earnings": -2939.22}
+}}

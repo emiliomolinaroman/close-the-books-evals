@@ -1,0 +1,14 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 11347.49},
+  {"doc_refs": ["D006"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 10805.75},
+  {"doc_refs": ["D004"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 8221.54},
+  {"doc_refs": ["D005"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 5281.00},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 1927.03}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 53237.60, "Accounts Receivable": 39857.42},
+  "liabilities": {"Accounts Payable": 7738.88},
+  "equity": {"Owner's Equity": 51627.39, "Retained Earnings": 33728.75}
+ }
+}

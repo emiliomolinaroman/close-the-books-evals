@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests
+      - run: ruff format --check src tests
+      - run: mypy
+      - run: pytest
+
+  reproduce:
+    # Re-derives every committed number from the pinned FinBalance release (APEX verdicts are committed).
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - run: ctb fetch finbalance --data data
+      - run: ctb reproduce --data data --work work > /dev/null
+      - name: committed results are up to date
+        run: |
+          git diff --exit-code results/summary.json results/RESULTS.md results/per_record
+          test -z "$(git status --porcelain results)" || { git status --porcelain results; exit 1; }

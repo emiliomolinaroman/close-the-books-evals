@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_exemption_conflict"], "inconsistency_notes": ["Customer invoice INV-0002 (D019) to Riverfront Group applies 0% sales tax citing exemption certificate EXEMPT-0001, but the certificate (D017) shows Exemption Status: Expired, so the exemption evidence conflicts with the invoice tax treatment."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

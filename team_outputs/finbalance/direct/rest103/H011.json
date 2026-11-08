@@ -1,0 +1,29 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 21618.41},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 1945.65},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 1945.66},
+  {"doc_refs": ["D008", "D007"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 105745.12},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 6344.70},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 6344.71},
+  {"doc_refs": ["D009"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 20492.89},
+  {"doc_refs": ["D009"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 512.32},
+  {"doc_refs": ["D009"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 512.32},
+  {"doc_refs": ["D012"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 11310.92},
+  {"doc_refs": ["D012"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 282.77},
+  {"doc_refs": ["D012"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 282.78},
+  {"doc_refs": ["D010"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 25100.46},
+  {"doc_refs": ["D010"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 4518.08},
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 20276.69},
+  {"doc_refs": ["D003"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 3649.80},
+  {"doc_refs": ["D004", "D014"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 490.53},
+  {"doc_refs": ["D006", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 23926.49},
+  {"doc_refs": ["D005", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 25509.72},
+  {"doc_refs": ["D011", "D008"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 105745.12}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 61040.97, "Accounts Receivable": 167030.65, "Prepaid Rent": 5187.96, "Prepaid Insurance": 5917.50, "Office Supplies": 2910.65, "Input Tax Receivable": 8167.88},
+  "liabilities": {"Accounts Payable": 34715.56, "Accrued Expenses": 2455.41, "CGST Payable": 9085.44, "SGST Payable": 9085.47, "Unearned Revenue": 0.0},
+  "equity": {"Retained Earnings": 122633.30, "Owner's Equity": 72280.43}
+ }
+}

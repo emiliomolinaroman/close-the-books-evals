@@ -1,0 +1,1 @@
+{"has_inconsistency":true,"inconsistency_codes":["transfer_mismatch"],"inconsistency_notes":["Transfer advice D015 shows 160,130.80 but both bank statements (D018, D019) show 161,694.79 for TRX-0001."],"entries":[],"balance_sheet":{"assets":{},"liabilities":{},"equity":{}}}

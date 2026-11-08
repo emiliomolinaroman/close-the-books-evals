@@ -1,0 +1,17 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 10077.21},
+  {"doc_refs": ["D006"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 2363.88},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 5477.25},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 2318.91},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 2304.96},
+  {"doc_refs": ["D009"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 4905.60},
+  {"doc_refs": ["D005", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 1795.63},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 509.33}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 46971.24, "Accounts Receivable": 27162.93, "Prepaid Insurance": 1947.02, "Office Supplies": 1409.05},
+  "liabilities": {"Accounts Payable": 15398.46, "Accrued Expenses": 1322.60},
+  "equity": {"Retained Earnings": 27759.47, "Owner's Equity": 33009.71}
+ }
+}

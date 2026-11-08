@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["bank_closing_mismatch"], "inconsistency_notes": ["Bank statement D006: opening 28565.14 less the only listed movement 185.90 gives 28379.24 (matching the running balance), but the stated closing balance is 30256.68, a difference of 1877.44."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

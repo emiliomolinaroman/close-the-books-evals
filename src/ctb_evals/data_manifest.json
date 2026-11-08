@@ -1,0 +1,57 @@
+{
+ "finbalance": {
+  "repo": "https://github.com/Devansh1105/finbalance",
+  "revision": "a1062b7b392eaf53311308c2f63cf748b68bb8cf",
+  "revision_date": "2026-08-31",
+  "license": "data CC BY 4.0, code Apache-2.0",
+  "paper": "https://arxiv.org/abs/2606.15949",
+  "dest": "finbalance",
+  "sha256": {
+   "data/main/records.jsonl": "54b303c79ac6bc34ece6c2be9a77c31f86d6633dbf0e8967c8d16b47677c32bf",
+   "data/fresh_seed_20260712/coverage/records.jsonl": "3b8316f03f51f0fda24fcde3b0a3a36d9dda48d007413881686c08e2534a3faf",
+   "data/fresh_seed_20260712/main/records.jsonl": "e8b71f0dc73548a72d2f3f7dd3f99b28fdcbcef60a3e1d13f78c47aff62fa06d"
+  }
+ },
+ "apex": {
+  "repo": "https://huggingface.co/datasets/mercor/apex-accounting-harbor",
+  "revision": "1662b7e4c3b04b8717f2f723df823e7b6cbe2118",
+  "revision_date": "2026-09-17",
+  "license": "CC BY 4.0",
+  "lfs": true,
+  "dest": "apex-accounting-harbor",
+  "sha256": {
+   "tasks/world-9-task-13-3155ba0f/instruction.md": "bfb9df52c4ae25ccc5beda11224490cb64e733d98f45ce61d3aefb4c62b3d312",
+   "tasks/world-9-task-13-3155ba0f/tests/grading_config.json": "d3f6341eb720e4d293f9dce3b360fd41e311e72ef455507113245191ea07b3b7",
+   "tasks/world-9-task-13-3155ba0f/tests/golden_reference.txt": "dd6f892f03a28121aa73098390a65addd713bc6a0817dfa0dbed0f082214512e",
+   "tasks/world-9-task-14-8654129a/instruction.md": "ba739a2ec2497947b0234b630733572f8e3131efe80fb2a8910f0142e4f16465",
+   "tasks/world-9-task-14-8654129a/tests/grading_config.json": "95ef7887b45c75ee8a86821bbedb647aeecfe311b8737019cb1b6c64bb9973b1",
+   "tasks/world-9-task-14-8654129a/tests/golden_reference.txt": "ef31ad1b0479cefa3d43dc8877dc9547dfb77e79deb35761fd7b2c0f85b47141",
+   "tasks/world-9-task-17-73b89e1f/instruction.md": "e793541aaff0718f6e9297648c469ceb49ffa64252501577dad4f002864d2440",
+   "tasks/world-9-task-17-73b89e1f/tests/grading_config.json": "5ccc08e633002b6db6aa1dd09663b3ffcea13f760dd42713767d2c9b292cd0a2",
+   "tasks/world-9-task-17-73b89e1f/tests/golden_reference.txt": "127e4366af1750da7a3415633f70a153b7fe5138d6e0053b652285949aaaa52e",
+   "tasks/world-9-task-23-6140e09e/instruction.md": "94cab4b64dd9a6e670532c3df1702a16767c83507a1508ab77d1d50c9532c8ce",
+   "tasks/world-9-task-23-6140e09e/tests/grading_config.json": "ae82be7b9af0a8e73786b55187e97208463f621b314caa95645ca3092b0920db",
+   "tasks/world-9-task-23-6140e09e/tests/golden_reference.txt": "3806c42cb9f9ea9c4fda2cf83037ba1b61171c842fd85fda457670f28599b44e",
+   "tasks/world-9-task-26-33d90130/instruction.md": "85ab5b368976076aca295697a1872c538d01a81259541fce40a3b669fa2c6fc6",
+   "tasks/world-9-task-26-33d90130/tests/grading_config.json": "04f1975693d308355c520fd3996710144548e5fe67c34e857b479bb209825fec",
+   "tasks/world-9-task-26-33d90130/tests/golden_reference.txt": "5c6aac8aa3e74d886af338b35b5d7f59fa40340b53f9fa2378562e2fa34633a4",
+   "tasks/world-9-task-30-b66225e0/instruction.md": "3cd139bace0bc4e6e7797cd919bb7ad5a859690af527fb8e59476e8713b6ce83",
+   "tasks/world-9-task-30-b66225e0/tests/grading_config.json": "795ff27de457e1b488cbe57bec5bf8bbe08ebe7751d8cc8eefb02a5f482aef76",
+   "tasks/world-9-task-30-b66225e0/tests/golden_reference.txt": "4b4eb160ca35fde4eb1ebe3d3a924b219cedc44569edc0075d9e17ddc44560b2",
+   "tasks/world-9-task-4-baa13987/instruction.md": "5c2f5a423cadb5330cc81646bb382b41f193873af6f930ce779688004441f2c0",
+   "tasks/world-9-task-4-baa13987/tests/grading_config.json": "f5a3b80c4c753991517da3ef5628db138bbe96708906853078a6c0fde1c89ff9",
+   "tasks/world-9-task-4-baa13987/tests/golden_reference.txt": "dd7d8679ccdb0ddd3e85efe7b89d4fd1ddfde9f52a756685fc1d14880f391f12",
+   "tasks/world-9-task-5-848b939d/instruction.md": "1c09345be2a6dad3574ac8286bbf28484429bc20029a6da4c9d68327e0e2585f",
+   "tasks/world-9-task-5-848b939d/tests/grading_config.json": "c343bd9b5badb25c58ca1b25547c91b83415ba53c50976b49fd16522a51e409a",
+   "tasks/world-9-task-5-848b939d/tests/golden_reference.txt": "27c433854819f5ae7c1b34fce337b74401c85d3062d69850798bebdb69f60c43",
+   "tasks/world-9-task-6-f0d206c4/instruction.md": "2dee701d8d52e07af8c43fa3f8e20b303d78050ee5e33d5889770e7731fd4843",
+   "tasks/world-9-task-6-f0d206c4/tests/grading_config.json": "dde6750fbafafa57da0e3f4f791296db68f4ef8538c155f95525c96a8a12d4c9",
+   "tasks/world-9-task-6-f0d206c4/tests/golden_reference.txt": "6bb21fbe0a39897ad75f36a0376c29170021e67252ad85032aff7308d1bc69c5",
+   "tasks/world-9-task-7-55332112/instruction.md": "f44e1733e3415c92cbf6ed7107e6d97c4619fcfcc0071123d3a9699157ab9843",
+   "tasks/world-9-task-7-55332112/tests/grading_config.json": "70e6535f1ba02e32868b642697e0c7e42653b93987179d893200422bfdca444e",
+   "tasks/world-9-task-7-55332112/tests/golden_reference.txt": "8b0dc7e7f3ef994dcb5a364330b7af6467586a7ed01078ec8906a063345f126f",
+   "worlds/world-9--(world_0645ad7c997c415e8c43f8de7cee2008)/filesystem.tar.gz": "2ae2c6903500c45d461162cba1a36274a5e2ca9a294fa0d1a393d0a99f3aeab0",
+   "worlds/world-9--(world_0645ad7c997c415e8c43f8de7cee2008)/apps_data.tar.gz": "95c16f5a9442e91f8cef5c6b7903d44835f5cd7e0a74d7132998a5722bb1cae9"
+  }
+ }
+}

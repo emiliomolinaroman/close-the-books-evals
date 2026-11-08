@@ -1,0 +1,33 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 24246.48},
+  {"doc_refs": ["D002"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 1454.79},
+  {"doc_refs": ["D002"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 1454.79},
+  {"doc_refs": ["D008"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 22851.65},
+  {"doc_refs": ["D008"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 1371.10},
+  {"doc_refs": ["D008"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 1371.10},
+  {"doc_refs": ["D009"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 5348.53},
+  {"doc_refs": ["D009", "D010"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 22801.88},
+  {"doc_refs": ["D009", "D010"], "debit_account": "Card Settlement Clearing", "credit_account": "CGST Payable", "amount": 2533.53},
+  {"doc_refs": ["D009", "D010"], "debit_account": "Card Settlement Clearing", "credit_account": "SGST Payable", "amount": 2533.54},
+  {"doc_refs": ["D009"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 17228.02},
+  {"doc_refs": ["D003"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 13152.60},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 63088.82},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "CGST Payable", "amount": 4574.48},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "SGST Payable", "amount": 4574.49},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 40076.92},
+  {"doc_refs": ["D011"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 9008.52},
+  {"doc_refs": ["D011", "D012"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 38010.90},
+  {"doc_refs": ["D011", "D012"], "debit_account": "Card Settlement Clearing", "credit_account": "CGST Payable", "amount": 1175.48},
+  {"doc_refs": ["D011", "D012"], "debit_account": "Card Settlement Clearing", "credit_account": "SGST Payable", "amount": 1175.49},
+  {"doc_refs": ["D011"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 28071.54},
+  {"doc_refs": ["D006", "D002"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 27156.06},
+  {"doc_refs": ["D007"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 1338.62},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 70937.51}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 149914.90, "Inventory": 8021.67, "Card Settlement Clearing": 71164.45, "Office Supplies": 1414.49, "Input CGST Receivable": 2825.89, "Input SGST Receivable": 2825.89},
+  "liabilities": {"Accounts Payable": 38385.38, "Accrued Expenses": 3912.60, "CGST Payable": 8283.49, "SGST Payable": 8283.52},
+  "equity": {"Retained Earnings": 78989.68, "Owner's Equity": 98312.62}
+ }
+}

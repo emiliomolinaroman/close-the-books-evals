@@ -1,0 +1,13 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 3051.66},
+  {"doc_refs": ["D003", "D005"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 2395.71},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 10433.94},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 7100.89}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 28510.44, "Inventory": 10625.9, "Card Settlement Clearing": 10433.94},
+  "liabilities": {"Accounts Payable": 6819.8},
+  "equity": {"Owner's Equity": 37021.72, "Retained Earnings": 5728.76}
+ }
+}

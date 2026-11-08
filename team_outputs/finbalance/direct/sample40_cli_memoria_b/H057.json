@@ -1,0 +1,23 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 24790.99},
+{"doc_refs": ["D003", "D002"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 1735.37},
+{"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 15686.64},
+{"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 784.33},
+{"doc_refs": ["D005", "D004"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 8509.71},
+{"doc_refs": ["D013", "D012"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 24380.16},
+{"doc_refs": ["D013", "D012"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1219.01},
+{"doc_refs": ["D013", "D012"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 16405.88},
+{"doc_refs": ["D007", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 26526.36},
+{"doc_refs": ["D006", "D005"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 16470.97},
+{"doc_refs": ["D011"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 5246.73},
+{"doc_refs": ["D010"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 98982.02},
+{"doc_refs": ["D010"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 11767.56},
+{"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 53.62},
+{"doc_refs": ["D015", "D014"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 270.40},
+{"doc_refs": ["D017", "D016"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 753.83}
+],
+"balance_sheet": {
+"assets": {"Cash": 158055.33, "Inventory": 103358.83, "Accounts Receivable": 40711.78, "Office Supplies": 4072.65, "Input Tax Receivable": 1735.37},
+"liabilities": {"Accounts Payable": 29085.68, "Accrued Expenses": 9889.29, "Sales Tax Payable": 2003.34},
+"equity": {"Retained Earnings": -56645.46, "Owner's Equity": 323601.11}}}

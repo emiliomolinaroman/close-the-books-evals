@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["payment_allocation_mismatch"], "inconsistency_notes": ["Payment advice D016 (PAY-0003) states an amount of 28281.95, but its listed allocations (INV-0003 6988.52 + INV-0004 12215.27 + INV-0005 8018.23) total 27222.02, which is also the amount received per bank statement D021; difference 1059.93."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

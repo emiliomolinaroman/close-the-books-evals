@@ -1,0 +1,23 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 5807.58},
+{"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 7123.68},
+{"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 4089.87},
+{"doc_refs": ["D006", "D005"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 4494.21},
+{"doc_refs": ["D007", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 4441.28},
+{"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 151.83},
+{"doc_refs": ["D010"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 6851.02},
+{"doc_refs": ["D010"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 878.55},
+{"doc_refs": ["D011"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 1736.27},
+{"doc_refs": ["D012"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 30005.04},
+{"doc_refs": ["D013"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 30251.58},
+{"doc_refs": ["D013"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 41218.11},
+{"doc_refs": ["D014"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 118.09},
+{"doc_refs": ["D016", "D015"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 24864.38},
+{"doc_refs": ["D019", "D017", "D018"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 33925.58}
+],
+"balance_sheet": {
+"assets": {"Cash": 48368.14, "Inventory": 70995.92, "Accounts Receivable": 44381.9, "Office Supplies": 596.83, "Equipment": 77138.01, "Accumulated Depreciation": -118.09},
+"liabilities": {"Accounts Payable": 38497.77, "Accrued Expenses": 1910.89, "Loans Payable": 38422.82, "Notes Payable": 41218.11},
+"equity": {"Retained Earnings": 38765.32, "Owner's Equity": 82547.8}
+}}

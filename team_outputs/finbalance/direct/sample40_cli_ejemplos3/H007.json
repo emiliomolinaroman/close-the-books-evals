@@ -1,0 +1,29 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 9256.11},
+{"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 462.81},
+{"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 7936.01},
+{"doc_refs": ["D004"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 313.39},
+{"doc_refs": ["D005", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 9718.92},
+{"doc_refs": ["D006", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 7936.01},
+{"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 22731.66},
+{"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1997.09},
+{"doc_refs": ["D008"], "debit_account": "Prepaid Rent", "credit_account": "Cash", "amount": 12548.5},
+{"doc_refs": ["D008", "D009"], "debit_account": "Rent Expense", "credit_account": "Prepaid Rent", "amount": 4182.83},
+{"doc_refs": ["D011", "D010"], "debit_account": "Accounts Receivable", "credit_account": "Unearned Revenue", "amount": 50872.48},
+{"doc_refs": ["D011", "D010"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 4832.89},
+{"doc_refs": ["D012", "D011"], "debit_account": "Unearned Revenue", "credit_account": "Service Revenue", "amount": 25436.24},
+{"doc_refs": ["D013"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 4791.87},
+{"doc_refs": ["D014"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 8145.39},
+{"doc_refs": ["D015"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 5610.68},
+{"doc_refs": ["D016", "D013"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 4791.87},
+{"doc_refs": ["D016", "D014"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 8145.39},
+{"doc_refs": ["D016", "D015"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 2852.8},
+{"doc_refs": ["D017"], "debit_account": "Office Supplies Expense", "credit_account": "Cash", "amount": 497.8},
+{"doc_refs": ["D018", "D017"], "debit_account": "Travel Expense", "credit_account": "Office Supplies Expense", "amount": 497.8}
+],
+"balance_sheet": {
+"assets": {"Cash": 31601.48, "Accounts Receivable": 62555.09, "Prepaid Rent": 10084.79, "Prepaid Insurance": 733.49, "Office Supplies": 814.35},
+"liabilities": {"Accounts Payable": 2327.38, "Accrued Expenses": 1528.82, "Unearned Revenue": 30024.05, "Sales Tax Payable": 5295.7},
+"equity": {"Retained Earnings": 26327.14, "Owner's Equity": 40286.11}
+}}

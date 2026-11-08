@@ -1,0 +1,24 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D013", "D018"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 24042.15},
+{"doc_refs": ["D009"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 21058.31},
+{"doc_refs": ["D003", "D017", "D020"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 10426.41},
+{"doc_refs": ["D011"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 7173.71},
+{"doc_refs": ["D010", "D019"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 12353.22},
+{"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 11187.54},
+{"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 9905.50},
+{"doc_refs": ["D016"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 13160.41},
+{"doc_refs": ["D014"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 10578.50},
+{"doc_refs": ["D012"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 7088.57},
+{"doc_refs": ["D015"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 16953.71},
+{"doc_refs": ["D005", "D021"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 7988.79},
+{"doc_refs": ["D004", "D021"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 3198.75},
+{"doc_refs": ["D006", "D021"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 31578.65},
+{"doc_refs": ["D006", "D021"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 2842.08},
+{"doc_refs": ["D007"], "debit_account": "Office Supplies Expense", "credit_account": "Accrued Expenses", "amount": 8959.42}
+],
+"balance_sheet": {
+"assets": {"Cash": 157081.54, "Accounts Receivable": 89265.30, "Prepaid Insurance": 4947.02, "Office Supplies": 2435.78},
+"liabilities": {"Accounts Payable": 62000.46, "Accrued Expenses": 12191.25},
+"equity": {"Retained Earnings": 23506.70, "Owner's Equity": 156031.23}
+}}

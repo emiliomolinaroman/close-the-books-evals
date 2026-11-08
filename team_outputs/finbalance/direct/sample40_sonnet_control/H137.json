@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["deferred_tax_rollforward_mismatch"], "inconsistency_notes": ["Deferred tax memo DTAX-0001 (D019) shows opening 0.00 plus movement 21.52 but an ending liability of 2,085.75, which does not roll forward."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

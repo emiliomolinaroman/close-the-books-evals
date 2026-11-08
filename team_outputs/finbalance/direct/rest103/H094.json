@@ -1,0 +1,27 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 9706.17},
+  {"doc_refs": ["D018", "D017"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 17413.73},
+  {"doc_refs": ["D005"], "debit_account": "Work In Process", "credit_account": "Cash", "amount": 5994.11},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Work In Process", "credit_account": "Raw Materials Inventory", "amount": 6288.78},
+  {"doc_refs": ["D012"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 62833.52},
+  {"doc_refs": ["D007"], "debit_account": "Finished Goods Inventory", "credit_account": "Work In Process", "amount": 22049.87},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 30825.63},
+  {"doc_refs": ["D014"], "debit_account": "Loans Payable", "credit_account": "Cash", "amount": 18097.41},
+  {"doc_refs": ["D014"], "debit_account": "Interest Expense", "credit_account": "Cash", "amount": 1936.68},
+  {"doc_refs": ["D011"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 10770.66},
+  {"doc_refs": ["D011"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1060.67},
+  {"doc_refs": ["D010", "D002"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 5699.67},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 33571.59},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 3189.3},
+  {"doc_refs": ["D008", "D007"], "debit_account": "Cost of Goods Sold", "credit_account": "Finished Goods Inventory", "amount": 22049.87},
+  {"doc_refs": ["D015", "D019", "D020"], "debit_account": "Reserve Cash", "credit_account": "Cash", "amount": 114148.88},
+  {"doc_refs": ["D006"], "debit_account": "Work In Process", "credit_account": "Accrued Expenses", "amount": 9766.98},
+  {"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 434.77}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 51039.49, "Reserve Cash": 114148.88, "Raw Materials Inventory": 37612.1, "Work In Process": 24677.47, "Finished Goods Inventory": 35957.77, "Accounts Receivable": 33393.79, "Equipment": 20869.11, "Accumulated Depreciation": -434.77},
+  "liabilities": {"Accounts Payable": 23463.33, "Accrued Expenses": 13747.03, "Notes Payable": 16135.11, "Loans Payable": 44736.11, "Sales Tax Payable": 3189.3},
+  "equity": {"Retained Earnings": 30388.43, "Share Capital": 185604.53}
+ }
+}

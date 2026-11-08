@@ -1,0 +1,49 @@
+ronda,reto,brazo,f1_publico,balance_publico,f1_oculto,balance_oculto,acciones
+1,S01-S06 (compras),A (6),0.97,,,,~15
+1,S01-S06 (compras),B v1 (6),0.97,,,,~21
+2,G1 ventas,A,1.00,100,,,16
+2,G1 ventas,B v2,1.00,100,,,26
+2,G2 nominas,A,1.00,100,,,17
+2,G2 nominas,B v2,1.00,100,,,27
+2,G3 multidivisa,A,1.00,100,,,18
+2,G3 multidivisa,B v2,1.00,100,,,27
+3,H2 ERP,A1,1.00,100,1.00,100,38
+3,H2 ERP,A2,1.00,100,1.00,100,31
+3,H2 ERP,B1 v3,1.00,100,1.00,100,37
+3,H2 ERP,B2 v3,1.00,100,1.00,100,26
+3,H1 OCR+emails,A1,1.00,100,0.97,95.3,40
+3,H1 OCR+emails,A2,1.00,100,0.97,92.2,29
+3,H1 OCR+emails,B1 v3,1.00,100,0.95,92.2,39
+3,H1 OCR+emails,B2 v3,1.00,100,0.97,95.3,33
+4,K1 inyecciones,A1,1.00,90.6,1.00,71.0,10
+4,K1 inyecciones,B1 v4,1.00,90.6,1.00,83.9,19
+4,K1 inyecciones,B2 v4,1.00,90.6,1.00,83.9,19
+4,K2 historico,A1,1.00,100,0.99,100,25
+4,K2 historico,B1 v4,1.00,100,0.99,100,34
+4,K2 historico,B2 v4,1.00,100,0.99,100,30
+4,K3 400k movimientos,A1,1.00,100,1.00,100,40
+4,K3 400k movimientos,B1 v4,1.00,100,1.00,100,29
+4,K3 400k movimientos,B2 v4,1.00,100,1.00,100,37
+4,K4 PDFs e imagenes,A1,1.00,100,0.95,100,36
+4,K4 PDFs e imagenes,B1 v4,1.00,100,1.00,100,45
+4,K4 PDFs e imagenes,B2 v4,1.00,100,1.00,100,39
+4,K5 normativa,A1,1.00,100,0.91,100,17
+4,K5 normativa,B1 v4,1.00,100,0.92,97.5,37
+4,K5 normativa,B2 v4,1.00,100,0.94,97.5,21
+5,K5 normativa (oculto2),A1/A2,,,0.00,0,
+5,K5 normativa (oculto2),B1 v4,,,0.77,,
+5,K5 normativa (oculto2),B3/B4 v5,1.00,100,0.84,85,35-38
+5,H1 OCR+emails,B3 v5,1.00,100,1.00,100,60
+5,H1 OCR+emails,B4 v5,1.00,100,1.00,100,45
+5,K5 normativa,A2,1.00,100,0.93,100,26
+6,K5 normativa (oculto3),A1/A2/B2,,,0.00,0,
+6,K5 normativa (oculto3),B1 v4,,,0.72,65,
+6,K5 normativa (oculto3),B3/B4 v5,,,0.73-0.74,67.5,
+6,K5 normativa (oculto3),B5/B6 v6,1.00,100,0.74-0.76,65-67.5,31-42
+7,APEX-Accounting (10 encargos de contables),A sin prep (2),,,84% criterios,,30-38
+7,APEX-Accounting (10 encargos de contables),B v6 (2),,,87% criterios,,37-41
+7,FinBalance (60 pub + 143 ocultos),A1/A2 sin prep,0.97/0.95,,0.85/0.85,,37-60
+7,FinBalance (60 pub + 143 ocultos),B1/B2 v6,0.93/0.90,,0.85/0.74,,53-57
+8,FinBalance oculto2 (150 nuevos),A1/A2 sin prep,,,0.89/0.89,,
+8,FinBalance oculto2 (150 nuevos),B1/B2 v6,,,0.87/0.79,,
+8,FinBalance (pub/oculto/oculto2),C1/C2 v7,0.90/0.95,,0.80-0.89,,32-58

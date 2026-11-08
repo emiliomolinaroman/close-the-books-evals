@@ -1,0 +1,27 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 4112.64},
+  {"doc_refs": ["D003"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 298.17},
+  {"doc_refs": ["D016", "D015"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 35235.04},
+  {"doc_refs": ["D012", "D021"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 46062.64},
+  {"doc_refs": ["D013", "D021"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 20623.15},
+  {"doc_refs": ["D013"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 70562.97},
+  {"doc_refs": ["D019", "D017", "D018"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 38924.51},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 4077.78},
+  {"doc_refs": ["D005"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 336.42},
+  {"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 2712.70},
+  {"doc_refs": ["D006", "D005"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 3005.78},
+  {"doc_refs": ["D007", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 3480.30},
+  {"doc_refs": ["D011"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 2231.40},
+  {"doc_refs": ["D020", "D021"], "debit_account": "Loans Payable", "credit_account": "Cash", "amount": 10532.52},
+  {"doc_refs": ["D020", "D021"], "debit_account": "Interest Expense", "credit_account": "Cash", "amount": 1298.67},
+  {"doc_refs": ["D010", "D021"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 16796.26},
+  {"doc_refs": ["D010", "D021"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1534.79},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 84.50},
+  {"doc_refs": ["D014"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 1899.71}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 65319.28, "Accounts Receivable": 48314.67, "Inventory": 57666.90, "Office Supplies": 2247.57, "Equipment": 102157.08, "Accumulated Depreciation": -1899.71, "Input Tax Receivable": 298.17},
+  "liabilities": {"Accounts Payable": 45795.82, "Accrued Expenses": 1877.46, "Loans Payable": 44080.73, "Notes Payable": 70562.97, "Sales Tax Payable": 336.42},
+  "equity": {"Retained Earnings": 32417.92, "Owner's Equity": 79032.64}
+ }}

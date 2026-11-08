@@ -1,0 +1,30 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D019"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 36801.67},
+  {"doc_refs": ["D018"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 39463.20},
+  {"doc_refs": ["D021"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 37594.43},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 21531.36},
+  {"doc_refs": ["D015"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 31575.13},
+  {"doc_refs": ["D009", "D026"], "debit_account": "Prepaid Insurance", "credit_account": "Cash", "amount": 29981.73},
+  {"doc_refs": ["D016"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 21730.62},
+  {"doc_refs": ["D006", "D026"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 13813.77},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 23941.72},
+  {"doc_refs": ["D017", "D026"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 30696.93},
+  {"doc_refs": ["D020"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 17578.62},
+  {"doc_refs": ["D012", "D026"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 107749.04},
+  {"doc_refs": ["D012"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 150813.65},
+  {"doc_refs": ["D011", "D026"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 332031.39},
+  {"doc_refs": ["D005", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 17508.53},
+  {"doc_refs": ["D008"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 10180.44},
+  {"doc_refs": ["D014", "D006", "D026"], "debit_account": "Security Deposits Payable", "credit_account": "Cash", "amount": 11950.47},
+  {"doc_refs": ["D007", "D026"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 51988.10},
+  {"doc_refs": ["D007", "D026"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 5472.55},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 14855.54},
+  {"doc_refs": ["D010", "D009"], "debit_account": "Insurance Expense", "credit_account": "Prepaid Insurance", "amount": 9993.91},
+  {"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 8349.72}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 406749.13, "Accounts Receivable": 185294.62, "Prepaid Insurance": 27905.33, "Equipment": 291961.47, "Accumulated Depreciation": -8349.72},
+  "liabilities": {"Accounts Payable": 65547.69, "Accrued Expenses": 4651.27, "Security Deposits Payable": 43246.50, "Loans Payable": 362586.22, "Notes Payable": 150813.65},
+  "equity": {"Retained Earnings": 45848.79, "Owner's Equity": 230866.71}
+ }}

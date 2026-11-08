@@ -1,0 +1,18 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 11610.84},
+  {"doc_refs": ["D009"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 11423.27},
+  {"doc_refs": ["D007", "D011"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 10778.54},
+  {"doc_refs": ["D007", "D008"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 20386.65},
+  {"doc_refs": ["D007"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 20596.65},
+  {"doc_refs": ["D003", "D011"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 4482.1},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 10958.57},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 7600.32},
+  {"doc_refs": ["D006", "D002", "D011"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 11610.84},
+  {"doc_refs": ["D005", "D004", "D011"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 10761.32}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 38020.97, "Inventory": 19187.53, "Card Settlement Clearing": 22693.35, "Office Supplies": 451.17},
+  "liabilities": {"Accounts Payable": 15626.67, "Accrued Expenses": 893.46},
+  "equity": {"Owner's Equity": 39541.15, "Retained Earnings": 24291.74}
+ }}

@@ -1,0 +1,36 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 7299.48},
+  {"doc_refs": ["D002"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 912.43},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Work In Process", "credit_account": "Raw Materials Inventory", "amount": 5251.34},
+  {"doc_refs": ["D005"], "debit_account": "Work In Process", "credit_account": "Cash", "amount": 4969.75},
+  {"doc_refs": ["D010", "D002"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 8211.91},
+  {"doc_refs": ["D011"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 18623.47},
+  {"doc_refs": ["D011"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1885.60},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 35858.26},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 3585.83},
+  {"doc_refs": ["D007"], "debit_account": "Finished Goods Inventory", "credit_account": "Work In Process", "amount": 23980.70},
+  {"doc_refs": ["D008", "D007"], "debit_account": "Cost of Goods Sold", "credit_account": "Finished Goods Inventory", "amount": 23980.70},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 39444.09},
+  {"doc_refs": ["D006"], "debit_account": "Work In Process", "credit_account": "Accrued Expenses", "amount": 13759.61}
+ ],
+ "balance_sheet": {
+  "assets": {
+   "Cash": 91940.65,
+   "Raw Materials Inventory": 17845.41,
+   "Work In Process": 8033.55,
+   "Finished Goods Inventory": 23389.86,
+   "Accounts Receivable": 3817.75,
+   "Input Tax Receivable": 912.43
+  },
+  "liabilities": {
+   "Accounts Payable": 15916.13,
+   "Accrued Expenses": 16244.41,
+   "Sales Tax Payable": 3585.83
+  },
+  "equity": {
+   "Retained Earnings": 4863.22,
+   "Share Capital": 105330.06
+  }
+ }
+}

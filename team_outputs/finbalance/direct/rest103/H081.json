@@ -1,0 +1,16 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 6952.31},
+{"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 9065.89},
+{"doc_refs": ["D009", "D011"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 9464.33},
+{"doc_refs": ["D006", "D011"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 6585.7},
+{"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 7528.75},
+{"doc_refs": ["D004", "D002", "D011"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 6952.31},
+{"doc_refs": ["D007", "D006", "D011"], "debit_account": "Security Deposits Payable", "credit_account": "Cash", "amount": 5408.96},
+{"doc_refs": ["D005", "D003", "D011"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 7528.75}
+],
+"balance_sheet": {
+"assets": {"Cash": 53876.72, "Accounts Receivable": 18689.28, "Prepaid Insurance": 2523.47},
+"liabilities": {"Accounts Payable": 2177.3, "Accrued Expenses": 1518.58, "Security Deposits Payable": 14163.7},
+"equity": {"Retained Earnings": 18333.76, "Owner's Equity": 38896.13}
+}}

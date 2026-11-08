@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["fx_settlement_mismatch"], "inconsistency_notes": ["D040 FX settlement for FXINV-0001: invoice booked at USD 23,599.31 (D039, EUR 20,458.87 x 1.1535) and paid USD 22,889.38 (EUR 20,458.87 x 1.1188), giving the stated FX difference of 709.93, but the advice states a functional amount of USD 24,049.42, which does not reconcile with the booked amount, the paid amount and the FX difference."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["reclassification_support_mismatch"], "inconsistency_notes": ["Reclassification memo D018 moves $1,408.76 for RCPT-0002, but the original receipt D017 totals only $549.55."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

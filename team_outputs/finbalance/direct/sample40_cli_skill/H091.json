@@ -1,0 +1,17 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D002"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 5477.85},
+{"doc_refs": ["D003", "D004"], "debit_account": "Work In Process", "credit_account": "Raw Materials Inventory", "amount": 4072.57},
+{"doc_refs": ["D005"], "debit_account": "Work In Process", "credit_account": "Cash", "amount": 7996.44},
+{"doc_refs": ["D006"], "debit_account": "Finished Goods Inventory", "credit_account": "Work In Process", "amount": 12069.01},
+{"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 17938.53},
+{"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1300.54},
+{"doc_refs": ["D007", "D006"], "debit_account": "Cost of Goods Sold", "credit_account": "Finished Goods Inventory", "amount": 12069.01},
+{"doc_refs": ["D009"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 5477.85},
+{"doc_refs": ["D008"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 19239.07}
+],
+"balance_sheet": {
+"assets": {"Cash": 54211.16, "Raw Materials Inventory": 27934.99, "Work In Process": 9897.22, "Finished Goods Inventory": 11239.42},
+"liabilities": {"Accounts Payable": 8350.1, "Accrued Expenses": 3215.98, "Sales Tax Payable": 1300.54},
+"equity": {"Retained Earnings": 18607.38, "Share Capital": 71808.79}
+}}

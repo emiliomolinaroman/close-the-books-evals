@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["schedule_rollforward_mismatch"], "inconsistency_notes": ["Revenue recognition schedule D012 (REVREC-0001): opening deferred 30914.78 + added 0.00 - released 15457.39 = 15457.39, but the stated ending deferred is 14304.81, a difference of 1152.58."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

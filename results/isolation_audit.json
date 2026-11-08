@@ -1,0 +1,2323 @@
+{
+ "scratch_collisions": {
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py": [
+   "r7/apex_G1_A",
+   "r7/apex_G1_B",
+   "r7/apex_G2_A",
+   "r7/apex_G2_B",
+   "r7/fb_A3",
+   "r7/fb_B2",
+   "r7/fb_C1"
+  ],
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ev.py": [
+   "r7/fb_A3",
+   "r7/fb_A4",
+   "r7/fb_B2"
+  ],
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/res.json": [
+   "r7/fb_C1",
+   "r7/fb_C2"
+  ],
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/show.py": [
+   "r7/fb_A2",
+   "r7/fb_A4",
+   "r7/fb_C2"
+  ],
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/types.txt": [
+   "r7/fb_A4",
+   "r7/fb_C2"
+  ],
+  "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/view.py": [
+   "r7/fb_A4",
+   "r7/fb_C1"
+  ],
+  "/tmp/clean": [
+   "r3/H2_B1",
+   "r3/H2_B2",
+   "r4/K4_B1"
+  ],
+  "/tmp/clean/out": [
+   "r3/H2_B1",
+   "r3/H2_B2",
+   "r4/K4_B1"
+  ],
+  "/tmp/clean/out/balance.json": [
+   "r3/H2_B1",
+   "r3/H2_B2"
+  ],
+  "/tmp/clean/out/findings.json": [
+   "r3/H2_B1",
+   "r3/H2_B2",
+   "r4/K4_B1"
+  ],
+  "/tmp/d.csv": [
+   "r3/H2_B1",
+   "r3/H2_B2"
+  ],
+  "/tmp/k2clean": [
+   "r4/K2_B1",
+   "r4/K2_B2"
+  ],
+  "/tmp/o": [
+   "r2/D2_B",
+   "r3/H1_B1",
+   "r3/H2_B1",
+   "r4/K3_B1"
+  ],
+  "/tmp/pt": [
+   "r3/H2_B1",
+   "r3/H2_B2"
+  ],
+  "/tmp/pv": [
+   "r3/H2_B1",
+   "r3/H2_B2"
+  ]
+ },
+ "transcripts": [
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.4,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a073237a6756691b9.output",
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 142270,
+    "cache_read_input_tokens": 269891,
+    "input_tokens": 10,
+    "output_tokens": 22868
+   },
+   "workspace": "r9/directo_7"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 0.6,
+   "scratch_paths": [],
+   "tool_calls": 7,
+   "tools": {
+    "Bash": 6,
+    "SubagentHandback": 1
+   },
+   "transcript": "a0a70ae95890e594a.output",
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 43640,
+    "cache_read_input_tokens": 396325,
+    "input_tokens": 14,
+    "output_tokens": 3553
+   },
+   "workspace": "r7/corregir_G2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.0,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a0b9dd31854a31de9.output",
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 67047,
+    "cache_read_input_tokens": 216807,
+    "input_tokens": 8,
+    "output_tokens": 20974
+   },
+   "workspace": "r9/directo2_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.8,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a1703af00a7a8e9c1.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 95608,
+    "cache_read_input_tokens": 787645,
+    "input_tokens": 20,
+    "output_tokens": 27484
+   },
+   "workspace": "r10/directo3_11"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 18.4,
+   "scratch_paths": [
+    "/tmp/k2clean",
+    "/tmp/k2clean/out",
+    "/tmp/k2mut",
+    "/tmp/k2mut_out",
+    "/tmp/k2mut_out/findings.json",
+    "/tmp/k2pert",
+    "/tmp/k2pert_out",
+    "/tmp/k2pert_out/balance.json",
+    "/tmp/k2pert_out/findings.json",
+    "/tmp/k2pol",
+    "/tmp/k2pol_out",
+    "/tmp/k2pol_out/findings.json"
+   ],
+   "tool_calls": 32,
+   "tools": {
+    "Bash": 27,
+    "Edit": 1,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a17940552b89da623.output",
+   "turns": 31,
+   "usage": {
+    "cache_creation_input_tokens": 114923,
+    "cache_read_input_tokens": 2861721,
+    "input_tokens": 62,
+    "output_tokens": 54452
+   },
+   "workspace": "r4/K2_B1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.6,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a1b112a8f6a9b5fff.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 58882,
+    "cache_read_input_tokens": 519918,
+    "input_tokens": 16,
+    "output_tokens": 7594
+   },
+   "workspace": "r10/directo3_14"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 3.9,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Bash": 12,
+    "SubagentHandback": 1
+   },
+   "transcript": "a1c6fa0d445c902eb.output",
+   "turns": 13,
+   "usage": {
+    "cache_creation_input_tokens": 76067,
+    "cache_read_input_tokens": 620302,
+    "input_tokens": 26,
+    "output_tokens": 23350
+   },
+   "workspace": "r1/S05_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 9.1,
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Bash": 17,
+    "Edit": 1,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a1f67c2777576528d.output",
+   "turns": 20,
+   "usage": {
+    "cache_creation_input_tokens": 137427,
+    "cache_read_input_tokens": 2065766,
+    "input_tokens": 40,
+    "output_tokens": 58936
+   },
+   "workspace": "r4/K5_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 2.9,
+   "scratch_paths": [],
+   "tool_calls": 12,
+   "tools": {
+    "Bash": 10,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a228d8ba295f12b5e.output",
+   "turns": 12,
+   "usage": {
+    "cache_creation_input_tokens": 79921,
+    "cache_read_input_tokens": 659342,
+    "input_tokens": 26,
+    "output_tokens": 17613
+   },
+   "workspace": "r1/S03_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.5,
+   "scratch_paths": [],
+   "tool_calls": 23,
+   "tools": {
+    "Bash": 22,
+    "SubagentHandback": 1
+   },
+   "transcript": "a2527e499035ba546.output",
+   "turns": 23,
+   "usage": {
+    "cache_creation_input_tokens": 110573,
+    "cache_read_input_tokens": 1697987,
+    "input_tokens": 46,
+    "output_tokens": 37969
+   },
+   "workspace": "r1/S02_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 9.6,
+   "scratch_paths": [],
+   "tool_calls": 56,
+   "tools": {
+    "Bash": 52,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a268f68b47b35a25e.output",
+   "turns": 56,
+   "usage": {
+    "cache_creation_input_tokens": 200120,
+    "cache_read_input_tokens": 7897335,
+    "input_tokens": 112,
+    "output_tokens": 64362
+   },
+   "workspace": "r7/fb_A1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.1,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a27b0796457ba9308.output",
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 111965,
+    "cache_read_input_tokens": 247458,
+    "input_tokens": 10,
+    "output_tokens": 15017
+   },
+   "workspace": "r9/directo_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.5,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a28ba85926596a402.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 70057,
+    "cache_read_input_tokens": 539515,
+    "input_tokens": 16,
+    "output_tokens": 16674
+   },
+   "workspace": "r9/directo2_4"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 12.1,
+   "scratch_paths": [
+    "/tmp/h2a1_dbg.py",
+    "/tmp/h2a1_dbg2.py",
+    "/tmp/h2a1_dbg3.py",
+    "/tmp/h2a1_diario.csv",
+    "/tmp/h2a1_out"
+   ],
+   "tool_calls": 36,
+   "tools": {
+    "Bash": 32,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a291bd586280d278f.output",
+   "turns": 36,
+   "usage": {
+    "cache_creation_input_tokens": 145821,
+    "cache_read_input_tokens": 4066929,
+    "input_tokens": 72,
+    "output_tokens": 66352
+   },
+   "workspace": "r3/H2_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.5,
+   "scratch_paths": [
+    "/tmp/o"
+   ],
+   "tool_calls": 38,
+   "tools": {
+    "Bash": 36,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a2efe56f320c90f99.output",
+   "turns": 37,
+   "usage": {
+    "cache_creation_input_tokens": 191186,
+    "cache_read_input_tokens": 5089579,
+    "input_tokens": 76,
+    "output_tokens": 83873
+   },
+   "workspace": "r3/H1_B1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.9,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a2f882c34f740218f.output",
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 95825,
+    "cache_read_input_tokens": 231836,
+    "input_tokens": 10,
+    "output_tokens": 14261
+   },
+   "workspace": "r9/directo_0"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.9,
+   "scratch_paths": [],
+   "tool_calls": 36,
+   "tools": {
+    "Bash": 28,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "a3b1ec7423ffd9c0b.output",
+   "turns": 32,
+   "usage": {
+    "cache_creation_input_tokens": 189712,
+    "cache_read_input_tokens": 4397864,
+    "input_tokens": 64,
+    "output_tokens": 87273
+   },
+   "workspace": "r5/K5_B3"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.0,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dumpp.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ev.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/keys.py"
+   ],
+   "tool_calls": 52,
+   "tools": {
+    "Bash": 49,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a3d9a65959d8c0872.output",
+   "turns": 52,
+   "usage": {
+    "cache_creation_input_tokens": 174322,
+    "cache_read_input_tokens": 7481939,
+    "input_tokens": 104,
+    "output_tokens": 87126
+   },
+   "workspace": "r7/fb_A3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 5.2,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a3f49dbec019a8127.output",
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 122464,
+    "cache_read_input_tokens": 254419,
+    "input_tokens": 8,
+    "output_tokens": 38791
+   },
+   "workspace": "r9/directo2_7"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.1,
+   "scratch_paths": [],
+   "tool_calls": 20,
+   "tools": {
+    "Bash": 17,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a4153fd55508e4a87.output",
+   "turns": 18,
+   "usage": {
+    "cache_creation_input_tokens": 78409,
+    "cache_read_input_tokens": 919748,
+    "input_tokens": 38,
+    "output_tokens": 24295
+   },
+   "workspace": "r1/S06_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.0,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py"
+   ],
+   "tool_calls": 38,
+   "tools": {
+    "Bash": 37,
+    "SubagentHandback": 1
+   },
+   "transcript": "a44c5cde05c5deedf.output",
+   "turns": 38,
+   "usage": {
+    "cache_creation_input_tokens": 154415,
+    "cache_read_input_tokens": 3825836,
+    "input_tokens": 76,
+    "output_tokens": 36630
+   },
+   "workspace": "r7/apex_G2_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 10.4,
+   "scratch_paths": [
+    "/tmp/h1check",
+    "/tmp/h1check/balance.json"
+   ],
+   "tool_calls": 40,
+   "tools": {
+    "Bash": 37,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a4859630f626c1dd7.output",
+   "turns": 40,
+   "usage": {
+    "cache_creation_input_tokens": 159472,
+    "cache_read_input_tokens": 4562689,
+    "input_tokens": 82,
+    "output_tokens": 61455
+   },
+   "workspace": "r3/H1_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.5,
+   "scratch_paths": [],
+   "tool_calls": 16,
+   "tools": {
+    "Bash": 15,
+    "SubagentHandback": 1
+   },
+   "transcript": "a4b7bba9a9f53e4ab.output",
+   "turns": 16,
+   "usage": {
+    "cache_creation_input_tokens": 97855,
+    "cache_read_input_tokens": 1133604,
+    "input_tokens": 32,
+    "output_tokens": 27276
+   },
+   "workspace": "r2/D1_A"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.6,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a4d41e22b51079810.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 87470,
+    "cache_read_input_tokens": 761044,
+    "input_tokens": 20,
+    "output_tokens": 16286
+   },
+   "workspace": "r10/directo3_8"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 9.7,
+   "scratch_paths": [
+    "/tmp/h1o",
+    "/tmp/h1o/%s.json",
+    "/tmp/h1o/ajustes.json",
+    "/tmp/h1o/findings.json",
+    "/tmp/h1v",
+    "/tmp/h1v/banco",
+    "/tmp/h1v/diario_octubre.csv",
+    "/tmp/h1vo",
+    "/tmp/h1vo/%s.json",
+    "/tmp/h1vo/ajustes.json",
+    "/tmp/h1vo/findings.json"
+   ],
+   "tool_calls": 31,
+   "tools": {
+    "Bash": 28,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a52d2ff51d59fc3c0.output",
+   "turns": 31,
+   "usage": {
+    "cache_creation_input_tokens": 163066,
+    "cache_read_input_tokens": 3544246,
+    "input_tokens": 64,
+    "output_tokens": 57056
+   },
+   "workspace": "r3/H1_A2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 10.9,
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Bash": 28,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 3
+   },
+   "transcript": "a5624bd6af8a8cd78.output",
+   "turns": 32,
+   "usage": {
+    "cache_creation_input_tokens": 155148,
+    "cache_read_input_tokens": 3867485,
+    "input_tokens": 64,
+    "output_tokens": 65963
+   },
+   "workspace": "r5/K5_B4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.0,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a5d5266a2c2a7f20a.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 94897,
+    "cache_read_input_tokens": 475045,
+    "input_tokens": 16,
+    "output_tokens": 13075
+   },
+   "workspace": "r9/directo_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.4,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a5d95a92c071a7fc3.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 103393,
+    "cache_read_input_tokens": 774539,
+    "input_tokens": 20,
+    "output_tokens": 22645
+   },
+   "workspace": "r10/directo3_2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 13.7,
+   "scratch_paths": [],
+   "tool_calls": 40,
+   "tools": {
+    "Bash": 32,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "a5e5fcfdf36b046c3.output",
+   "turns": 39,
+   "usage": {
+    "cache_creation_input_tokens": 173220,
+    "cache_read_input_tokens": 5136936,
+    "input_tokens": 78,
+    "output_tokens": 81135
+   },
+   "workspace": "r6/K5_B6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.5,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a6406d83a7721ffff.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 86826,
+    "cache_read_input_tokens": 749497,
+    "input_tokens": 20,
+    "output_tokens": 23524
+   },
+   "workspace": "r10/directo3_6"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.8,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t17.csv",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t17.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t23.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t30.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t7.csv",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t7.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g2b/t7tab.md"
+   ],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 38,
+    "SubagentHandback": 1
+   },
+   "transcript": "a65d7efd4818a11b3.output",
+   "turns": 39,
+   "usage": {
+    "cache_creation_input_tokens": 171894,
+    "cache_read_input_tokens": 4195727,
+    "input_tokens": 78,
+    "output_tokens": 38528
+   },
+   "workspace": "r7/apex_G2_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 7.2,
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Bash": 21,
+    "SubagentHandback": 1
+   },
+   "transcript": "a67434de041a8c811.output",
+   "turns": 22,
+   "usage": {
+    "cache_creation_input_tokens": 110733,
+    "cache_read_input_tokens": 1551191,
+    "input_tokens": 44,
+    "output_tokens": 40556
+   },
+   "workspace": "r1/S01_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.3,
+   "scratch_paths": [],
+   "tool_calls": 45,
+   "tools": {
+    "Bash": 38,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "a679fcd6c293aed9c.output",
+   "turns": 45,
+   "usage": {
+    "cache_creation_input_tokens": 190309,
+    "cache_read_input_tokens": 5778456,
+    "input_tokens": 92,
+    "output_tokens": 81960
+   },
+   "workspace": "r5/H1_B4"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 13.4,
+   "scratch_paths": [
+    "/tmp/k3out",
+    "/tmp/k3out/balance.json"
+   ],
+   "tool_calls": 36,
+   "tools": {
+    "Bash": 29,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "a68352cca27ee60ce.output",
+   "turns": 30,
+   "usage": {
+    "cache_creation_input_tokens": 154929,
+    "cache_read_input_tokens": 3571290,
+    "input_tokens": 60,
+    "output_tokens": 71025
+   },
+   "workspace": "r4/K3_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.8,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/all.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/all.jsonl",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/res.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/show.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/types.txt"
+   ],
+   "tool_calls": 34,
+   "tools": {
+    "Bash": 31,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a68918059c517b3ee.output",
+   "turns": 34,
+   "usage": {
+    "cache_creation_input_tokens": 164526,
+    "cache_read_input_tokens": 4716387,
+    "input_tokens": 68,
+    "output_tokens": 59183
+   },
+   "workspace": "r7/fb_C2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.7,
+   "scratch_paths": [
+    "/tmp/k5_a",
+    "/tmp/k5_a/balance.json",
+    "/tmp/k5_a/findings.json",
+    "/tmp/k5_b",
+    "/tmp/k5_b/balance.json",
+    "/tmp/k5_b/findings.json",
+    "/tmp/k5_clean",
+    "/tmp/k5_m0",
+    "/tmp/k5_m0/findings.json",
+    "/tmp/k5_m1",
+    "/tmp/k5_m1/findings.json",
+    "/tmp/k5_mut",
+    "/tmp/k5_norm",
+    "/tmp/k5_pert"
+   ],
+   "tool_calls": 36,
+   "tools": {
+    "Bash": 32,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a6942edbaa9f55448.output",
+   "turns": 34,
+   "usage": {
+    "cache_creation_input_tokens": 239040,
+    "cache_read_input_tokens": 4644675,
+    "input_tokens": 68,
+    "output_tokens": 89945
+   },
+   "workspace": "r4/K5_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.5,
+   "scratch_paths": [],
+   "tool_calls": 23,
+   "tools": {
+    "Bash": 21,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a6db64bfc00c2ea64.output",
+   "turns": 23,
+   "usage": {
+    "cache_creation_input_tokens": 121486,
+    "cache_read_input_tokens": 2218233,
+    "input_tokens": 46,
+    "output_tokens": 42632
+   },
+   "workspace": "r2/D1_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 7.7,
+   "scratch_paths": [
+    "/tmp/o"
+   ],
+   "tool_calls": 27,
+   "tools": {
+    "Bash": 24,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a6efa8dea4984fc32.output",
+   "turns": 27,
+   "usage": {
+    "cache_creation_input_tokens": 129371,
+    "cache_read_input_tokens": 2700725,
+    "input_tokens": 54,
+    "output_tokens": 48112
+   },
+   "workspace": "r2/D2_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.9,
+   "scratch_paths": [
+    "/tmp/t1",
+    "/tmp/t1/diario_octubre.csv"
+   ],
+   "tool_calls": 25,
+   "tools": {
+    "Bash": 22,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a6f8616cdc71a914a.output",
+   "turns": 25,
+   "usage": {
+    "cache_creation_input_tokens": 109207,
+    "cache_read_input_tokens": 2121659,
+    "input_tokens": 50,
+    "output_tokens": 53542
+   },
+   "workspace": "r4/K2_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.7,
+   "scratch_paths": [],
+   "tool_calls": 25,
+   "tools": {
+    "Bash": 20,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 3
+   },
+   "transcript": "a71d8d358c22b51a4.output",
+   "turns": 24,
+   "usage": {
+    "cache_creation_input_tokens": 128824,
+    "cache_read_input_tokens": 2374379,
+    "input_tokens": 48,
+    "output_tokens": 55313
+   },
+   "workspace": "r5/K5_A2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.3,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a7443e8b377d65753.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 58607,
+    "cache_read_input_tokens": 512151,
+    "input_tokens": 16,
+    "output_tokens": 14758
+   },
+   "workspace": "r9/directo2_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 6.0,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a75020006352f93a3.output",
+   "turns": 11,
+   "usage": {
+    "cache_creation_input_tokens": 108656,
+    "cache_read_input_tokens": 914368,
+    "input_tokens": 22,
+    "output_tokens": 40432
+   },
+   "workspace": "r10/directo3_13"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 11.3,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ev.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ex.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/pertype.py"
+   ],
+   "tool_calls": 52,
+   "tools": {
+    "Bash": 50,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a754ca19d641b1408.output",
+   "turns": 52,
+   "usage": {
+    "cache_creation_input_tokens": 215900,
+    "cache_read_input_tokens": 7408570,
+    "input_tokens": 104,
+    "output_tokens": 74340
+   },
+   "workspace": "r7/fb_B2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.0,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a77150d33e37a764b.output",
+   "turns": 9,
+   "usage": {
+    "cache_creation_input_tokens": 89880,
+    "cache_read_input_tokens": 667764,
+    "input_tokens": 18,
+    "output_tokens": 22561
+   },
+   "workspace": "r10/directo3_3"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 13.0,
+   "scratch_paths": [
+    "/tmp/clean",
+    "/tmp/clean/out",
+    "/tmp/clean/out/balance.json",
+    "/tmp/clean/out/findings.json",
+    "/tmp/d.csv",
+    "/tmp/mut$s",
+    "/tmp/mut1",
+    "/tmp/mut3",
+    "/tmp/mut4",
+    "/tmp/mutp",
+    "/tmp/mutp/out/run_log.txt",
+    "/tmp/o",
+    "/tmp/pt",
+    "/tmp/pt/diario.csv",
+    "/tmp/pto",
+    "/tmp/pto/balance.json",
+    "/tmp/pto/findings.json",
+    "/tmp/pv",
+    "/tmp/pv/p.md"
+   ],
+   "tool_calls": 38,
+   "tools": {
+    "Bash": 30,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "a772962650085a0ca.output",
+   "turns": 36,
+   "usage": {
+    "cache_creation_input_tokens": 156049,
+    "cache_read_input_tokens": 4313580,
+    "input_tokens": 72,
+    "output_tokens": 74560
+   },
+   "workspace": "r3/H2_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 5.4,
+   "scratch_paths": [],
+   "tool_calls": 18,
+   "tools": {
+    "Bash": 17,
+    "SubagentHandback": 1
+   },
+   "transcript": "a7c3cc7c3c9ef585d.output",
+   "turns": 17,
+   "usage": {
+    "cache_creation_input_tokens": 147870,
+    "cache_read_input_tokens": 1703715,
+    "input_tokens": 34,
+    "output_tokens": 35112
+   },
+   "workspace": "r2/D3_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 3.2,
+   "scratch_paths": [],
+   "tool_calls": 15,
+   "tools": {
+    "Bash": 12,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a7e2bf7a434e3680d.output",
+   "turns": 15,
+   "usage": {
+    "cache_creation_input_tokens": 70709,
+    "cache_read_input_tokens": 766055,
+    "input_tokens": 32,
+    "output_tokens": 19071
+   },
+   "workspace": "r1/S02_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 11.5,
+   "scratch_paths": [
+    "/tmp/k3b1.pkl",
+    "/tmp/o"
+   ],
+   "tool_calls": 27,
+   "tools": {
+    "Bash": 24,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a8132dea67bcac399.output",
+   "turns": 26,
+   "usage": {
+    "cache_creation_input_tokens": 153006,
+    "cache_read_input_tokens": 3079385,
+    "input_tokens": 52,
+    "output_tokens": 63550
+   },
+   "workspace": "r4/K3_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.1,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ej.txt",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ej_out.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/show.py"
+   ],
+   "tool_calls": 34,
+   "tools": {
+    "Bash": 24,
+    "Read": 7,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a81cc848b83d39548.output",
+   "turns": 34,
+   "usage": {
+    "cache_creation_input_tokens": 252203,
+    "cache_read_input_tokens": 5331859,
+    "input_tokens": 68,
+    "output_tokens": 54560
+   },
+   "workspace": "r7/fb_A2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 15.4,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/build_run.sh",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ej.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/ev.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/iso",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/iso/run.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/main_part.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/mut.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/pub.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/show.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/types.txt",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/view.py"
+   ],
+   "tool_calls": 55,
+   "tools": {
+    "Bash": 52,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a874b9e9240b4181c.output",
+   "turns": 55,
+   "usage": {
+    "cache_creation_input_tokens": 214058,
+    "cache_read_input_tokens": 8760797,
+    "input_tokens": 110,
+    "output_tokens": 90560
+   },
+   "workspace": "r7/fb_A4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.5,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a88f0450016a12db1.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 69977,
+    "cache_read_input_tokens": 716087,
+    "input_tokens": 20,
+    "output_tokens": 15011
+   },
+   "workspace": "r10/directo3_0"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.3,
+   "scratch_paths": [],
+   "tool_calls": 19,
+   "tools": {
+    "Bash": 17,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a8925c30b194b6690.output",
+   "turns": 17,
+   "usage": {
+    "cache_creation_input_tokens": 107231,
+    "cache_read_input_tokens": 1405563,
+    "input_tokens": 34,
+    "output_tokens": 26113
+   },
+   "workspace": "r2/D2_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 9.5,
+   "scratch_paths": [],
+   "tool_calls": 38,
+   "tools": {
+    "Bash": 34,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a89f5299bd183fd91.output",
+   "turns": 38,
+   "usage": {
+    "cache_creation_input_tokens": 131632,
+    "cache_read_input_tokens": 3903218,
+    "input_tokens": 76,
+    "output_tokens": 54751
+   },
+   "workspace": "r3/H2_A2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 1.1,
+   "scratch_paths": [],
+   "tool_calls": 9,
+   "tools": {
+    "Bash": 8,
+    "SubagentHandback": 1
+   },
+   "transcript": "a8ba00e35688b6fa3.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 50643,
+    "cache_read_input_tokens": 468229,
+    "input_tokens": 16,
+    "output_tokens": 6467
+   },
+   "workspace": "r7/corregir_G1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 4.5,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a8c3694deb21e5b4d.output",
+   "turns": 9,
+   "usage": {
+    "cache_creation_input_tokens": 110670,
+    "cache_read_input_tokens": 740329,
+    "input_tokens": 18,
+    "output_tokens": 31389
+   },
+   "workspace": "r10/directo3_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.7,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a906a7a992f9e679c.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 108371,
+    "cache_read_input_tokens": 839187,
+    "input_tokens": 20,
+    "output_tokens": 26974
+   },
+   "workspace": "r10/directo3_12"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.0,
+   "scratch_paths": [],
+   "tool_calls": 15,
+   "tools": {
+    "Bash": 12,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a908b3cfb9a5ea3d5.output",
+   "turns": 15,
+   "usage": {
+    "cache_creation_input_tokens": 85062,
+    "cache_read_input_tokens": 815664,
+    "input_tokens": 32,
+    "output_tokens": 23996
+   },
+   "workspace": "r1/S04_A"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.1,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "a916055188618f968.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 108498,
+    "cache_read_input_tokens": 490112,
+    "input_tokens": 16,
+    "output_tokens": 7099
+   },
+   "workspace": "r9/directo_2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.4,
+   "scratch_paths": [
+    "/tmp/k1b1_hash_before.txt"
+   ],
+   "tool_calls": 16,
+   "tools": {
+    "Bash": 14,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a95518ac45a4d750a.output",
+   "turns": 15,
+   "usage": {
+    "cache_creation_input_tokens": 87127,
+    "cache_read_input_tokens": 1093702,
+    "input_tokens": 34,
+    "output_tokens": 39146
+   },
+   "workspace": "r4/K1_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 9.0,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g1b",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/jer.txt"
+   ],
+   "tool_calls": 41,
+   "tools": {
+    "Bash": 40,
+    "SubagentHandback": 1
+   },
+   "transcript": "a956e1734a4a92167.output",
+   "turns": 41,
+   "usage": {
+    "cache_creation_input_tokens": 217457,
+    "cache_read_input_tokens": 5440889,
+    "input_tokens": 82,
+    "output_tokens": 52760
+   },
+   "workspace": "r7/apex_G1_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 10.3,
+   "scratch_paths": [
+    "/tmp/k2clean"
+   ],
+   "tool_calls": 30,
+   "tools": {
+    "Bash": 27,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a96f9a5d495d65ff5.output",
+   "turns": 30,
+   "usage": {
+    "cache_creation_input_tokens": 112916,
+    "cache_read_input_tokens": 2756022,
+    "input_tokens": 60,
+    "output_tokens": 59912
+   },
+   "workspace": "r4/K2_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.0,
+   "scratch_paths": [],
+   "tool_calls": 14,
+   "tools": {
+    "Bash": 11,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a977762d3c38a61fa.output",
+   "turns": 14,
+   "usage": {
+    "cache_creation_input_tokens": 82829,
+    "cache_read_input_tokens": 768015,
+    "input_tokens": 30,
+    "output_tokens": 24661
+   },
+   "workspace": "r1/S01_A"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 4.5,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "a97f16ffa2f1c4ddd.output",
+   "turns": 11,
+   "usage": {
+    "cache_creation_input_tokens": 110955,
+    "cache_read_input_tokens": 982274,
+    "input_tokens": 22,
+    "output_tokens": 31718
+   },
+   "workspace": "r10/directo3_7"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 10.6,
+   "scratch_paths": [],
+   "tool_calls": 53,
+   "tools": {
+    "Bash": 51,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "a9a89f2e014e9aee8.output",
+   "turns": 53,
+   "usage": {
+    "cache_creation_input_tokens": 188737,
+    "cache_read_input_tokens": 6850622,
+    "input_tokens": 106,
+    "output_tokens": 72133
+   },
+   "workspace": "r7/fb_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.7,
+   "scratch_paths": [],
+   "tool_calls": 18,
+   "tools": {
+    "Bash": 14,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "a9b2004facf486945.output",
+   "turns": 18,
+   "usage": {
+    "cache_creation_input_tokens": 137865,
+    "cache_read_input_tokens": 1804378,
+    "input_tokens": 36,
+    "output_tokens": 56879
+   },
+   "workspace": "r4/K5_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.0,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g1a",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g1a/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g1a/je.pkl",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/g1a/t26.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/je.pkl"
+   ],
+   "tool_calls": 31,
+   "tools": {
+    "Bash": 30,
+    "SubagentHandback": 1
+   },
+   "transcript": "a9f2902dfafdff3d3.output",
+   "turns": 31,
+   "usage": {
+    "cache_creation_input_tokens": 199556,
+    "cache_read_input_tokens": 3406653,
+    "input_tokens": 62,
+    "output_tokens": 49342
+   },
+   "workspace": "r7/apex_G1_A"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.2,
+   "scratch_paths": [],
+   "tool_calls": 23,
+   "tools": {
+    "Bash": 20,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "aa0e6e7018986df22.output",
+   "turns": 23,
+   "usage": {
+    "cache_creation_input_tokens": 98067,
+    "cache_read_input_tokens": 1493025,
+    "input_tokens": 46,
+    "output_tokens": 35576
+   },
+   "workspace": "r1/S03_B"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.4,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "aa1a5e440979002a6.output",
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 64608,
+    "cache_read_input_tokens": 216353,
+    "input_tokens": 8,
+    "output_tokens": 18815
+   },
+   "workspace": "r9/directo2_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.6,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "aaa234ef3b346d50d.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 75133,
+    "cache_read_input_tokens": 588674,
+    "input_tokens": 16,
+    "output_tokens": 9513
+   },
+   "workspace": "r9/directo2_2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 1.4,
+   "scratch_paths": [],
+   "tool_calls": 8,
+   "tools": {
+    "Bash": 7,
+    "SubagentHandback": 1
+   },
+   "transcript": "aad1211ceeb02ffbc.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 51248,
+    "cache_read_input_tokens": 474564,
+    "input_tokens": 16,
+    "output_tokens": 7329
+   },
+   "workspace": "r7/corregir_G1_j2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.7,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ab11be43d38c72f6e.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 78335,
+    "cache_read_input_tokens": 565711,
+    "input_tokens": 16,
+    "output_tokens": 17151
+   },
+   "workspace": "r9/directo2_5"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 8.8,
+   "scratch_paths": [],
+   "tool_calls": 27,
+   "tools": {
+    "Bash": 26,
+    "SubagentHandback": 1
+   },
+   "transcript": "ab5ee61334af1b309.output",
+   "turns": 27,
+   "usage": {
+    "cache_creation_input_tokens": 164709,
+    "cache_read_input_tokens": 2895518,
+    "input_tokens": 54,
+    "output_tokens": 57287
+   },
+   "workspace": "r2/D3_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.5,
+   "scratch_paths": [],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 36,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "ab7f433d80d0e6d4f.output",
+   "turns": 39,
+   "usage": {
+    "cache_creation_input_tokens": 161091,
+    "cache_read_input_tokens": 4347273,
+    "input_tokens": 78,
+    "output_tokens": 78110
+   },
+   "workspace": "r4/K4_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 11.5,
+   "scratch_paths": [
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/dump.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/evalr.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/inv.py",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/keys.txt",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/pub_v1.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/res.json",
+    "/tmp/claude-0/-home-claude/656c09a2-8f67-51c5-a83c-074654928b2f/scratchpad/view.py"
+   ],
+   "tool_calls": 54,
+   "tools": {
+    "Bash": 47,
+    "SubagentHandback": 1,
+    "Write": 6
+   },
+   "transcript": "ab85444bf93efda5e.output",
+   "turns": 54,
+   "usage": {
+    "cache_creation_input_tokens": 182389,
+    "cache_read_input_tokens": 7721436,
+    "input_tokens": 108,
+    "output_tokens": 77162
+   },
+   "workspace": "r7/fb_C1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.2,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ac24059100a350704.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 76691,
+    "cache_read_input_tokens": 501487,
+    "input_tokens": 16,
+    "output_tokens": 22769
+   },
+   "workspace": "r9/directo2_3"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 15.1,
+   "scratch_paths": [
+    "/tmp/clean",
+    "/tmp/clean/out",
+    "/tmp/clean/out/findings.json"
+   ],
+   "tool_calls": 45,
+   "tools": {
+    "Bash": 42,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "ac299079c4b2e336e.output",
+   "turns": 45,
+   "usage": {
+    "cache_creation_input_tokens": 150923,
+    "cache_read_input_tokens": 5153585,
+    "input_tokens": 90,
+    "output_tokens": 79603
+   },
+   "workspace": "r4/K4_B1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 14.2,
+   "scratch_paths": [
+    "/tmp/x"
+   ],
+   "tool_calls": 52,
+   "tools": {
+    "Bash": 46,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ac506ba7f7570d90a.output",
+   "turns": 48,
+   "usage": {
+    "cache_creation_input_tokens": 170015,
+    "cache_read_input_tokens": 6131396,
+    "input_tokens": 98,
+    "output_tokens": 80913
+   },
+   "workspace": "r5/H1_B3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.8,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ac606641c27b11e48.output",
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 102806,
+    "cache_read_input_tokens": 187795,
+    "input_tokens": 8,
+    "output_tokens": 13598
+   },
+   "workspace": "r9/directo_4"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 12.8,
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Bash": 31,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "ac9d8565b57aafc9f.output",
+   "turns": 32,
+   "usage": {
+    "cache_creation_input_tokens": 267136,
+    "cache_read_input_tokens": 3964597,
+    "input_tokens": 66,
+    "output_tokens": 77972
+   },
+   "workspace": "r3/H1_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 7.1,
+   "scratch_paths": [],
+   "tool_calls": 20,
+   "tools": {
+    "Bash": 19,
+    "SubagentHandback": 1
+   },
+   "transcript": "acb43bdbcecb17e7b.output",
+   "turns": 20,
+   "usage": {
+    "cache_creation_input_tokens": 104913,
+    "cache_read_input_tokens": 1351734,
+    "input_tokens": 40,
+    "output_tokens": 36931
+   },
+   "workspace": "r1/S04_B"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 11.0,
+   "scratch_paths": [],
+   "tool_calls": 30,
+   "tools": {
+    "Bash": 23,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "acbf2cf045d45fe1e.output",
+   "turns": 28,
+   "usage": {
+    "cache_creation_input_tokens": 148136,
+    "cache_read_input_tokens": 3138161,
+    "input_tokens": 56,
+    "output_tokens": 68663
+   },
+   "workspace": "r6/K5_B5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 2.4,
+   "scratch_paths": [],
+   "tool_calls": 13,
+   "tools": {
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ad6b74bbe33dac638.output",
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 107814,
+    "cache_read_input_tokens": 188336,
+    "input_tokens": 8,
+    "output_tokens": 18048
+   },
+   "workspace": "r9/directo_3"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 12.1,
+   "scratch_paths": [
+    "/tmp/k3_bankparse_old.py",
+    "/tmp/k3_d1.py",
+    "/tmp/k3_d2.py",
+    "/tmp/k3_d3.py",
+    "/tmp/k3_d4.py",
+    "/tmp/k3_d5.py",
+    "/tmp/k3_d6.py",
+    "/tmp/k3_dbg.py",
+    "/tmp/k3_final",
+    "/tmp/k3_final/$f.json",
+    "/tmp/k3_fmt",
+    "/tmp/k3_fmt/c08.xml",
+    "/tmp/k3_fmt/v2.csv",
+    "/tmp/k3_out",
+    "/tmp/k3_out/ajustes.json",
+    "/tmp/k3_out/findings.json",
+    "/tmp/k3_st.pkl",
+    "/tmp/k3_t1.py",
+    "/tmp/k3_var",
+    "/tmp/k3_var/datos",
+    "/tmp/k3_var/out",
+    "/tmp/k3_var/out/findings.json",
+    "/tmp/k3_x.py",
+    "/tmp/k3_x2.py",
+    "/tmp/k3_x3.py",
+    "/tmp/k3_x4.py"
+   ],
+   "tool_calls": 40,
+   "tools": {
+    "Bash": 35,
+    "Edit": 1,
+    "SubagentHandback": 1,
+    "Write": 3
+   },
+   "transcript": "ada02dce5aef18c9a.output",
+   "turns": 40,
+   "usage": {
+    "cache_creation_input_tokens": 145634,
+    "cache_read_input_tokens": 4543447,
+    "input_tokens": 80,
+    "output_tokens": 62991
+   },
+   "workspace": "r4/K3_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 13.0,
+   "scratch_paths": [
+    "/tmp/clean",
+    "/tmp/clean/out",
+    "/tmp/clean/out/balance.json",
+    "/tmp/clean/out/findings.json",
+    "/tmp/d.csv",
+    "/tmp/m2",
+    "/tmp/m2.log",
+    "/tmp/m2_mut.json",
+    "/tmp/m2o",
+    "/tmp/m2o/ajustes.json",
+    "/tmp/m2o/findings.json",
+    "/tmp/pt",
+    "/tmp/pt/%s/balance.json",
+    "/tmp/pt/%s/findings.json",
+    "/tmp/pt/d1",
+    "/tmp/pt/d2",
+    "/tmp/pt/d3",
+    "/tmp/pt/l1",
+    "/tmp/pt/l2",
+    "/tmp/pt/o1",
+    "/tmp/pt/o2",
+    "/tmp/pt/o3",
+    "/tmp/pt/o3/findings.json",
+    "/tmp/pt_d1",
+    "/tmp/pt_o1",
+    "/tmp/pv",
+    "/tmp/pv/politica_cierre.md",
+    "/tmp/pvo",
+    "/tmp/pvo/findings.json"
+   ],
+   "tool_calls": 27,
+   "tools": {
+    "Bash": 24,
+    "Read": 1,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "adc5497e8b855465d.output",
+   "turns": 27,
+   "usage": {
+    "cache_creation_input_tokens": 151129,
+    "cache_read_input_tokens": 2887258,
+    "input_tokens": 54,
+    "output_tokens": 76622
+   },
+   "workspace": "r3/H2_B2"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 5.9,
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Bash": 21,
+    "SubagentHandback": 1
+   },
+   "transcript": "adf949922144c444c.output",
+   "turns": 22,
+   "usage": {
+    "cache_creation_input_tokens": 91883,
+    "cache_read_input_tokens": 1399566,
+    "input_tokens": 46,
+    "output_tokens": 34428
+   },
+   "workspace": "r1/S06_B"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 3.7,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "adfaae4501ff25a59.output",
+   "turns": 6,
+   "usage": {
+    "cache_creation_input_tokens": 102473,
+    "cache_read_input_tokens": 418405,
+    "input_tokens": 12,
+    "output_tokens": 29143
+   },
+   "workspace": "r10/directo3_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 4.2,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "ae099c11e8634124d.output",
+   "turns": 11,
+   "usage": {
+    "cache_creation_input_tokens": 100680,
+    "cache_read_input_tokens": 875261,
+    "input_tokens": 22,
+    "output_tokens": 28457
+   },
+   "workspace": "r10/directo3_9"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 1.8,
+   "scratch_paths": [],
+   "tool_calls": 14,
+   "tools": {
+    "Edit": 1,
+    "Glob": 1,
+    "Read": 6,
+    "SubagentHandback": 1,
+    "Write": 5
+   },
+   "transcript": "ae30cf9e2c9982c2a.output",
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 92606,
+    "cache_read_input_tokens": 270664,
+    "input_tokens": 10,
+    "output_tokens": 12884
+   },
+   "workspace": "r9/directo_1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 4.5,
+   "scratch_paths": [
+    "/tmp/k1a1_before.txt"
+   ],
+   "tool_calls": 10,
+   "tools": {
+    "Bash": 7,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "ae531aef794bc5cf7.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 61524,
+    "cache_read_input_tokens": 520219,
+    "input_tokens": 24,
+    "output_tokens": 28784
+   },
+   "workspace": "r4/K1_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 12.8,
+   "scratch_paths": [],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 36,
+    "SubagentHandback": 1,
+    "Write": 2
+   },
+   "transcript": "ae56f8a636ed372cd.output",
+   "turns": 39,
+   "usage": {
+    "cache_creation_input_tokens": 137960,
+    "cache_read_input_tokens": 3948770,
+    "input_tokens": 78,
+    "output_tokens": 69736
+   },
+   "workspace": "r4/K4_A1"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 1.1,
+   "scratch_paths": [],
+   "tool_calls": 8,
+   "tools": {
+    "Bash": 7,
+    "SubagentHandback": 1
+   },
+   "transcript": "aeabf396571c44378.output",
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 44136,
+    "cache_read_input_tokens": 478575,
+    "input_tokens": 16,
+    "output_tokens": 4161
+   },
+   "workspace": "r7/corregir_G2_j2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 4.3,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "aeeb86de45942fdff.output",
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 107933,
+    "cache_read_input_tokens": 841861,
+    "input_tokens": 20,
+    "output_tokens": 30634
+   },
+   "workspace": "r10/directo3_4"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.2,
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Bash": 19,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "af7f0abfa7e740118.output",
+   "turns": 21,
+   "usage": {
+    "cache_creation_input_tokens": 93880,
+    "cache_read_input_tokens": 1316197,
+    "input_tokens": 42,
+    "output_tokens": 35257
+   },
+   "workspace": "r1/S05_B"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "minutes": 4.7,
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Glob": 1,
+    "Read": 8,
+    "SubagentHandback": 1,
+    "Write": 7
+   },
+   "transcript": "afa37ee8a967936d1.output",
+   "turns": 12,
+   "usage": {
+    "cache_creation_input_tokens": 110503,
+    "cache_read_input_tokens": 1032536,
+    "input_tokens": 24,
+    "output_tokens": 32106
+   },
+   "workspace": "r10/directo3_10"
+  },
+  {
+   "arm": "agent",
+   "breaches": [],
+   "minutes": 6.4,
+   "scratch_paths": [],
+   "tool_calls": 18,
+   "tools": {
+    "Bash": 16,
+    "SubagentHandback": 1,
+    "Write": 1
+   },
+   "transcript": "afba81be3f6b9c7a0.output",
+   "turns": 18,
+   "usage": {
+    "cache_creation_input_tokens": 86317,
+    "cache_read_input_tokens": 1323391,
+    "input_tokens": 42,
+    "output_tokens": 39484
+   },
+   "workspace": "r4/K1_B2"
+  }
+ ]
+}

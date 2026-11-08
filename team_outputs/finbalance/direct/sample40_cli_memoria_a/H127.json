@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["transfer_mismatch"], "inconsistency_notes": ["Transfer advice TRF-0001/TRX-0001 (D015) shows 160130.80, but operating bank (D018) shows transfer out 161694.79 and reserve bank (D019) shows transfer in 161694.79."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["remeasurement_mismatch"], "inconsistency_notes": ["D023 FX remeasurement memo for FXBILL-0001: EUR 184,579.97 at closing rate 1.1345 equals USD 209,405.98 (booked 213,097.58 less difference 3,691.60), but the memo states a remeasured amount of USD 210,436.59, so the closing-rate remeasurement does not reconcile."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

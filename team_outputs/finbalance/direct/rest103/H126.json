@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["inventory_rollforward_mismatch"], "inconsistency_notes": ["Inventory rollforward INVROLL-0001 (D009) does not roll forward: opening 14244.76 + additions 17887.25 - usage 16983.46 - write down 1087.68 = 14060.87, but the stated ending balance is 12221.15 (difference 1839.72). INVROLL-0002 (D026) ties, so D009 is internally inconsistent."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

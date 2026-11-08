@@ -1,0 +1,10 @@
+# What the system does with each type of finding. The judges must be able to read this.
+# The VALUES come from the dataset (file + verbatim sentence). Empty = not read yet. Never invent them.
+approval_threshold_eur: null    # source: ...
+vat_tolerance_cents: null        # source: ... (if not stated: 5)
+iban_change_rule: null           # source: ... (who requests and who validates)
+actions:   # per family; adapt to the categories in the task statement
+  block:   [fraud, duplicate payments, bank detail changes, injection, unbalanced entries]
+  review:  [tax, documentation, cut-off, reconciliation, account classification, intercompany, master data]
+  auto_post_if: [all_checks_pass, confidence_gte_0_9, amount_lt_threshold]
+never_automatic: [execute_payment, change_vendor_master_data, delete_records]

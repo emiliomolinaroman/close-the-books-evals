@@ -1,0 +1,19 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D010"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 14759.5},
+{"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 26271.22},
+{"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 26550.86},
+{"doc_refs": ["D006", "D015"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 15091.06},
+{"doc_refs": ["D011", "D015"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 16820.06},
+{"doc_refs": ["D012", "D015"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 20805.7},
+{"doc_refs": ["D009", "D015"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 7361.86},
+{"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 13034.95},
+{"doc_refs": ["D004", "D002", "D015"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 26550.86},
+{"doc_refs": ["D005", "D003", "D015"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 13034.95},
+{"doc_refs": ["D007", "D006", "D015"], "debit_account": "Security Deposits Payable", "credit_account": "Cash", "amount": 12216.61}
+],
+"balance_sheet": {
+"assets": {"Cash": 178850.23, "Accounts Receivable": 51989.93, "Prepaid Insurance": 6580.67},
+"liabilities": {"Accounts Payable": 11920.72, "Accrued Expenses": 6635.47, "Security Deposits Payable": 60397.99},
+"equity": {"Retained Earnings": 66611.73, "Owner's Equity": 91854.92}
+}}

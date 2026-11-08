@@ -1,0 +1,21 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 11196.35},
+  {"doc_refs": ["D010"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 12248.52},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 6065.31},
+  {"doc_refs": ["D012"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 7282.37},
+  {"doc_refs": ["D011"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 4163.63},
+  {"doc_refs": ["D006"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 7678.58},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 11196.35},
+  {"doc_refs": ["D009", "D006"], "debit_account": "Security Deposits Payable", "credit_account": "Cash", "amount": 6313.02},
+  {"doc_refs": ["D008"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 3679.33},
+  {"doc_refs": ["D005", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 6065.31},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 16282.08},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1842.82}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 72454.27, "Accounts Receivable": 19803.05, "Prepaid Insurance": 3065.76},
+  "liabilities": {"Accounts Payable": 21585.38, "Accrued Expenses": 3202.1, "Security Deposits Payable": 5224.81},
+  "equity": {"Retained Earnings": -7241.34, "Owner's Equity": 72552.13}
+ }
+}

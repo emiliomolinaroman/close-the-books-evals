@@ -1,0 +1,22 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+"entries": [
+{"doc_refs": ["D011", "D010"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 12708.75},
+{"doc_refs": ["D011"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 2541.75},
+{"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 10728.64},
+{"doc_refs": ["D003"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 1341.08},
+{"doc_refs": ["D013", "D012"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 27208.23},
+{"doc_refs": ["D013"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 5441.65},
+{"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 9765.08},
+{"doc_refs": ["D005"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1220.63},
+{"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 5784.69},
+{"doc_refs": ["D009", "D008", "D014"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 34224.96},
+{"doc_refs": ["D009", "D014"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 6844.99},
+{"doc_refs": ["D008", "D009"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 23047.24},
+{"doc_refs": ["D007", "D003", "D016"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 12069.72},
+{"doc_refs": ["D006", "D005", "D016"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 10985.71}
+],
+"balance_sheet": {
+"assets": {"Cash": 119964.63, "Inventory": 149892.73, "Accounts Receivable": 69820.98, "Office Supplies": 2491.31, "Input Tax Receivable": 9324.48},
+"liabilities": {"Accounts Payable": 81485.57, "Accrued Expenses": 9112.88, "Sales Tax Payable": 8065.62},
+"equity": {"Retained Earnings": 34344.74, "Owner's Equity": 218485.32}
+}}

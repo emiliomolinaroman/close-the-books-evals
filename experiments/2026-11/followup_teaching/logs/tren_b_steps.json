@@ -1,0 +1,82 @@
+[
+ {
+  "step": "TR1",
+  "correct": true,
+  "tp_strict": 0,
+  "n_expected": 0,
+  "n_predicted": 0,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 380
+ },
+ {
+  "step": "TR2",
+  "correct": false,
+  "tp_strict": 5,
+  "n_expected": 14,
+  "n_predicted": 13,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 553
+ },
+ {
+  "step": "TR3",
+  "correct": true,
+  "tp_strict": 11,
+  "n_expected": 13,
+  "n_predicted": 13,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 559
+ },
+ {
+  "step": "TR4",
+  "correct": true,
+  "tp_strict": 11,
+  "n_expected": 11,
+  "n_predicted": 11,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 564
+ },
+ {
+  "step": "TR5",
+  "correct": true,
+  "tp_strict": 0,
+  "n_expected": 0,
+  "n_predicted": 0,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 590
+ },
+ {
+  "step": "TR6",
+  "correct": true,
+  "tp_strict": 22,
+  "n_expected": 22,
+  "n_predicted": 22,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 504
+ },
+ {
+  "step": "TR7",
+  "correct": false,
+  "tp_strict": 13,
+  "n_expected": 24,
+  "n_predicted": 21,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 668
+ },
+ {
+  "step": "TR8",
+  "correct": true,
+  "tp_strict": 3,
+  "n_expected": 5,
+  "n_predicted": 5,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 725
+ }
+]

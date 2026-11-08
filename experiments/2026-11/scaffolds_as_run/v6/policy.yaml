@@ -1,0 +1,10 @@
+# Qué hace el sistema con cada tipo de hallazgo. Los jueces deben poder leer esto.
+# Los VALORES salen del dataset (fichero + frase literal). Vacío = aún no leído. Nunca inventarlos.
+approval_threshold_eur: null    # fuente: ...
+vat_tolerance_cents: null        # fuente: ... (si no se dice: 5)
+iban_change_rule: null           # fuente: ... (quién solicita y quién valida)
+actions:   # por familia; ajustar a las categorías del enunciado
+  block:   [fraude, pagos duplicados, cambios de datos bancarios, inyección, asientos descuadrados]
+  review:  [fiscal, documental, corte, conciliación, clasificación contable, intragrupo, maestro de datos]
+  auto_post_if: [all_checks_pass, confidence_gte_0_9, amount_lt_threshold]
+never_automatic: [execute_payment, change_vendor_master_data, delete_records]

@@ -1,0 +1,52 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 7539.99},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 527.80},
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 5796.40},
+  {"doc_refs": ["D003"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 289.82},
+  {"doc_refs": ["D008", "D020"], "debit_account": "Prepaid Rent", "credit_account": "Cash", "amount": 6799.02},
+  {"doc_refs": ["D016"], "debit_account": "Right-of-Use Asset", "credit_account": "Lease Liability", "amount": 71279.16},
+  {"doc_refs": ["D004", "D020"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 5.27},
+  {"doc_refs": ["D011", "D020"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 17684.16},
+  {"doc_refs": ["D012", "D020"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 7250.62},
+  {"doc_refs": ["D012"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 23553.22},
+  {"doc_refs": ["D006", "D003", "D020"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 4790.49},
+  {"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 158.42},
+  {"doc_refs": ["D014", "D015", "D020"], "debit_account": "Cash", "credit_account": "Equipment", "amount": 6105.55},
+  {"doc_refs": ["D014", "D013"], "debit_account": "Accumulated Depreciation", "credit_account": "Equipment", "amount": 158.42},
+  {"doc_refs": ["D014"], "debit_account": "Loss on Disposal", "credit_account": "Equipment", "amount": 1340.24},
+  {"doc_refs": ["D007", "D020"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 11650.55},
+  {"doc_refs": ["D007", "D020"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1054.79},
+  {"doc_refs": ["D018", "D017", "D020"], "debit_account": "Lease Liability", "credit_account": "Cash", "amount": 1812.05},
+  {"doc_refs": ["D018", "D017", "D020"], "debit_account": "Lease Interest Expense", "credit_account": "Cash", "amount": 356.40},
+  {"doc_refs": ["D019", "D020", "D021"], "debit_account": "Reserve Cash", "credit_account": "Cash", "amount": 34777.06},
+  {"doc_refs": ["D010"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 1358.96},
+  {"doc_refs": ["D005", "D002", "D020"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 4649.74},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Rent Expense", "credit_account": "Prepaid Rent", "amount": 2266.34},
+  {"doc_refs": ["D017", "D016"], "debit_account": "Lease Amortization Expense", "credit_account": "Right-of-Use Asset", "amount": 1979.98}
+ ],
+ "balance_sheet": {
+  "assets": {
+   "Cash": -2971.03,
+   "Reserve Cash": 34777.06,
+   "Accounts Receivable": 5392.67,
+   "Prepaid Rent": 6902.57,
+   "Office Supplies": 490.49,
+   "Equipment": 30803.84,
+   "Right-of-Use Asset": 69299.18,
+   "Input Tax Receivable": 289.82
+  },
+  "liabilities": {
+   "Accounts Payable": 5420.81,
+   "Accrued Expenses": 1101.50,
+   "Loans Payable": 21197.43,
+   "Notes Payable": 23553.22,
+   "Sales Tax Payable": 527.80,
+   "Lease Liability": 69467.11
+  },
+  "equity": {
+   "Retained Earnings": -7533.11,
+   "Owner's Equity": 31249.84
+  }
+ }
+}

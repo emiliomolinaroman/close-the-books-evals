@@ -1,0 +1,15 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 38620.1},
+  {"doc_refs": ["D006"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 37595.89},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 17065.62},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 10739.17},
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 26164.51},
+  {"doc_refs": ["D004"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 320.38},
+  {"doc_refs": ["D005"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 481.03}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 48574.98, "Accounts Receivable": 115657.5},
+  "liabilities": {"Accounts Payable": 34213.79},
+  "equity": {"Owner's Equity": 52963.83, "Retained Earnings": 77054.86}
+ }}

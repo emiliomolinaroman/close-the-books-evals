@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["duplicate_reference_conflict"], "inconsistency_notes": ["Invoice INV-0003 (D035) shows a total of 16,717.71 while secondary copy COPY-0002 (D043) for the same reference INV-0003 shows a conflicting total of 14,773.28."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

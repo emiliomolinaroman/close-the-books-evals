@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["exchange_rate_mismatch"], "inconsistency_notes": ["Exchange rate notice RATE-0001 converts GBP 64,333.46 at 1.3177 but states a functional amount of 84,206.85; the rate gives 84,772.20, which is also the booked amount in FXREM-0001."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

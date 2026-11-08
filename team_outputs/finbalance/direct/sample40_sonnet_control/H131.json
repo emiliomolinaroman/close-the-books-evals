@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_total_mismatch", "tax_rate_mismatch"], "inconsistency_notes": ["BILL-0001 (D003): 5.00% of subtotal 3,198.88 is 159.94, but the shown tax amount is 0.01; subtotal plus shown tax does not equal the total 3,358.82."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

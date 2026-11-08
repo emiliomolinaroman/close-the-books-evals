@@ -1,0 +1,1275 @@
+{
+ "note": "ctb audit of every follow-up transcript, plus the model of every assistant message and the Claude Code version; the transcripts are not published",
+ "root": "<root>",
+ "scratch_collisions": {},
+ "transcripts": [
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 45158,
+    "cache_read_input_tokens": 81618,
+    "input_tokens": 6,
+    "output_tokens": 744
+   },
+   "workspace": "r11/directo4_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33349,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 734
+   },
+   "workspace": "r11/directo4_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33348,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 736
+   },
+   "workspace": "r11/directo4_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33345,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 749
+   },
+   "workspace": "r11/directo4_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33332,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 717
+   },
+   "workspace": "r11/directo4_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33332,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 669
+   },
+   "workspace": "r11/directo4_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33348,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 750
+   },
+   "workspace": "r11/directo4_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33340,
+    "cache_read_input_tokens": 93428,
+    "input_tokens": 6,
+    "output_tokens": 656
+   },
+   "workspace": "r11/directo4_7"
+  },
+  {
+   "arm": "direct",
+   "breaches": [
+    "tool not allowed in direct arm: Bash"
+   ],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 1.8,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 1,
+    "Glob": 2,
+    "Read": 26,
+    "Write": 10
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 102253,
+    "cache_read_input_tokens": 384674,
+    "input_tokens": 14,
+    "output_tokens": 15984
+   },
+   "workspace": "r11/ejemplos3_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [
+    "tool not allowed in direct arm: ToolSearch"
+   ],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.6,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 26,
+   "tools": {
+    "Glob": 2,
+    "Read": 23,
+    "ToolSearch": 1
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 58876,
+    "cache_read_input_tokens": 331695,
+    "input_tokens": 14,
+    "output_tokens": 3078
+   },
+   "workspace": "r11/ejemplos3_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.6,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 30,
+   "tools": {
+    "Glob": 2,
+    "Read": 28
+   },
+   "turns": 6,
+   "usage": {
+    "cache_creation_input_tokens": 59591,
+    "cache_read_input_tokens": 286720,
+    "input_tokens": 12,
+    "output_tokens": 3633
+   },
+   "workspace": "r11/ejemplos3_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [
+    "tool not allowed in direct arm: Bash"
+   ],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 2.4,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 1,
+    "Glob": 2,
+    "Read": 26,
+    "Write": 10
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 115733,
+    "cache_read_input_tokens": 393559,
+    "input_tokens": 14,
+    "output_tokens": 21147
+   },
+   "workspace": "r11/ejemplos3_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33430,
+    "cache_read_input_tokens": 93532,
+    "input_tokens": 6,
+    "output_tokens": 884
+   },
+   "workspace": "r11/ejemplos3_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [
+    "tool not allowed in direct arm: Bash"
+   ],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 2.1,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 39,
+   "tools": {
+    "Bash": 1,
+    "Glob": 2,
+    "Read": 26,
+    "Write": 10
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 120232,
+    "cache_read_input_tokens": 387458,
+    "input_tokens": 14,
+    "output_tokens": 18315
+   },
+   "workspace": "r11/ejemplos3_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 0.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 5,
+   "tools": {
+    "Glob": 2,
+    "Read": 3
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 33397,
+    "cache_read_input_tokens": 93532,
+    "input_tokens": 6,
+    "output_tokens": 782
+   },
+   "workspace": "r11/ejemplos3_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [
+    "tool not allowed in direct arm: Bash"
+   ],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "discarded unscored (deviation 1)",
+   "minutes": 3.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 41,
+   "tools": {
+    "Bash": 1,
+    "Edit": 2,
+    "Glob": 2,
+    "Read": 26,
+    "Write": 10
+   },
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 152314,
+    "cache_read_input_tokens": 586965,
+    "input_tokens": 16,
+    "output_tokens": 27940
+   },
+   "workspace": "r11/ejemplos3_7"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.4,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 76965,
+    "cache_read_input_tokens": 168498,
+    "input_tokens": 8,
+    "output_tokens": 13772
+   },
+   "workspace": "r12/directo4_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.3,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 72718,
+    "cache_read_input_tokens": 166554,
+    "input_tokens": 8,
+    "output_tokens": 11541
+   },
+   "workspace": "r12/directo4_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.4,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 95376,
+    "cache_read_input_tokens": 188322,
+    "input_tokens": 8,
+    "output_tokens": 12359
+   },
+   "workspace": "r12/directo4_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.7,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 86796,
+    "cache_read_input_tokens": 176639,
+    "input_tokens": 8,
+    "output_tokens": 15477
+   },
+   "workspace": "r12/directo4_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.4,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 83888,
+    "cache_read_input_tokens": 176102,
+    "input_tokens": 8,
+    "output_tokens": 13073
+   },
+   "workspace": "r12/directo4_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.7,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 95064,
+    "cache_read_input_tokens": 183869,
+    "input_tokens": 8,
+    "output_tokens": 16552
+   },
+   "workspace": "r12/directo4_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.8,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Read": 12,
+    "Write": 10
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 80699,
+    "cache_read_input_tokens": 124233,
+    "input_tokens": 6,
+    "output_tokens": 17333
+   },
+   "workspace": "r12/directo4_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 2.8,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 128213,
+    "cache_read_input_tokens": 206347,
+    "input_tokens": 8,
+    "output_tokens": 27203
+   },
+   "workspace": "r12/directo4_7"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.7,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 24,
+    "Write": 9
+   },
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 101154,
+    "cache_read_input_tokens": 570141,
+    "input_tokens": 16,
+    "output_tokens": 15146
+   },
+   "workspace": "r12/ejemplos3_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.5,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 23,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 97019,
+    "cache_read_input_tokens": 259018,
+    "input_tokens": 10,
+    "output_tokens": 13009
+   },
+   "workspace": "r12/ejemplos3_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.4,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 23,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 117896,
+    "cache_read_input_tokens": 281064,
+    "input_tokens": 10,
+    "output_tokens": 12088
+   },
+   "workspace": "r12/ejemplos3_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 2.1,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 23,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 113075,
+    "cache_read_input_tokens": 269290,
+    "input_tokens": 10,
+    "output_tokens": 18991
+   },
+   "workspace": "r12/ejemplos3_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 2.2,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 34,
+   "tools": {
+    "Read": 24,
+    "Write": 10
+   },
+   "turns": 6,
+   "usage": {
+    "cache_creation_input_tokens": 112594,
+    "cache_read_input_tokens": 369255,
+    "input_tokens": 12,
+    "output_tokens": 18978
+   },
+   "workspace": "r12/ejemplos3_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 2.1,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 23,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 119908,
+    "cache_read_input_tokens": 276904,
+    "input_tokens": 10,
+    "output_tokens": 18528
+   },
+   "workspace": "r12/ejemplos3_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 1.9,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 33,
+   "tools": {
+    "Read": 23,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 103675,
+    "cache_read_input_tokens": 261238,
+    "input_tokens": 10,
+    "output_tokens": 17454
+   },
+   "workspace": "r12/ejemplos3_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "within-Sonnet comparison, reported apart (deviation 2)",
+   "minutes": 2.7,
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 34,
+   "tools": {
+    "Read": 24,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 151024,
+    "cache_read_input_tokens": 253971,
+    "input_tokens": 8,
+    "output_tokens": 27179
+   },
+   "workspace": "r12/ejemplos3_7"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.4,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 17,
+   "tools": {
+    "Read": 12,
+    "Write": 5
+   },
+   "turns": 8,
+   "usage": {
+    "cache_creation_input_tokens": 91983,
+    "cache_read_input_tokens": 513236,
+    "input_tokens": 16,
+    "output_tokens": 17114
+   },
+   "workspace": "r13/directo4_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.7,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 11,
+    "Write": 10
+   },
+   "turns": 5,
+   "usage": {
+    "cache_creation_input_tokens": 80223,
+    "cache_read_input_tokens": 233118,
+    "input_tokens": 10,
+    "output_tokens": 19050
+   },
+   "workspace": "r13/directo4_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.3,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 20,
+   "tools": {
+    "Read": 10,
+    "Write": 10
+   },
+   "turns": 6,
+   "usage": {
+    "cache_creation_input_tokens": 97693,
+    "cache_read_input_tokens": 324291,
+    "input_tokens": 12,
+    "output_tokens": 14737
+   },
+   "workspace": "r13/directo4_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 4.0,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Read": 12,
+    "Write": 10
+   },
+   "turns": 4,
+   "usage": {
+    "cache_creation_input_tokens": 100441,
+    "cache_read_input_tokens": 180478,
+    "input_tokens": 8,
+    "output_tokens": 29134
+   },
+   "workspace": "r13/directo4_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.6,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 12,
+    "Write": 9
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 88416,
+    "cache_read_input_tokens": 425388,
+    "input_tokens": 14,
+    "output_tokens": 17679
+   },
+   "workspace": "r13/directo4_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.6,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 21,
+   "tools": {
+    "Read": 12,
+    "Write": 9
+   },
+   "turns": 7,
+   "usage": {
+    "cache_creation_input_tokens": 94529,
+    "cache_read_input_tokens": 441415,
+    "input_tokens": 14,
+    "output_tokens": 16035
+   },
+   "workspace": "r13/directo4_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 3.1,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 20,
+   "tools": {
+    "Read": 10,
+    "Write": 10
+   },
+   "turns": 6,
+   "usage": {
+    "cache_creation_input_tokens": 85156,
+    "cache_read_input_tokens": 315601,
+    "input_tokens": 12,
+    "output_tokens": 21806
+   },
+   "workspace": "r13/directo4_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 6.3,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 22,
+   "tools": {
+    "Read": 12,
+    "Write": 10
+   },
+   "turns": 3,
+   "usage": {
+    "cache_creation_input_tokens": 247629,
+    "cache_read_input_tokens": 60447,
+    "input_tokens": 6,
+    "output_tokens": 45297
+   },
+   "workspace": "r13/directo4_7"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 3.0,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 31,
+   "tools": {
+    "Read": 21,
+    "Write": 10
+   },
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 106466,
+    "cache_read_input_tokens": 704364,
+    "input_tokens": 20,
+    "output_tokens": 20544
+   },
+   "workspace": "r13/ejemplos3_0"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 3.6,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 28,
+   "tools": {
+    "Read": 18,
+    "Write": 10
+   },
+   "turns": 9,
+   "usage": {
+    "cache_creation_input_tokens": 106685,
+    "cache_read_input_tokens": 626161,
+    "input_tokens": 18,
+    "output_tokens": 22805
+   },
+   "workspace": "r13/ejemplos3_1"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 2.1,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 31,
+   "tools": {
+    "Read": 22,
+    "Write": 9
+   },
+   "turns": 9,
+   "usage": {
+    "cache_creation_input_tokens": 117083,
+    "cache_read_input_tokens": 645659,
+    "input_tokens": 18,
+    "output_tokens": 11767
+   },
+   "workspace": "r13/ejemplos3_2"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 4.0,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 28,
+   "tools": {
+    "Read": 18,
+    "Write": 10
+   },
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 121868,
+    "cache_read_input_tokens": 662146,
+    "input_tokens": 20,
+    "output_tokens": 27880
+   },
+   "workspace": "r13/ejemplos3_3"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 3.5,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 28,
+   "tools": {
+    "Read": 18,
+    "Write": 10
+   },
+   "turns": 9,
+   "usage": {
+    "cache_creation_input_tokens": 117492,
+    "cache_read_input_tokens": 650880,
+    "input_tokens": 18,
+    "output_tokens": 24045
+   },
+   "workspace": "r13/ejemplos3_4"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 4.1,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 26,
+   "tools": {
+    "Read": 18,
+    "Write": 8
+   },
+   "turns": 11,
+   "usage": {
+    "cache_creation_input_tokens": 127560,
+    "cache_read_input_tokens": 940000,
+    "input_tokens": 22,
+    "output_tokens": 26387
+   },
+   "workspace": "r13/ejemplos3_5"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 4.0,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 29,
+   "tools": {
+    "Read": 19,
+    "Write": 10
+   },
+   "turns": 10,
+   "usage": {
+    "cache_creation_input_tokens": 112727,
+    "cache_read_input_tokens": 679486,
+    "input_tokens": 20,
+    "output_tokens": 26481
+   },
+   "workspace": "r13/ejemplos3_6"
+  },
+  {
+   "arm": "direct",
+   "breaches": [],
+   "claude_code_versions": [
+    "2.1.316"
+   ],
+   "launch_use": "pre-registered test",
+   "minutes": 4.8,
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "scratch_paths": [],
+   "tool_calls": 31,
+   "tools": {
+    "Read": 22,
+    "Write": 9
+   },
+   "turns": 11,
+   "usage": {
+    "cache_creation_input_tokens": 156107,
+    "cache_read_input_tokens": 865800,
+    "input_tokens": 22,
+    "output_tokens": 32389
+   },
+   "workspace": "r13/ejemplos3_7"
+  }
+ ]
+}

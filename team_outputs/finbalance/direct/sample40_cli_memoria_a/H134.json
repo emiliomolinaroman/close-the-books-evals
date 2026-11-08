@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["ssp_allocation_mismatch"], "inconsistency_notes": ["POB-0001 (D014) states Allocation Total 331371.88, but transaction price is 329659.65 and allocated obligations sum to 126451.58 + 203208.07 = 329659.65 (difference 1712.23)."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

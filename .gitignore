@@ -1,0 +1,11 @@
+data/
+work/
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Never committed: private material kept outside the repository (keys, transcripts)
+**/Privado - no publicar/

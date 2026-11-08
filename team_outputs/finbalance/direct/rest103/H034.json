@@ -1,0 +1,29 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 2726.49},
+  {"doc_refs": ["D012"], "debit_account": "Store Fixtures", "credit_account": "Cash", "amount": 10854.79},
+  {"doc_refs": ["D012"], "debit_account": "Store Fixtures", "credit_account": "Notes Payable", "amount": 13525.40},
+  {"doc_refs": ["D011"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 38521.34},
+  {"doc_refs": ["D003"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 4064.22},
+  {"doc_refs": ["D003"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 9907.47},
+  {"doc_refs": ["D003"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Tax Payable", "amount": 873.23},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 9085.07},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 10586.65},
+  {"doc_refs": ["D006"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 2065.03},
+  {"doc_refs": ["D014"], "debit_account": "Loans Payable", "credit_account": "Cash", "amount": 10690.21},
+  {"doc_refs": ["D014"], "debit_account": "Interest Expense", "credit_account": "Cash", "amount": 1413.32},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 7099.26},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 789.96},
+  {"doc_refs": ["D015"], "debit_account": "Sales Revenue", "credit_account": "Cash", "amount": 252.08},
+  {"doc_refs": ["D016"], "debit_account": "Sales Revenue", "credit_account": "Cash", "amount": 359.33},
+  {"doc_refs": ["D010"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 622.44},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 112.92},
+  {"doc_refs": ["D018", "D017"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 56.36},
+  {"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 507.92}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 54748.19, "Inventory": 16503.60, "Card Settlement Clearing": 730.23, "Store Fixtures": 33446.30, "Office Supplies": 388.28, "Accumulated Depreciation": -507.92},
+  "liabilities": {"Accounts Payable": 7425.83, "Accrued Expenses": 1310.70, "Loans Payable": 34862.34, "Notes Payable": 13525.40, "Sales Tax Payable": 873.23},
+  "equity": {"Retained Earnings": -3347.40, "Owner's Equity": 50658.58}
+ }
+}

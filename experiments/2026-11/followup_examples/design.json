@@ -1,0 +1,67 @@
+{
+ "seed": 20261106,
+ "rule": "2 consistent + 1 inconsistent drawn from examples.jsonl, order shuffled; record ids replaced by EX1-EX3",
+ "examples": {
+  "EX1": "COV_HEA_M4_0063",
+  "EX2": "MAIN_NEG_01_BANK_CLOSING_MISMATCH",
+  "EX3": "DB_PRO_M4_00012"
+ },
+ "groups": [
+  [
+   "H021",
+   "H106",
+   "H060",
+   "H023",
+   "H003"
+  ],
+  [
+   "H072",
+   "H115",
+   "H090",
+   "H032",
+   "H022"
+  ],
+  [
+   "H140",
+   "H127",
+   "H035",
+   "H026",
+   "H128"
+  ],
+  [
+   "H063",
+   "H119",
+   "H057",
+   "H051",
+   "H030"
+  ],
+  [
+   "H069",
+   "H071",
+   "H091",
+   "H048",
+   "H134"
+  ],
+  [
+   "H131",
+   "H097",
+   "H109",
+   "H139",
+   "H114"
+  ],
+  [
+   "H007",
+   "H095",
+   "H098",
+   "H025",
+   "H031"
+  ],
+  [
+   "H137",
+   "H124",
+   "H024",
+   "H099",
+   "H053"
+  ]
+ ]
+}

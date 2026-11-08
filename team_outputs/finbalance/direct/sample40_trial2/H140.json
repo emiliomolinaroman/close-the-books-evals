@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["exchange_rate_mismatch"], "inconsistency_notes": ["D039 converts GBP 64,333.46 at 1.3177, which equals $84,772.20 (also the booked amount in D040), but D039 states a functional amount of $84,206.85."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

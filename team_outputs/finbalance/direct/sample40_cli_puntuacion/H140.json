@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["exchange_rate_mismatch"], "inconsistency_notes": ["Exchange rate notice D039: GBP 64,333.46 x 1.3177 = $84,772.20, not the stated functional amount $84,206.85 (remeasurement memo D040 uses $84,772.20 as booked)."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

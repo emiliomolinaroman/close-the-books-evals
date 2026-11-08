@@ -1,0 +1,23 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 7964.85},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 9375.93},
+  {"doc_refs": ["D009"], "debit_account": "Prepaid Insurance", "credit_account": "Cash", "amount": 4637.33},
+  {"doc_refs": ["D006"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 2547.88},
+  {"doc_refs": ["D011"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 33527.05},
+  {"doc_refs": ["D012"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 24508.02},
+  {"doc_refs": ["D012"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 44542.33},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 10395.19},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 860.1},
+  {"doc_refs": ["D008"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 643.59},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 5902.91},
+  {"doc_refs": ["D005", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 6996.11},
+  {"doc_refs": ["D010", "D009"], "debit_account": "Insurance Expense", "credit_account": "Prepaid Insurance", "amount": 1545.78},
+  {"doc_refs": ["D013"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 142.75}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 32053.19, "Accounts Receivable": 7498.43, "Prepaid Insurance": 4889.34, "Equipment": 75902.38, "Accumulated Depreciation": -142.75},
+  "liabilities": {"Accounts Payable": 4886.9, "Accrued Expenses": 1533.03, "Security Deposits Payable": 7040.86, "Loans Payable": 38395.37, "Notes Payable": 44542.33},
+  "equity": {"Retained Earnings": -12370.74, "Owner's Equity": 36172.84}
+ }
+}

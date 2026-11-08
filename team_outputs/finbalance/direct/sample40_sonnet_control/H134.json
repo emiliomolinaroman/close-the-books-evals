@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["ssp_allocation_mismatch"], "inconsistency_notes": ["POB-0001 shows Allocation Total $331,371.88, which does not equal the transaction price $329,659.65 or the sum of the allocated amounts (126,451.58 + 203,208.07 = 329,659.65)."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

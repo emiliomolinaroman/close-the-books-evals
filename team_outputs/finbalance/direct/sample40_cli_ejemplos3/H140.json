@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["exchange_rate_mismatch"], "inconsistency_notes": ["Exchange rate notice RATE-0001 converts GBP 64,333.46 at 1.3177 to $84,206.85, but the correct product is $84,772.20 (the booked amount used in the FX remeasurement memo)."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

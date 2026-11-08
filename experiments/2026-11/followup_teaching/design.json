@@ -1,0 +1,94 @@
+{
+ "groups": [
+  [
+   "H021",
+   "H106",
+   "H060",
+   "H023",
+   "H003"
+  ],
+  [
+   "H072",
+   "H115",
+   "H090",
+   "H032",
+   "H022"
+  ],
+  [
+   "H140",
+   "H127",
+   "H035",
+   "H026",
+   "H128"
+  ],
+  [
+   "H063",
+   "H119",
+   "H057",
+   "H051",
+   "H030"
+  ],
+  [
+   "H069",
+   "H071",
+   "H091",
+   "H048",
+   "H134"
+  ],
+  [
+   "H131",
+   "H097",
+   "H109",
+   "H139",
+   "H114"
+  ],
+  [
+   "H007",
+   "H095",
+   "H098",
+   "H025",
+   "H031"
+  ],
+  [
+   "H137",
+   "H124",
+   "H024",
+   "H099",
+   "H053"
+  ]
+ ],
+ "examples": {
+  "EX1": "COV_HEA_M4_0063",
+  "EX2": "MAIN_NEG_01_BANK_CLOSING_MISMATCH",
+  "EX3": "DB_PRO_M4_00012"
+ },
+ "memory_chains": {
+  "a": {
+   "seed": 20261108,
+   "packets": {
+    "TR1": "COV_HEA_M1_0060",
+    "TR2": "COV_WHO_M5_0049",
+    "TR3": "MAIN_NEG_08_BANK_CLOSING_MISMATCH",
+    "TR4": "DB_FIE_Y4_00086",
+    "TR5": "DB_FIE_M2_00050",
+    "TR6": "COV_WHO_Y5_0059",
+    "TR7": "MAIN_NEG_08_INVENTORY_ROLLFORWARD_MISMATCH",
+    "TR8": "DB_MAN_Q1_00286"
+   }
+  },
+  "b": {
+   "seed": 20261109,
+   "packets": {
+    "TR1": "MAIN_NEG_04_TAX_RATE_MISMATCH",
+    "TR2": "DB_MAN_Q3_00292",
+    "TR3": "COV_MAN_M3_0092",
+    "TR4": "COV_HEA_Y2_0071",
+    "TR5": "MAIN_NEG_02_LEASE_SCHEDULE_MISMATCH",
+    "TR6": "COV_PRO_Y4_0088",
+    "TR7": "COV_RET_Q4_0038",
+    "TR8": "DB_FIE_Y1_00077"
+   }
+  }
+ },
+ "rule": "per chain 6 consistent + 2 inconsistent from examples.jsonl minus the three ejemplos3 packets, chain b drawn from what chain a left, order shuffled; record ids replaced by TR1-TR8"
+}

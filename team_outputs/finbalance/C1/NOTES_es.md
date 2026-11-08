@@ -1,0 +1,9 @@
+1. `run.py` (generado por `src/build.py` desde `src/`, un solo fichero, solo stdlib, ~0,2 s por 60 paquetes) parsea el OCR (campos `Clave: valor`, filas `- A x | B y`, líneas cortadas por el OCR, importes `$1,234.56` / `EUR 1.234,56`).
+2. Primero detecta inconsistencias con aritmética sobre importes visibles (23 códigos: extracto, totales/IVA/GST, rollforwards, leasing, activo, impuesto diferido, FX, SSP/obligaciones, transfer, reclasificación, duplicados) y devuelve solo la causa raíz (1 código, como en los ejemplos).
+3. Si cuadra, un manejador por tipo de documento propone asientos, con capas comunes de impuesto (Input Tax / CGST-SGST-IGST / sales tax incluido en coste en `us_sales_tax`) y de divisa (solo con tipo de cambio visible).
+4. Enlaza documentos por referencia (GRN, albarán, orden de trabajo, lote, pago-factura, aviso de cancelación, calendario de ingresos, contrato ASC 606) y cita todos en doc_refs.
+5. Balance = apertura + asientos; P&G a Retained Earnings; amortización acumulada en activo con signo negativo; saldos cero omitidos.
+6. Comprobado: 30/30 ejemplos resueltos (balance y asientos exactos, F1 = 1,0); en público, 15 de 15 paquetes `*_NEG_*` marcados, ninguna falsa alarma, caja = cierre del extracto en todos los limpios.
+7. No sé distinguir `invoice_total_mismatch` de `tax_total_mismatch` cuando base+impuesto != total y las líneas cuadran con la base (elijo tax_total; falla en COV_NEG_00_INVOICE_TOTAL_MISMATCH).
+8. Sin ejemplo resuelto (inferido de las reglas): sales tax de EE. UU. incluido en el coste de las compras, pagos con varias asignaciones (un asiento), cobro anticipado sin aviso de pago, diferimiento de suscripciones/ASC 606, liquidación y remedición FX.
+9. Sin manejar: casos raros que no aparecen en los datos visibles (abono parcial de aseguradora, notas de crédito no comerciales, impuestos en recibos de gastos con divisa).

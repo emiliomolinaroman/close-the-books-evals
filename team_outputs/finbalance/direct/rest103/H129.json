@@ -1,0 +1,3 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_total_mismatch"], "inconsistency_notes": ["Vendor invoice D003 (BILL-0001): subtotal 2909.37 + sales tax 145.47 (5% of 2909.37) = 3054.84, but the stated total is 4530.27; the payment advice D006 and bank statement D009 show 3054.84 paid."],
+"entries": [],
+"balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

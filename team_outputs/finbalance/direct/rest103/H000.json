@@ -1,0 +1,11 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 2226.47},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 6990.35},
+  {"doc_refs": ["D004", "D006"], "debit_account": "Travel Expense", "credit_account": "Cash", "amount": 142.77}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 29701.72, "Accounts Receivable": 12292.61},
+  "liabilities": {"Accounts Payable": 3466.25},
+  "equity": {"Owner's Equity": 33906.97, "Retained Earnings": 4621.11}
+ }}

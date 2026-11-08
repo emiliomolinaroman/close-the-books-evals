@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["jurisdiction_tax_mismatch"], "inconsistency_notes": ["Tax regime notice TAX-0001 (D015) states a jurisdiction tax amount of 2051.52 at 6.25% for the Texas purchase to be capitalized into inventory, but the linked supplier invoice TAXSUP-0001 (D016) shows 6.25% on a subtotal of 15701.67, which is 981.35. The jurisdiction support does not agree with the invoice tax."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

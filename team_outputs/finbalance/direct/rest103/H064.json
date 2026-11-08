@@ -1,0 +1,28 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D012"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 1320.84},
+  {"doc_refs": ["D015"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 9748.39},
+  {"doc_refs": ["D013"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 6432.00},
+  {"doc_refs": ["D003"], "debit_account": "Office Supplies Expense", "credit_account": "Accounts Payable", "amount": 6161.16},
+  {"doc_refs": ["D011"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 3670.87},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 1665.75},
+  {"doc_refs": ["D014"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 3313.14},
+  {"doc_refs": ["D017"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 4677.34},
+  {"doc_refs": ["D016"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 4135.44},
+  {"doc_refs": ["D008", "D018"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 18179.77},
+  {"doc_refs": ["D008"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 28025.02},
+  {"doc_refs": ["D007", "D018"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 66134.29},
+  {"doc_refs": ["D005", "D002", "D018"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 1365.09},
+  {"doc_refs": ["D004", "D002", "D018"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 300.66},
+  {"doc_refs": ["D010", "D018"], "debit_account": "Loans Payable", "credit_account": "Cash", "amount": 11342.16},
+  {"doc_refs": ["D010", "D018"], "debit_account": "Interest Expense", "credit_account": "Cash", "amount": 1006.29},
+  {"doc_refs": ["D006", "D018"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 20806.97},
+  {"doc_refs": ["D006", "D018"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 2635.36},
+  {"doc_refs": ["D009"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 588.31}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 69950.43, "Accounts Receivable": 21051.44, "Prepaid Insurance": 3569.78, "Office Supplies": 1489.22, "Equipment": 74443.84, "Accumulated Depreciation": -588.31},
+  "liabilities": {"Accounts Payable": 25757.70, "Accrued Expenses": 2488.69, "Loans Payable": 64978.98, "Notes Payable": 28025.02},
+  "equity": {"Retained Earnings": -18851.46, "Owner's Equity": 67517.47}
+ }
+}

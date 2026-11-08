@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it, and cite FinBalance and APEX-Accounting."
+title: "Close the Books evals: writing code vs answering directly on accountant-written close benchmarks"
+type: software
+version: 1.3.0
+date-released: 2026-11-08
+license: MIT
+authors:
+  - given-names: Emilio
+    family-names: Molina Román
+    affiliation: Ercel
+repository-code: "https://github.com/emiliomolinaroman/close-the-books-evals"
+keywords:
+  - evaluation
+  - LLM agents
+  - accounting
+  - Claude
+references:
+  - type: article
+    title: "FinBalance"
+    identifiers:
+      - type: other
+        value: "arXiv:2606.15949"
+  - type: dataset
+    title: "APEX-Accounting"
+    authors:
+      - name: Mercor
+    url: "https://huggingface.co/datasets/mercor/apex-accounting-harbor"

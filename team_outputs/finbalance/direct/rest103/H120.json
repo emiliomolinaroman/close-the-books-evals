@@ -1,0 +1,4 @@
+{"has_inconsistency": true, "inconsistency_codes": ["tax_total_mismatch"], "inconsistency_notes": ["D003 BILL-0001: subtotal 4839.02 plus VAT 604.88 (12.50%) equals 5443.90, but the document total shows 7443.96; payment D006 and bank D008 show 5443.90."],
+ "entries": [],
+ "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}
+}

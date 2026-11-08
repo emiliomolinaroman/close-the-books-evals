@@ -1,0 +1,19 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 8414.52},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 21734.3},
+  {"doc_refs": ["D005"], "debit_account": "Accounts Receivable", "credit_account": "Sales Tax Payable", "amount": 1793.08},
+  {"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 12387.56},
+  {"doc_refs": ["D007", "D003", "D014"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 8414.52},
+  {"doc_refs": ["D011"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 2351.93},
+  {"doc_refs": ["D010", "D014"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 38675.13},
+  {"doc_refs": ["D010", "D014"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 3501.25},
+  {"doc_refs": ["D006", "D005", "D014"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 23527.38},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 159.92},
+  {"doc_refs": ["D013", "D012"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 353.12}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 53536.28, "Accounts Receivable": 6361.84, "Inventory": 51110.19, "Office Supplies": 3253.99},
+  "liabilities": {"Accounts Payable": 19319.99, "Accrued Expenses": 4222.83, "Sales Tax Payable": 1793.08},
+  "equity": {"Owner's Equity": 102580.58, "Retained Earnings": -13654.18}
+ }}

@@ -1,0 +1,82 @@
+[
+ {
+  "step": "TR1",
+  "correct": true,
+  "tp_strict": 3,
+  "n_expected": 3,
+  "n_predicted": 3,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 243
+ },
+ {
+  "step": "TR2",
+  "correct": false,
+  "tp_strict": 14,
+  "n_expected": 21,
+  "n_predicted": 20,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 557
+ },
+ {
+  "step": "TR3",
+  "correct": true,
+  "tp_strict": 0,
+  "n_expected": 0,
+  "n_predicted": 0,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 506
+ },
+ {
+  "step": "TR4",
+  "correct": true,
+  "tp_strict": 26,
+  "n_expected": 26,
+  "n_predicted": 26,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 673
+ },
+ {
+  "step": "TR5",
+  "correct": true,
+  "tp_strict": 7,
+  "n_expected": 7,
+  "n_predicted": 7,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 618
+ },
+ {
+  "step": "TR6",
+  "correct": true,
+  "tp_strict": 31,
+  "n_expected": 32,
+  "n_predicted": 32,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 713
+ },
+ {
+  "step": "TR7",
+  "correct": true,
+  "tp_strict": 0,
+  "n_expected": 0,
+  "n_predicted": 0,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 624
+ },
+ {
+  "step": "TR8",
+  "correct": true,
+  "tp_strict": 2,
+  "n_expected": 5,
+  "n_predicted": 5,
+  "answer_clean": true,
+  "update_clean": true,
+  "notes_words": 650
+ }
+]

@@ -1,0 +1,38 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 11583.90},
+  {"doc_refs": ["D002"], "debit_account": "Input Tax Receivable", "credit_account": "Accounts Payable", "amount": 810.87},
+  {"doc_refs": ["D011", "D025"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 141287.21},
+  {"doc_refs": ["D003", "D025"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 13201.39},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 39545.79},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Tax Payable", "amount": 5274.72},
+  {"doc_refs": ["D003"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 32697.43},
+  {"doc_refs": ["D012", "D025"], "debit_account": "Store Fixtures", "credit_account": "Cash", "amount": 44216.87},
+  {"doc_refs": ["D012"], "debit_account": "Store Fixtures", "credit_account": "Notes Payable", "amount": 69971.03},
+  {"doc_refs": ["D021", "D025"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 4167.24},
+  {"doc_refs": ["D021", "D022"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 20789.67},
+  {"doc_refs": ["D021", "D022"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Tax Payable", "amount": 1746.98},
+  {"doc_refs": ["D021"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 13073.96},
+  {"doc_refs": ["D018", "D025"], "debit_account": "Cash", "credit_account": "Sales Revenue", "amount": 13461.70},
+  {"doc_refs": ["D018", "D019"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Revenue", "amount": 35509.36},
+  {"doc_refs": ["D018", "D019"], "debit_account": "Card Settlement Clearing", "credit_account": "Sales Tax Payable", "amount": 3427.97},
+  {"doc_refs": ["D018"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 32023.23},
+  {"doc_refs": ["D015", "D025"], "debit_account": "Sales Revenue", "credit_account": "Cash", "amount": 523.78},
+  {"doc_refs": ["D014", "D025"], "debit_account": "Loans Payable", "credit_account": "Cash", "amount": 9106.78},
+  {"doc_refs": ["D014", "D025"], "debit_account": "Interest Expense", "credit_account": "Cash", "amount": 652.03},
+  {"doc_refs": ["D006", "D002", "D024"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 11775.63},
+  {"doc_refs": ["D010"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 1189.56},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 21140.15},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1868.93},
+  {"doc_refs": ["D020", "D025"], "debit_account": "Sales Revenue", "credit_account": "Cash", "amount": 198.06},
+  {"doc_refs": ["D005", "D004", "D025"], "debit_account": "Cash", "credit_account": "Card Settlement Clearing", "amount": 44013.74},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 140.64},
+  {"doc_refs": ["D013", "D012"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 14273.49},
+  {"doc_refs": ["D017", "D016"], "debit_account": "Inventory Shrinkage Expense", "credit_account": "Inventory", "amount": 126.60}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 154400.17, "Inventory": -33677.69, "Card Settlement Clearing": 63455.93, "Store Fixtures": 130610.03, "Office Supplies": 760.07, "Input Tax Receivable": 810.87, "Accumulated Depreciation": -14273.49},
+  "liabilities": {"Accounts Payable": 7880.11, "Unearned Revenue": 3400.73, "Accrued Expenses": 2666.38, "Loans Payable": 135725.15, "Notes Payable": 69971.03, "Sales Tax Payable": 10449.67},
+  "equity": {"Retained Earnings": 23858.96, "Owner's Equity": 48133.86}
+ }
+}

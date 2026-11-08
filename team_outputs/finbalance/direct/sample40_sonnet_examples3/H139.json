@@ -1,0 +1,1 @@
+{"has_inconsistency":true,"inconsistency_codes":["lease_remeasurement_mismatch"],"inconsistency_notes":["Lease modification D025: liability moves from 96,863.13 to 111,759.57 (delta 14,896.44) but notice states delta 12,603.78, which does not match the ROU adjustment of 14,896.44."],"entries":[],"balance_sheet":{"assets":{},"liabilities":{},"equity":{}}}

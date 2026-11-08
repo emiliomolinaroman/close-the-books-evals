@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["deferred_tax_rollforward_mismatch"], "inconsistency_notes": ["DTAX-0001 (D019): opening DTL 0.00 + movement 21.52 does not equal stated ending DTL 2,085.75."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

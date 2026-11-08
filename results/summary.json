@@ -1,0 +1,2453 @@
+{
+ "apex": {
+  "agreement": {
+   "agree": 177,
+   "kappa": 0.9778331257783313,
+   "pairs": 178,
+   "rate": 0.9943820224719101
+  },
+  "judge1": {
+   "A": {
+    "passed": 75,
+    "rate": 0.8426966292134831,
+    "se_clustered": 0.061098952697589866
+   },
+   "B": {
+    "passed": 77,
+    "rate": 0.8651685393258427,
+    "se_clustered": 0.059534984339756146
+   },
+   "criteria": 89,
+   "criteria_a_only": 5,
+   "criteria_b_only": 7,
+   "diff": 0.02247191011235955,
+   "diff_se_clustered": 0.06442022033973258,
+   "tasks": 10
+  },
+  "judge2": {
+   "A": {
+    "passed": 75,
+    "rate": 0.8426966292134831,
+    "se_clustered": 0.061098952697589866
+   },
+   "B": {
+    "passed": 76,
+    "rate": 0.8539325842696629,
+    "se_clustered": 0.06576849277581526
+   },
+   "criteria": 89,
+   "criteria_a_only": 6,
+   "criteria_b_only": 7,
+   "diff": 0.011235955056179775,
+   "diff_se_clustered": 0.0700776165959136,
+   "tasks": 10
+  },
+  "per_task": {
+   "T13": {
+    "A": {
+     "criteria": 12,
+     "passed": 12
+    },
+    "B": {
+     "criteria": 12,
+     "passed": 12
+    }
+   },
+   "T14": {
+    "A": {
+     "criteria": 24,
+     "passed": 21
+    },
+    "B": {
+     "criteria": 24,
+     "passed": 18
+    }
+   },
+   "T17": {
+    "A": {
+     "criteria": 6,
+     "passed": 4
+    },
+    "B": {
+     "criteria": 6,
+     "passed": 6
+    }
+   },
+   "T23": {
+    "A": {
+     "criteria": 16,
+     "passed": 16
+    },
+    "B": {
+     "criteria": 16,
+     "passed": 16
+    }
+   },
+   "T26": {
+    "A": {
+     "criteria": 3,
+     "passed": 0
+    },
+    "B": {
+     "criteria": 3,
+     "passed": 0
+    }
+   },
+   "T30": {
+    "A": {
+     "criteria": 5,
+     "passed": 5
+    },
+    "B": {
+     "criteria": 5,
+     "passed": 3
+    }
+   },
+   "T4": {
+    "A": {
+     "criteria": 2,
+     "passed": 1
+    },
+    "B": {
+     "criteria": 2,
+     "passed": 1
+    }
+   },
+   "T5": {
+    "A": {
+     "criteria": 4,
+     "passed": 2
+    },
+    "B": {
+     "criteria": 4,
+     "passed": 4
+    }
+   },
+   "T6": {
+    "A": {
+     "criteria": 12,
+     "passed": 12
+    },
+    "B": {
+     "criteria": 12,
+     "passed": 12
+    }
+   },
+   "T7": {
+    "A": {
+     "criteria": 5,
+     "passed": 2
+    },
+    "B": {
+     "criteria": 5,
+     "passed": 5
+    }
+   }
+  }
+ },
+ "effort": {
+  "apex_judge": {
+   "cache_creation_input_tokens_per_run": 47416.75,
+   "cache_read_input_tokens_per_run": 454423.25,
+   "input_tokens_per_run": 15.5,
+   "output_tokens_per_run": 5377.5,
+   "runs": 4,
+   "tool_calls_per_run": 8.0
+  },
+  "apex_team": {
+   "cache_creation_input_tokens_per_run": 185830.5,
+   "cache_read_input_tokens_per_run": 4217276.25,
+   "input_tokens_per_run": 74.5,
+   "output_tokens_per_run": 44315.0,
+   "runs": 4,
+   "tool_calls_per_run": 37.25
+  },
+  "direct_answer": {
+   "cache_creation_input_tokens_per_run": 94254.83870967742,
+   "cache_read_input_tokens_per_run": 560547.3870967742,
+   "cache_read_tokens_per_packet": 94956.11475409837,
+   "input_tokens_per_run": 15.67741935483871,
+   "output_tokens_per_packet": 3618.8688524590166,
+   "output_tokens_per_run": 21363.0,
+   "packets_answered": 183,
+   "runs": 31,
+   "tool_calls_per_run": 14.838709677419354
+  },
+  "finbalance_team": {
+   "cache_creation_input_tokens_per_run": 199031.875,
+   "cache_read_input_tokens_per_run": 7021118.125,
+   "input_tokens_per_run": 97.5,
+   "output_tokens_per_run": 72428.25,
+   "runs": 8,
+   "tool_calls_per_run": 48.75
+  }
+ },
+ "finbalance": {
+  "arm_contrasts": {
+   "hidden_a:scaffold-v6-vs-no-prep": {
+    "a_better": 17,
+    "b_better": 5,
+    "ci95_high": -0.014238894661760426,
+    "ci95_low": -0.08016669974383397,
+    "corr": 0.8314899765359256,
+    "diff": -0.0472027972027972,
+    "mean_a": 0.8444055944055944,
+    "mean_b": 0.7972027972027972,
+    "n": 143,
+    "p_two_sided": 0.005007069992,
+    "pooled_teams": {
+     "ci95_high": 0.03715023986731508,
+     "ci95_low": -0.13155583427290946,
+     "df": 5,
+     "diff": -0.047202797202797186,
+     "pooled_sd": 0.03788506313449381,
+     "se": 0.03280942709844895
+    },
+    "se": 0.01681862666918976,
+    "team_level_se": 0.05633423087830757,
+    "teams": [
+     4,
+     2
+    ]
+   },
+   "hidden_a:scaffold-v7-vs-no-prep": {
+    "a_better": 12,
+    "b_better": 6,
+    "ci95_high": 0.008063038842991824,
+    "ci95_low": -0.06051059129054427,
+    "corr": 0.8283505639592261,
+    "diff": -0.026223776223776224,
+    "mean_a": 0.8444055944055944,
+    "mean_b": 0.8181818181818182,
+    "n": 143,
+    "p_two_sided": 0.133860609817,
+    "pooled_teams": {
+     "ci95_high": 0.05812926084633602,
+     "ci95_low": -0.11057681329388852,
+     "df": 5,
+     "diff": -0.02622377622377625,
+     "pooled_sd": 0.03788506313449381,
+     "se": 0.03280942709844895
+    },
+    "se": 0.017493594442152035,
+    "team_level_se": 0.015473097957286444,
+    "teams": [
+     4,
+     2
+    ]
+   },
+   "hidden_b:scaffold-v6-vs-no-prep": {
+    "a_better": 18,
+    "b_better": 6,
+    "ci95_high": -0.013118042337636256,
+    "ci95_low": -0.08021529099569707,
+    "corr": 0.7910582324000981,
+    "diff": -0.04666666666666667,
+    "mean_a": 0.8766666666666667,
+    "mean_b": 0.83,
+    "n": 150,
+    "p_two_sided": 0.006404082228,
+    "pooled_teams": {
+     "ci95_high": 0.027699999051247606,
+     "ci95_low": -0.12103333238458087,
+     "df": 5,
+     "diff": -0.046666666666666634,
+     "pooled_sd": 0.03339993346633426,
+     "se": 0.028925190866555515
+    },
+    "se": 0.017116959593981157,
+    "team_level_se": 0.03944053188733078,
+    "teams": [
+     4,
+     2
+    ]
+   },
+   "hidden_b:scaffold-v7-vs-no-prep": {
+    "a_better": 9,
+    "b_better": 11,
+    "ci95_high": 0.027056702954679154,
+    "ci95_low": -0.03372336962134582,
+    "corr": 0.8113243131294582,
+    "diff": -0.0033333333333333335,
+    "mean_a": 0.8766666666666667,
+    "mean_b": 0.8733333333333333,
+    "n": 150,
+    "p_two_sided": 0.82978385373,
+    "pooled_teams": {
+     "ci95_high": 0.07103333238458083,
+     "ci95_low": -0.07769999905124765,
+     "df": 5,
+     "diff": -0.0033333333333334103,
+     "pooled_sd": 0.03339993346633426,
+     "se": 0.028925190866555515
+    },
+    "se": 0.01550540547057253,
+    "team_level_se": 0.0197202659436654,
+    "teams": [
+     4,
+     2
+    ]
+   }
+  },
+  "arms": {
+   "hidden_a": {
+    "no-prep": {
+     "accuracy": 0.8444055944055944,
+     "n": 143,
+     "sd_across_teams": 0.013237548591609003,
+     "se": 0.028376161885583884,
+     "team_accuracies": [
+      0.8461538461538461,
+      0.8531468531468531,
+      0.8531468531468531,
+      0.8251748251748252
+     ],
+     "teams": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ]
+    },
+    "scaffold-v6": {
+     "accuracy": 0.7972027972027972,
+     "n": 143,
+     "sd_across_teams": 0.07911684265024307,
+     "se": 0.02945621707653277,
+     "team_accuracies": [
+      0.8531468531468531,
+      0.7412587412587412
+     ],
+     "teams": [
+      "B1",
+      "B2"
+     ]
+    },
+    "scaffold-v7": {
+     "accuracy": 0.8181818181818182,
+     "n": 143,
+     "sd_across_teams": 0.019779210662560807,
+     "se": 0.030807708541548084,
+     "team_accuracies": [
+      0.8041958041958042,
+      0.8321678321678322
+     ],
+     "teams": [
+      "C1",
+      "C2"
+     ]
+    }
+   },
+   "hidden_b": {
+    "no-prep": {
+     "accuracy": 0.8766666666666667,
+     "n": 150,
+     "sd_across_teams": 0.029059326290271137,
+     "se": 0.024887517273380472,
+     "team_accuracies": [
+      0.8933333333333333,
+      0.8866666666666667,
+      0.8933333333333333,
+      0.8333333333333334
+     ],
+     "teams": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+     ]
+    },
+    "scaffold-v6": {
+     "accuracy": 0.83,
+     "n": 150,
+     "sd_across_teams": 0.0518544972870135,
+     "se": 0.027510421047654637,
+     "team_accuracies": [
+      0.8666666666666667,
+      0.7933333333333333
+     ],
+     "teams": [
+      "B1",
+      "B2"
+     ]
+    },
+    "scaffold-v7": {
+     "accuracy": 0.8733333333333333,
+     "n": 150,
+     "sd_across_teams": 0.01885618083164131,
+     "se": 0.025552799514195642,
+     "team_accuracies": [
+      0.86,
+      0.8866666666666667
+     ],
+     "teams": [
+      "C1",
+      "C2"
+     ]
+    }
+   }
+  },
+  "bank_statement_convention": {
+   "files": [
+    "coverage/records.jsonl",
+    "fresh_seed_20260712/coverage/records.jsonl",
+    "fresh_seed_20260712/main/records.jsonl",
+    "main/records.jsonl"
+   ],
+   "key_entries": 18704,
+   "key_entries_citing_bank_statement": 0,
+   "records": 1706,
+   "records_with_bank_statement": 1706
+  },
+  "direct": {
+   "code_teams": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+   ],
+   "examples_followup": {
+    "arms": {
+     "sample40_examples3": {
+      "accuracy": 0.725,
+      "citations": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.7203,
+       "entry_f1_tolerant": 0.7401,
+       "exact": 327,
+       "extra_types": {
+        "bank_statement": 5,
+        "direct_labor_record": 2,
+        "exchange_rate_notice": 3,
+        "overhead_accrual_memo": 1,
+        "retainer_agreement_memo": 1
+       },
+       "lacking_types": {
+        "customer_invoice": 9,
+        "delivery_note": 12,
+        "finished_goods_transfer_note": 8,
+        "goods_receipt_note": 4,
+        "implementation_acceptance_memo": 3,
+        "opening_trial_balance": 3,
+        "pos_batch_report": 7,
+        "production_batch_sheet": 8,
+        "renewal_notice": 3,
+        "retainer_agreement_memo": 1,
+        "ssp_rate_card": 1,
+        "subscription_order_form": 7,
+        "supplier_invoice": 6,
+        "work_order": 15
+       },
+       "missing": 0,
+       "over": 9,
+       "partial": 8,
+       "under": 82
+      },
+      "entries_missing_a_key_document": 90,
+      "entry_f1_strict": 0.7202643171806168,
+      "entry_f1_tolerant": 0.7400881057268722,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.875,
+      "inconsistency_recall": 1.0,
+      "missing": 0,
+      "unparseable": []
+     },
+     "sample40_trial1": {
+      "accuracy": 0.7,
+      "citations": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.5825,
+       "entry_f1_tolerant": 0.6955,
+       "exact": 263,
+       "extra_types": {
+        "bank_statement": 50,
+        "cancellation_note": 1,
+        "direct_labor_record": 1,
+        "equipment_invoice": 1,
+        "exchange_rate_notice": 2,
+        "overhead_accrual_memo": 1,
+        "vendor_statement": 2
+       },
+       "lacking_types": {
+        "customer_invoice": 20,
+        "delivery_note": 4,
+        "finished_goods_transfer_note": 8,
+        "goods_receipt_note": 2,
+        "implementation_acceptance_memo": 3,
+        "lease_agreement": 1,
+        "opening_trial_balance": 3,
+        "patient_invoice": 2,
+        "pos_batch_report": 5,
+        "production_batch_sheet": 10,
+        "renewal_notice": 1,
+        "sale_proceeds_advice": 1,
+        "ssp_rate_card": 1,
+        "subscription_order_form": 3,
+        "supplier_invoice": 11,
+        "vendor_invoice": 3,
+        "work_order": 6
+       },
+       "missing": 0,
+       "over": 51,
+       "partial": 24,
+       "under": 81
+      },
+      "entries_missing_a_key_document": 105,
+      "entry_f1_strict": 0.5825027685492802,
+      "entry_f1_tolerant": 0.6954595791805094,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.875,
+      "inconsistency_recall": 1.0,
+      "missing": 0,
+      "unparseable": []
+     },
+     "sample40_trial2": {
+      "accuracy": 0.725,
+      "citations": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.5607,
+       "entry_f1_tolerant": 0.6689,
+       "exact": 254,
+       "extra_types": {
+        "bank_statement": 49,
+        "direct_labor_record": 1,
+        "equipment_invoice": 1,
+        "exchange_rate_notice": 2,
+        "overhead_accrual_memo": 1,
+        "performance_obligation_schedule": 2,
+        "retainer_agreement_memo": 1
+       },
+       "lacking_types": {
+        "customer_invoice": 18,
+        "delivery_note": 6,
+        "finished_goods_transfer_note": 8,
+        "goods_receipt_note": 2,
+        "implementation_acceptance_memo": 3,
+        "lease_agreement": 3,
+        "opening_trial_balance": 3,
+        "pos_batch_report": 5,
+        "production_batch_sheet": 8,
+        "renewal_notice": 2,
+        "retainer_agreement_memo": 1,
+        "sale_proceeds_advice": 1,
+        "ssp_rate_card": 1,
+        "subscription_order_form": 5,
+        "supplier_invoice": 11,
+        "vendor_invoice": 2,
+        "work_order": 6
+       },
+       "missing": 0,
+       "over": 49,
+       "partial": 35,
+       "under": 80
+      },
+      "entries_missing_a_key_document": 115,
+      "entry_f1_strict": 0.5607064017660044,
+      "entry_f1_tolerant": 0.6688741721854304,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.75,
+      "inconsistency_recall": 0.875,
+      "missing": 0,
+      "unparseable": []
+     },
+     "sample40_trial3": {
+      "accuracy": 0.75,
+      "citations": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.4961,
+       "entry_f1_tolerant": 0.6836,
+       "exact": 225,
+       "extra_types": {
+        "bank_statement": 86,
+        "equipment_invoice": 1,
+        "exchange_rate_notice": 2,
+        "subscription_order_form": 1,
+        "vendor_statement": 2
+       },
+       "lacking_types": {
+        "customer_invoice": 18,
+        "delivery_note": 6,
+        "finished_goods_transfer_note": 8,
+        "goods_receipt_note": 4,
+        "implementation_acceptance_memo": 3,
+        "opening_trial_balance": 3,
+        "pos_batch_report": 5,
+        "production_batch_sheet": 11,
+        "renewal_notice": 2,
+        "retainer_agreement_memo": 1,
+        "sale_proceeds_advice": 1,
+        "ssp_rate_card": 4,
+        "subscription_order_form": 4,
+        "supplier_invoice": 11,
+        "vendor_invoice": 3,
+        "work_order": 3
+       },
+       "missing": 0,
+       "over": 85,
+       "partial": 32,
+       "under": 80
+      },
+      "entries_missing_a_key_document": 112,
+      "entry_f1_strict": 0.4961411245865491,
+      "entry_f1_tolerant": 0.6835722160970231,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.75,
+      "inconsistency_recall": 0.875,
+      "missing": 0,
+      "unparseable": []
+     }
+    },
+    "bootstrap": {
+     "reps": 10000,
+     "seed": 7,
+     "unit": "clean packet"
+    },
+    "code_teams": {
+     "accuracy": 0.828125,
+     "entries_missing_a_key_document": {
+      "A1": 55,
+      "A2": 36,
+      "A3": 16,
+      "A4": 15,
+      "B1": 42,
+      "B2": 24,
+      "C1": 30,
+      "C2": 15
+     },
+     "entry_f1_strict": 0.8987956539597172,
+     "entry_f1_tolerant": 0.9059084746003481,
+     "teams": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+     ]
+    },
+    "control": "sample40_trial3",
+    "earlier_trials": [
+     "sample40_trial1",
+     "sample40_trial2"
+    ],
+    "entry_f1_strict_diff": {
+     "ci95": [
+      0.1651142786099743,
+      0.28226133220583827
+     ],
+     "diff": 0.2241231925940677
+    },
+    "entry_f1_tolerant_diff": {
+     "ci95": [
+      0.007843356129078827,
+      0.09978357704771612
+     ],
+     "diff": 0.0565158896298491
+    },
+    "examples": "sample40_examples3",
+    "fewer_entries_missing_a_key_document": {
+     "ci95": [
+      1.0,
+      43.0
+     ],
+     "diff": 22.0
+    },
+    "fully_right_paired": {
+     "a_better": 2,
+     "b_better": 1,
+     "ci95_high": 0.060591231846211534,
+     "ci95_low": -0.11059123184621153,
+     "corr": 0.808135229794045,
+     "diff": -0.025,
+     "mean_a": 0.75,
+     "mean_b": 0.725,
+     "n": 40,
+     "p_two_sided": 0.566998167215,
+     "se": 0.04366979828269512
+    },
+    "gap_closed": {
+     "ci95": [
+      0.41704558732206676,
+      0.6855652474542434
+     ],
+     "value": 0.5566141102224063
+    },
+    "n": 40,
+    "n_clean": 32,
+    "sonnet_run": {
+     "arms": {
+      "sample40_sonnet_control": {
+       "accuracy": 0.675,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.3863,
+        "entry_f1_tolerant": 0.7196,
+        "exact": 175,
+        "extra_types": {
+         "bank_statement": 138,
+         "cancellation_note": 2,
+         "direct_labor_record": 3,
+         "equipment_invoice": 1,
+         "exchange_rate_notice": 5,
+         "overhead_accrual_memo": 1,
+         "performance_obligation_schedule": 1,
+         "revenue_recognition_schedule": 2,
+         "secondary_copy": 4,
+         "vendor_statement": 6
+        },
+        "lacking_types": {
+         "customer_invoice": 14,
+         "delivery_note": 6,
+         "finished_goods_transfer_note": 6,
+         "goods_receipt_note": 2,
+         "implementation_acceptance_memo": 3,
+         "lease_agreement": 3,
+         "opening_trial_balance": 3,
+         "pos_batch_report": 5,
+         "production_batch_sheet": 3,
+         "renewal_notice": 2,
+         "retainer_agreement_memo": 1,
+         "sale_proceeds_advice": 2,
+         "subscription_order_form": 5,
+         "supplier_invoice": 6,
+         "work_order": 7
+        },
+        "missing": 0,
+        "over": 151,
+        "partial": 28,
+        "under": 63
+       },
+       "entries_missing_a_key_document": 91,
+       "entry_f1_strict": 0.38631346578366443,
+       "entry_f1_tolerant": 0.7196467991169978,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.75,
+       "inconsistency_recall": 0.875,
+       "missing": 0,
+       "unparseable": []
+      },
+      "sample40_sonnet_examples3": {
+       "accuracy": 0.7,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.7166,
+        "entry_f1_tolerant": 0.763,
+        "exact": 325,
+        "extra_types": {
+         "bank_statement": 9,
+         "cancellation_note": 2,
+         "direct_labor_record": 2,
+         "exchange_rate_notice": 5,
+         "overhead_accrual_memo": 1,
+         "performance_obligation_schedule": 2,
+         "retainer_agreement_memo": 1,
+         "vendor_statement": 3
+        },
+        "lacking_types": {
+         "customer_invoice": 8,
+         "delivery_note": 10,
+         "finished_goods_transfer_note": 10,
+         "goods_receipt_note": 4,
+         "implementation_acceptance_memo": 3,
+         "opening_trial_balance": 3,
+         "pos_batch_report": 5,
+         "production_batch_sheet": 6,
+         "renewal_notice": 3,
+         "retainer_agreement_memo": 1,
+         "ssp_rate_card": 1,
+         "subscription_order_form": 6,
+         "supplier_invoice": 6,
+         "work_order": 7
+        },
+        "missing": 0,
+        "over": 21,
+        "partial": 4,
+        "under": 68
+       },
+       "entries_missing_a_key_document": 72,
+       "entry_f1_strict": 0.7166482910694597,
+       "entry_f1_tolerant": 0.762954796030871,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.75,
+       "inconsistency_recall": 0.875,
+       "missing": 0,
+       "unparseable": []
+      }
+     },
+     "control": "sample40_sonnet_control",
+     "entry_f1_strict_diff": {
+      "ci95": [
+       0.2707699863118188,
+       0.38927738927738925
+      ],
+      "diff": 0.3303348252857953
+     },
+     "entry_f1_tolerant_diff": {
+      "ci95": [
+       0.005894262532158079,
+       0.08420762553392513
+      ],
+      "diff": 0.043307996913873215
+     },
+     "examples": "sample40_sonnet_examples3",
+     "fully_right_paired": {
+      "a_better": 0,
+      "b_better": 1,
+      "ci95_high": 0.07399909961350135,
+      "ci95_low": -0.023999099613501343,
+      "corr": 0.9434563530497264,
+      "diff": 0.025,
+      "mean_a": 0.675,
+      "mean_b": 0.7,
+      "n": 40,
+      "p_two_sided": 0.317310507863,
+      "se": 0.024999999999999998
+     },
+     "model": "Claude Sonnet 5.5"
+    },
+    "tokens_per_packet": {
+     "sample40_examples3": {
+      "agents": 8,
+      "cache_creation_input_tokens": 24149.7,
+      "cache_read_input_tokens": 144362.4,
+      "input_tokens": 3.95,
+      "output_tokens": 4807.45
+     },
+     "sample40_trial3": {
+      "agents": 8,
+      "cache_creation_input_tokens": 22151.75,
+      "cache_read_input_tokens": 62349.35,
+      "input_tokens": 2.3,
+      "output_tokens": 4521.3
+     }
+    },
+    "vs_earlier_trials": {
+     "gap_closed": 0.45435143620286905,
+     "trials_f1_mean": 0.5716045851576423
+    }
+   },
+   "full": {
+    "bootstrap_ci95": [
+     0.005244755244755245,
+     0.11363636363636363
+    ],
+    "breakdown": {
+     "clean": {
+      "code": 0.821875,
+      "direct": 0.75,
+      "n": 120
+     },
+     "contradiction": {
+      "code": 0.8478260869565217,
+      "direct": 0.8695652173913043,
+      "n": 23
+     },
+     "level 1": {
+      "code": 0.96,
+      "direct": 1.0,
+      "n": 25
+     },
+     "level 2": {
+      "code": 0.7142857142857143,
+      "direct": 0.6071428571428571,
+      "n": 28
+     },
+     "level 3": {
+      "code": 0.8518518518518519,
+      "direct": 0.7407407407407407,
+      "n": 27
+     },
+     "level 4": {
+      "code": 0.8467741935483871,
+      "direct": 0.8387096774193549,
+      "n": 31
+     },
+     "level 5": {
+      "code": 0.77734375,
+      "direct": 0.6875,
+      "n": 32
+     }
+    },
+    "bs_exact_paired": {
+     "a_better": 17,
+     "b_better": 16,
+     "ci95_high": 0.13369849685481644,
+     "ci95_low": 0.010051503145183556,
+     "corr": 0.628119218858562,
+     "diff": 0.071875,
+     "mean_a": 0.75,
+     "mean_b": 0.821875,
+     "n": 120,
+     "p_two_sided": 0.022689514851,
+     "se": 0.031543180049466366
+    },
+    "ci95_with_team_variance": [
+     -0.0038888432571888495,
+     0.11752520689355248
+    ],
+    "citations": {
+     "code_teams": {
+      "A1": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.8789,
+       "entry_f1_tolerant": 0.8805,
+       "exact": 1626,
+       "extra_types": {
+        "tax_depreciation_schedule": 3
+       },
+       "lacking_types": {
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "exchange_rate_notice": 6,
+        "expense_receipt": 2,
+        "implementation_acceptance_memo": 6,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "security_deposit_notice": 8,
+        "ssp_rate_card": 18,
+        "subscription_order_form": 66,
+        "supplier_invoice": 15,
+        "work_order": 46
+       },
+       "missing": 0,
+       "over": 3,
+       "partial": 6,
+       "under": 175
+      },
+      "A2": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.9144,
+       "entry_f1_tolerant": 0.9161,
+       "exact": 1694,
+       "extra_types": {
+        "exchange_rate_notice": 3
+       },
+       "lacking_types": {
+        "asset_disposal_notice": 3,
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "implementation_acceptance_memo": 6,
+        "production_batch_sheet": 9,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "sale_proceeds_advice": 3,
+        "ssp_rate_card": 18,
+        "subscription_order_form": 66
+       },
+       "missing": 0,
+       "over": 3,
+       "partial": 9,
+       "under": 110
+      },
+      "A3": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.9495,
+       "entry_f1_tolerant": 0.9517,
+       "exact": 1759,
+       "extra_types": {
+        "ar_aging_summary": 1,
+        "exchange_rate_notice": 3
+       },
+       "lacking_types": {
+        "asset_disposal_notice": 3,
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "exchange_rate_notice": 4,
+        "implementation_acceptance_memo": 6,
+        "renewal_notice": 18,
+        "sale_proceeds_advice": 3,
+        "ssp_rate_card": 18
+       },
+       "missing": 0,
+       "over": 4,
+       "partial": 4,
+       "under": 49
+      },
+      "A4": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.9359,
+       "entry_f1_tolerant": 0.9467,
+       "exact": 1730,
+       "extra_types": {
+        "bank_statement": 14,
+        "exchange_rate_notice": 6
+       },
+       "lacking_types": {
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "implementation_acceptance_memo": 6,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "ssp_rate_card": 6
+       },
+       "missing": 0,
+       "over": 20,
+       "partial": 3,
+       "under": 56
+      },
+      "B1": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.8722,
+       "entry_f1_tolerant": 0.8803,
+       "exact": 1617,
+       "extra_types": {
+        "ar_aging_summary": 1,
+        "delivery_note": 1,
+        "exchange_rate_notice": 4,
+        "goods_receipt_note": 3,
+        "lease_amortization_schedule": 6
+       },
+       "lacking_types": {
+        "asset_disposal_notice": 3,
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "implementation_acceptance_memo": 6,
+        "pos_batch_report": 24,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "sale_proceeds_advice": 3,
+        "security_deposit_notice": 8,
+        "ssp_rate_card": 18,
+        "supplier_invoice": 15,
+        "work_order": 46
+       },
+       "missing": 0,
+       "over": 15,
+       "partial": 15,
+       "under": 152
+      },
+      "B2": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.8836,
+       "entry_f1_tolerant": 0.8858,
+       "exact": 1586,
+       "extra_types": {
+        "exchange_rate_notice": 2,
+        "tax_depreciation_schedule": 2
+       },
+       "lacking_types": {
+        "cancellation_note": 4,
+        "customer_invoice": 4,
+        "implementation_acceptance_memo": 5,
+        "renewal_notice": 9,
+        "retainer_agreement_memo": 12,
+        "ssp_rate_card": 15,
+        "subscription_order_form": 55
+       },
+       "missing": 0,
+       "over": 4,
+       "partial": 4,
+       "under": 81
+      },
+      "C1": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.8976,
+       "entry_f1_tolerant": 0.9112,
+       "exact": 1657,
+       "extra_types": {
+        "exchange_rate_notice": 3,
+        "retainer_agreement_memo": 7,
+        "subscription_order_form": 15
+       },
+       "lacking_types": {
+        "asset_disposal_notice": 3,
+        "cancellation_note": 6,
+        "customer_invoice": 6,
+        "implementation_acceptance_memo": 6,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "sale_proceeds_advice": 3,
+        "ssp_rate_card": 12,
+        "work_order": 46
+       },
+       "missing": 0,
+       "over": 25,
+       "partial": 3,
+       "under": 105
+      },
+      "C2": {
+       "disjoint": 0,
+       "entry_f1_strict": 0.9355,
+       "entry_f1_tolerant": 0.9393,
+       "exact": 1726,
+       "extra_types": {
+        "exchange_rate_notice": 4,
+        "tax_depreciation_schedule": 3
+       },
+       "lacking_types": {
+        "cancellation_note": 6,
+        "customer_invoice": 18,
+        "implementation_acceptance_memo": 6,
+        "renewal_notice": 18,
+        "retainer_agreement_memo": 14,
+        "ssp_rate_card": 6
+       },
+       "missing": 0,
+       "over": 7,
+       "partial": 6,
+       "under": 56
+      }
+     },
+     "direct": {
+      "disjoint": 0,
+      "entry_f1_strict": 0.5682,
+      "entry_f1_tolerant": 0.7315,
+      "exact": 1040,
+      "extra_types": {
+       "bank_statement": 294,
+       "cancellation_note": 9,
+       "direct_labor_record": 1,
+       "equipment_invoice": 3,
+       "exchange_rate_notice": 5,
+       "overhead_accrual_memo": 1,
+       "performance_obligation_schedule": 3,
+       "retainer_agreement_memo": 3,
+       "vendor_statement": 1
+      },
+      "lacking_types": {
+       "asset_disposal_notice": 3,
+       "customer_invoice": 44,
+       "delivery_note": 17,
+       "finished_goods_transfer_note": 23,
+       "goods_receipt_note": 12,
+       "implementation_acceptance_memo": 6,
+       "insurance_notice": 1,
+       "inventory_rollforward": 1,
+       "lease_agreement": 11,
+       "lease_amortization_schedule": 3,
+       "opening_trial_balance": 6,
+       "pos_batch_report": 31,
+       "production_batch_sheet": 24,
+       "renewal_notice": 14,
+       "rent_notice": 1,
+       "retainer_agreement_memo": 5,
+       "sale_proceeds_advice": 8,
+       "ssp_rate_card": 4,
+       "subscription_order_form": 21,
+       "supplier_invoice": 22,
+       "vendor_invoice": 6,
+       "work_order": 20
+      },
+      "missing": 0,
+      "over": 299,
+      "partial": 68,
+      "under": 265
+     },
+     "entry_f1_tolerant_ci95": {
+      "ci95_high": 0.21813038318823808,
+      "ci95_low": 0.14676106127938604,
+      "diff": 0.18244434879190696,
+      "reps": 2000
+     }
+    },
+    "code_accuracy": 0.826048951048951,
+    "code_se": 0.02751761580191817,
+    "code_summary_mean": {
+     "bs_exact": 0.821875,
+     "entry_f1_lax": 0.970375,
+     "entry_f1_strict": 0.908625,
+     "inconsistency_code_accuracy": 0.848
+    },
+    "direct": {
+     "accuracy": 0.769,
+     "bs_exact": 0.75,
+     "entries_exact_lax": 0.642,
+     "entry_f1_lax": 0.913,
+     "entry_f1_strict": 0.568,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.87,
+     "inconsistency_recall": 0.957,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23
+    },
+    "direct_accuracy": 0.7692307692307693,
+    "direct_se": 0.03535681229053243,
+    "entry_f1_strict_ci95": {
+     "ci95_high": 0.385239938472116,
+     "ci95_low": 0.29094111756060126,
+     "diff": 0.3403032297478493,
+     "reps": 2000
+    },
+    "mde_80pct_power": 0.07800355386249432,
+    "n": 143,
+    "paired": {
+     "a_better": 25,
+     "b_better": 18,
+     "ci95_high": 0.11138877108606621,
+     "ci95_low": 0.0022475925502974253,
+     "corr": 0.6331923653580206,
+     "diff": 0.056818181818181816,
+     "mean_a": 0.7692307692307693,
+     "mean_b": 0.826048951048951,
+     "n": 143,
+     "p_two_sided": 0.041281769857,
+     "se": 0.027842648996782716
+    },
+    "sd_code_teams": 0.03838199020996529,
+    "se_with_team_variance": 0.03097354112331652,
+    "sensitivity": {
+     "no_prep_only": {
+      "ci95_with_team_variance": [
+       0.017811426263214476,
+       0.13253822408643587
+      ],
+      "code_accuracy": 0.8444055944055944,
+      "diff": 0.07517482517482517,
+      "se_with_team_variance": 0.029267578059640822,
+      "teams": [
+       "A1",
+       "A2",
+       "A3",
+       "A4"
+      ]
+     },
+     "without_scaffold_v7": {
+      "ci95_with_team_variance": [
+       -0.007177811204443843,
+       0.12605893008556274
+      ],
+      "code_accuracy": 0.8286713286713286,
+      "diff": 0.05944055944055944,
+      "se_with_team_variance": 0.033989589181475016,
+      "teams": [
+       "A1",
+       "A2",
+       "A3",
+       "A4",
+       "B1",
+       "B2"
+      ]
+     }
+    },
+    "unparseable": []
+   },
+   "repeat_sample": {
+    "agreement": 0.925,
+    "code_accuracy": 0.828125,
+    "n": 40,
+    "paired_vs_trial_mean": {
+     "a_better": 4,
+     "b_better": 8,
+     "ci95_high": 0.22945735670091336,
+     "ci95_low": 0.0017926432990866548,
+     "corr": 0.571532631777786,
+     "diff": 0.115625,
+     "mean_a": 0.7125,
+     "mean_b": 0.828125,
+     "n": 40,
+     "p_two_sided": 0.046499613793,
+     "se": 0.0580788002222533
+    },
+    "pass_both": 0.675,
+    "pass_either": 0.75,
+    "trials": {
+     "sample40_trial1": {
+      "accuracy": 0.7,
+      "bs_exact": 0.656,
+      "entries_exact_lax": 0.594,
+      "entry_f1_lax": 0.928,
+      "entry_f1_strict": 0.583,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.875,
+      "inconsistency_recall": 1.0,
+      "missing": 0,
+      "n": 40,
+      "n_clean": 32,
+      "n_inconsistent": 8,
+      "unparseable": []
+     },
+     "sample40_trial2": {
+      "accuracy": 0.725,
+      "bs_exact": 0.719,
+      "entries_exact_lax": 0.625,
+      "entry_f1_lax": 0.923,
+      "entry_f1_strict": 0.561,
+      "false_alarms": 0,
+      "inconsistency_code_accuracy": 0.75,
+      "inconsistency_recall": 0.875,
+      "missing": 0,
+      "n": 40,
+      "n_clean": 32,
+      "n_inconsistent": 8,
+      "unparseable": []
+     }
+    }
+   },
+   "teaching_followup": {
+    "arms": {
+     "E": {
+      "entry_f1_strict_diff": {
+       "ci95": [
+        0.1398976812171948,
+        0.2794362006337429
+       ],
+       "diff": 0.21296309892659426
+      },
+      "entry_f1_tolerant_diff": {
+       "ci95": [
+        0.03004700352526435,
+        0.10221995771393855
+       ],
+       "diff": 0.06731668159547333
+      },
+      "fewer_entries_missing_a_key_document": {
+       "ci95": [
+        13.0,
+        44.0
+       ],
+       "diff": 28.0
+      },
+      "fully_right_paired": {
+       "a_better": 3,
+       "b_better": 1,
+       "ci95_high": 0.047998199227002686,
+       "ci95_low": -0.1479981992270027,
+       "corr": 0.7777653184818517,
+       "diff": -0.05,
+       "mean_a": 0.7,
+       "mean_b": 0.65,
+       "n": 40,
+       "p_two_sided": 0.317310507863,
+       "se": 0.049999999999999996
+      },
+      "gap_closed": {
+       "ci95": [
+        0.4091041923454102,
+        0.7132575976303233
+       ],
+       "value": 0.5669689769968286
+      },
+      "metrics": {
+       "accuracy": 0.65,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.7361,
+        "entry_f1_tolerant": 0.7472,
+        "exact": 332,
+        "extra_types": {
+         "cancellation_note": 1,
+         "exchange_rate_notice": 4
+        },
+        "lacking_types": {
+         "customer_invoice": 9,
+         "delivery_note": 11,
+         "finished_goods_transfer_note": 10,
+         "goods_receipt_note": 4,
+         "implementation_acceptance_memo": 3,
+         "opening_trial_balance": 3,
+         "pos_batch_report": 8,
+         "production_batch_sheet": 9,
+         "renewal_notice": 2,
+         "ssp_rate_card": 3,
+         "subscription_order_form": 8,
+         "supplier_invoice": 6,
+         "work_order": 11
+        },
+        "missing": 0,
+        "over": 5,
+        "partial": 1,
+        "under": 82
+       },
+       "entries_missing_a_key_document": 83,
+       "entry_f1_strict": 0.7361419068736141,
+       "entry_f1_tolerant": 0.7472283813747228,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.875,
+       "inconsistency_recall": 1.0,
+       "missing": 0,
+       "unparseable": []
+      },
+      "name": "sample40_cli_ejemplos3"
+     },
+     "Ma": {
+      "entry_f1_strict_diff": {
+       "ci95": [
+        0.25325258753578517,
+        0.4191472624292007
+       ],
+       "diff": 0.3389656121842711
+      },
+      "entry_f1_tolerant_diff": {
+       "ci95": [
+        0.13803780964797907,
+        0.24198372264141976
+       ],
+       "diff": 0.188797271774361
+      },
+      "fewer_entries_missing_a_key_document": {
+       "ci95": [
+        48.0,
+        99.0
+       ],
+       "diff": 72.0
+      },
+      "fully_right_paired": {
+       "a_better": 0,
+       "b_better": 5,
+       "ci95_high": 0.22879461456725303,
+       "ci95_low": 0.02120538543274697,
+       "corr": 0.7035264706814485,
+       "diff": 0.125,
+       "mean_a": 0.7,
+       "mean_b": 0.825,
+       "n": 40,
+       "p_two_sided": 0.018255860587,
+       "se": 0.05295740910852021
+      },
+      "gap_closed": {
+       "ci95": [
+        0.7683647356405593,
+        1.0198261167991782
+       ],
+       "value": 0.9024238816296668
+      },
+      "metrics": {
+       "accuracy": 0.825,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.8621,
+        "entry_f1_tolerant": 0.8687,
+        "exact": 394,
+        "extra_types": {
+         "exchange_rate_notice": 3
+        },
+        "lacking_types": {
+         "customer_invoice": 8,
+         "implementation_acceptance_memo": 3,
+         "lease_agreement": 3,
+         "lease_amortization_schedule": 2,
+         "opening_trial_balance": 3,
+         "pos_batch_report": 8,
+         "production_batch_sheet": 7,
+         "renewal_notice": 4,
+         "sale_proceeds_advice": 2,
+         "ssp_rate_card": 5
+        },
+        "missing": 0,
+        "over": 3,
+        "partial": 0,
+        "under": 39
+       },
+       "entries_missing_a_key_document": 39,
+       "entry_f1_strict": 0.862144420131291,
+       "entry_f1_tolerant": 0.8687089715536105,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.875,
+       "inconsistency_recall": 1.0,
+       "missing": 0,
+       "unparseable": []
+      },
+      "name": "sample40_cli_memoria_a"
+     },
+     "Mb": {
+      "entry_f1_strict_diff": {
+       "ci95": [
+        0.29326337487117016,
+        0.48355357584756253
+       ],
+       "diff": 0.38810268164772277
+      },
+      "entry_f1_tolerant_diff": {
+       "ci95": [
+        0.17371681415929208,
+        0.3120620903651762
+       ],
+       "diff": 0.2379415313269937
+      },
+      "fewer_entries_missing_a_key_document": {
+       "ci95": [
+        63.0,
+        121.0
+       ],
+       "diff": 90.0
+      },
+      "fully_right_paired": {
+       "a_better": 0,
+       "b_better": 6,
+       "ci95_high": 0.2620652282170798,
+       "ci95_low": 0.03793477178292021,
+       "corr": 0.641688947919748,
+       "diff": 0.15,
+       "mean_a": 0.7,
+       "mean_b": 0.85,
+       "n": 40,
+       "p_two_sided": 0.008705089047,
+       "se": 0.05717718748968655
+      },
+      "gap_closed": {
+       "ci95": [
+        0.9531977977633556,
+        1.100785044318158
+       ],
+       "value": 1.033240883010352
+      },
+      "metrics": {
+       "accuracy": 0.85,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.9113,
+        "entry_f1_tolerant": 0.9179,
+        "exact": 416,
+        "extra_types": {
+         "exchange_rate_notice": 3
+        },
+        "lacking_types": {
+         "customer_invoice": 7,
+         "implementation_acceptance_memo": 3,
+         "lease_agreement": 3,
+         "renewal_notice": 4,
+         "sale_proceeds_advice": 2,
+         "ssp_rate_card": 5
+        },
+        "missing": 0,
+        "over": 3,
+        "partial": 0,
+        "under": 21
+       },
+       "entries_missing_a_key_document": 21,
+       "entry_f1_strict": 0.9112814895947426,
+       "entry_f1_tolerant": 0.9178532311062432,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.875,
+       "inconsistency_recall": 1.0,
+       "missing": 0,
+       "unparseable": []
+      },
+      "name": "sample40_cli_memoria_b"
+     },
+     "P": {
+      "entry_f1_strict_diff": {
+       "ci95": [
+        -0.08005452067242158,
+        0.0785174106890908
+       ],
+       "diff": 0.0006835671917149178
+      },
+      "entry_f1_tolerant_diff": {
+       "ci95": [
+        -0.0869736324281779,
+        -0.03187890783140657
+       ],
+       "diff": -0.05838006825871678
+      },
+      "fewer_entries_missing_a_key_document": {
+       "ci95": [
+        -37.0,
+        -13.0
+       ],
+       "diff": -25.0
+      },
+      "fully_right_paired": {
+       "a_better": 3,
+       "b_better": 1,
+       "ci95_high": 0.047998199227002686,
+       "ci95_low": -0.1479981992270027,
+       "corr": 0.7777653184818517,
+       "diff": -0.05,
+       "mean_a": 0.7,
+       "mean_b": 0.65,
+       "n": 40,
+       "p_two_sided": 0.317310507863,
+       "se": 0.049999999999999996
+      },
+      "gap_closed": {
+       "ci95": [
+        -0.2517297609521909,
+        0.19036267133931034
+       ],
+       "value": 0.001819852328166907
+      },
+      "metrics": {
+       "accuracy": 0.65,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.5239,
+        "entry_f1_tolerant": 0.6215,
+        "exact": 236,
+        "extra_types": {
+         "bank_statement": 44,
+         "exchange_rate_notice": 3,
+         "performance_obligation_schedule": 3
+        },
+        "lacking_types": {
+         "customer_invoice": 27,
+         "delivery_note": 7,
+         "finished_goods_transfer_note": 10,
+         "goods_receipt_note": 4,
+         "implementation_acceptance_memo": 3,
+         "lease_agreement": 1,
+         "opening_trial_balance": 3,
+         "patient_invoice": 6,
+         "pos_batch_report": 7,
+         "production_batch_sheet": 13,
+         "renewal_notice": 3,
+         "sale_proceeds_advice": 2,
+         "ssp_rate_card": 6,
+         "subscription_order_form": 6,
+         "supplier_invoice": 17,
+         "vendor_invoice": 4,
+         "work_order": 6
+        },
+        "missing": 0,
+        "over": 44,
+        "partial": 22,
+        "under": 114
+       },
+       "entries_missing_a_key_document": 136,
+       "entry_f1_strict": 0.5238623751387348,
+       "entry_f1_tolerant": 0.6215316315205327,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.875,
+       "inconsistency_recall": 1.0,
+       "missing": 0,
+       "unparseable": []
+      },
+      "name": "sample40_cli_puntuacion"
+     },
+     "S": {
+      "entry_f1_strict_diff": {
+       "ci95": [
+        -0.08057755508862668,
+        0.040062410213964283
+       ],
+       "diff": -0.01875402918595792
+      },
+      "entry_f1_tolerant_diff": {
+       "ci95": [
+        -0.055240515163742177,
+        -0.0007579695079695803
+       ],
+       "diff": -0.02725683252261235
+      },
+      "fewer_entries_missing_a_key_document": {
+       "ci95": [
+        -22.0,
+        2.0
+       ],
+       "diff": -10.0
+      },
+      "fully_right_paired": {
+       "a_better": 1,
+       "b_better": 0,
+       "ci95_high": 0.023999099613501343,
+       "ci95_low": -0.07399909961350135,
+       "corr": 0.9434563530497264,
+       "diff": -0.025,
+       "mean_a": 0.7,
+       "mean_b": 0.675,
+       "n": 40,
+       "p_two_sided": 0.317310507863,
+       "se": 0.024999999999999998
+      },
+      "gap_closed": {
+       "ci95": [
+        -0.24745692110524706,
+        0.09774384091945972
+       ],
+       "value": -0.0499286157823815
+      },
+      "metrics": {
+       "accuracy": 0.675,
+       "citations": {
+        "disjoint": 0,
+        "entry_f1_strict": 0.5044,
+        "entry_f1_tolerant": 0.6527,
+        "exact": 228,
+        "extra_types": {
+         "bank_statement": 66,
+         "cancellation_note": 1,
+         "exchange_rate_notice": 2,
+         "performance_obligation_schedule": 3,
+         "retainer_agreement_memo": 1
+        },
+        "lacking_types": {
+         "customer_invoice": 23,
+         "delivery_note": 6,
+         "finished_goods_transfer_note": 8,
+         "goods_receipt_note": 4,
+         "implementation_acceptance_memo": 3,
+         "lease_agreement": 3,
+         "opening_trial_balance": 3,
+         "patient_invoice": 4,
+         "pos_batch_report": 7,
+         "production_batch_sheet": 8,
+         "renewal_notice": 3,
+         "sale_proceeds_advice": 2,
+         "subscription_order_form": 5,
+         "supplier_invoice": 14,
+         "vendor_invoice": 2,
+         "work_order": 6
+        },
+        "missing": 0,
+        "over": 67,
+        "partial": 25,
+        "under": 96
+       },
+       "entries_missing_a_key_document": 121,
+       "entry_f1_strict": 0.504424778761062,
+       "entry_f1_tolerant": 0.6526548672566371,
+       "false_alarms": 0,
+       "inconsistency_code_accuracy": 0.75,
+       "inconsistency_recall": 0.875,
+       "missing": 0,
+       "unparseable": []
+      },
+      "name": "sample40_cli_skill"
+     }
+    },
+    "bootstrap": {
+     "reps": 10000,
+     "seed": 7,
+     "unit": "clean packet"
+    },
+    "code_teams": {
+     "accuracy": 0.828125,
+     "entries_missing_a_key_document": {
+      "A1": 55,
+      "A2": 36,
+      "A3": 16,
+      "A4": 15,
+      "B1": 42,
+      "B2": 24,
+      "C1": 30,
+      "C2": 15
+     },
+     "entry_f1_strict": 0.8987956539597172,
+     "entry_f1_tolerant": 0.9059084746003481,
+     "teams": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+     ]
+    },
+    "control": "sample40_cli_control",
+    "control_metrics": {
+     "accuracy": 0.7,
+     "citations": {
+      "disjoint": 0,
+      "entry_f1_strict": 0.5232,
+      "entry_f1_tolerant": 0.6799,
+      "exact": 237,
+      "extra_types": {
+       "bank_statement": 72,
+       "cancellation_note": 1,
+       "exchange_rate_notice": 2,
+       "performance_obligation_schedule": 3
+      },
+      "lacking_types": {
+       "customer_invoice": 16,
+       "delivery_note": 6,
+       "finished_goods_transfer_note": 8,
+       "goods_receipt_note": 4,
+       "implementation_acceptance_memo": 3,
+       "lease_agreement": 3,
+       "opening_trial_balance": 3,
+       "patient_invoice": 4,
+       "pos_batch_report": 5,
+       "production_batch_sheet": 7,
+       "renewal_notice": 3,
+       "sale_proceeds_advice": 2,
+       "ssp_rate_card": 2,
+       "subscription_order_form": 6,
+       "supplier_invoice": 9,
+       "work_order": 6
+      },
+      "missing": 0,
+      "over": 71,
+      "partial": 31,
+      "under": 80
+     },
+     "entries_missing_a_key_document": 111,
+     "entry_f1_strict": 0.5231788079470199,
+     "entry_f1_tolerant": 0.6799116997792495,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.75,
+     "inconsistency_recall": 0.875,
+     "missing": 0,
+     "unparseable": []
+    },
+    "date": "2026-11-08",
+    "n": 40,
+    "n_clean": 32,
+    "notes_words": {
+     "a": 650,
+     "b": 725
+    },
+    "preregistration": "experiments/2026-11/followup_teaching/PREREGISTRATION.md",
+    "sessions": {
+     "C": {
+      "cache_creation_input_tokens": 11698.35,
+      "cache_read_input_tokens": 11074.325,
+      "clean": 8,
+      "cost_usd_list_price": 0.147679465,
+      "input_tokens": 1.2,
+      "output_tokens": 2593.65,
+      "sessions": 8
+     },
+     "E": {
+      "cache_creation_input_tokens": 16327.65,
+      "cache_read_input_tokens": 68621.175,
+      "clean": 8,
+      "cost_usd_list_price": 0.197606335,
+      "input_tokens": 3.6,
+      "output_tokens": 2662.325,
+      "sessions": 8
+     },
+     "Ma": {
+      "cache_creation_input_tokens": 12071.2,
+      "cache_read_input_tokens": 11967.075,
+      "clean": 8,
+      "cost_usd_list_price": 0.150497715,
+      "input_tokens": 1.3,
+      "output_tokens": 2576.475,
+      "sessions": 8
+     },
+     "Mb": {
+      "cache_creation_input_tokens": 12132.825,
+      "cache_read_input_tokens": 12049.075,
+      "clean": 8,
+      "cost_usd_list_price": 0.150851615,
+      "input_tokens": 1.3,
+      "output_tokens": 2568.7,
+      "sessions": 8
+     },
+     "P": {
+      "cache_creation_input_tokens": 11667.175,
+      "cache_read_input_tokens": 11706.025,
+      "clean": 8,
+      "cost_usd_list_price": 0.146120505,
+      "input_tokens": 1.35,
+      "output_tokens": 2521.825,
+      "sessions": 8
+     },
+     "S": {
+      "cache_creation_input_tokens": 12807.05,
+      "cache_read_input_tokens": 15727.725,
+      "clean": 8,
+      "cost_usd_list_price": 0.157968445,
+      "input_tokens": 2.0,
+      "output_tokens": 2617.925,
+      "sessions": 8,
+      "sessions_that_called_the_skill": 8
+     },
+     "training": {
+      "clean": 32,
+      "cost_usd_list_price": 7.2390756,
+      "sessions": 32
+     }
+    },
+    "training": {
+     "a": [
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 3,
+       "n_predicted": 3,
+       "notes_words": 243,
+       "step": "TR1",
+       "tp_strict": 3,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": false,
+       "n_expected": 21,
+       "n_predicted": 20,
+       "notes_words": 557,
+       "step": "TR2",
+       "tp_strict": 14,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 0,
+       "n_predicted": 0,
+       "notes_words": 506,
+       "step": "TR3",
+       "tp_strict": 0,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 26,
+       "n_predicted": 26,
+       "notes_words": 673,
+       "step": "TR4",
+       "tp_strict": 26,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 7,
+       "n_predicted": 7,
+       "notes_words": 618,
+       "step": "TR5",
+       "tp_strict": 7,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 32,
+       "n_predicted": 32,
+       "notes_words": 713,
+       "step": "TR6",
+       "tp_strict": 31,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 0,
+       "n_predicted": 0,
+       "notes_words": 624,
+       "step": "TR7",
+       "tp_strict": 0,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 5,
+       "n_predicted": 5,
+       "notes_words": 650,
+       "step": "TR8",
+       "tp_strict": 2,
+       "update_clean": true
+      }
+     ],
+     "b": [
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 0,
+       "n_predicted": 0,
+       "notes_words": 380,
+       "step": "TR1",
+       "tp_strict": 0,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": false,
+       "n_expected": 14,
+       "n_predicted": 13,
+       "notes_words": 553,
+       "step": "TR2",
+       "tp_strict": 5,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 13,
+       "n_predicted": 13,
+       "notes_words": 559,
+       "step": "TR3",
+       "tp_strict": 11,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 11,
+       "n_predicted": 11,
+       "notes_words": 564,
+       "step": "TR4",
+       "tp_strict": 11,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 0,
+       "n_predicted": 0,
+       "notes_words": 590,
+       "step": "TR5",
+       "tp_strict": 0,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 22,
+       "n_predicted": 22,
+       "notes_words": 504,
+       "step": "TR6",
+       "tp_strict": 22,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": false,
+       "n_expected": 24,
+       "n_predicted": 21,
+       "notes_words": 668,
+       "step": "TR7",
+       "tp_strict": 13,
+       "update_clean": true
+      },
+      {
+       "answer_clean": true,
+       "correct": true,
+       "n_expected": 5,
+       "n_predicted": 5,
+       "notes_words": 725,
+       "step": "TR8",
+       "tp_strict": 3,
+       "update_clean": true
+      }
+     ]
+    }
+   }
+  },
+  "manifest": {
+   "examples": {
+    "inconsistent": 6,
+    "records": 30,
+    "sha256": "bfc5ae3a91f81727875979e3eaad84c4ab659311a26135b8388c3185d18c254d"
+   },
+   "hidden_a": {
+    "inconsistent": 23,
+    "records": 143,
+    "sha256": "d98b6baff54765820b696fa53589e73a4adaf4271116e13a1b87f55207b06c4f"
+   },
+   "hidden_b": {
+    "inconsistent": 30,
+    "records": 150,
+    "sha256": "b9cc93729f5984ed2ddd1cb42de84b1ef6a27ba6c4757f209f8db5eddd8b90a9"
+   },
+   "public": {
+    "inconsistent": 15,
+    "records": 60,
+    "sha256": "509c1e32d7d8ea9caa96ef5fdbcb201f7323ab423d511de85fc5c4539ef75b11"
+   }
+  },
+  "teams": {
+   "A1": {
+    "arm": "no-prep",
+    "hidden_a": {
+     "accuracy": 0.846,
+     "bs_exact": 0.833,
+     "entries_exact_lax": 0.833,
+     "entry_f1_lax": 0.978,
+     "entry_f1_strict": 0.879,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.913,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.893,
+     "bs_exact": 0.892,
+     "entries_exact_lax": 0.892,
+     "entry_f1_lax": 0.99,
+     "entry_f1_strict": 0.887,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.9,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.967,
+     "bs_exact": 0.956,
+     "entries_exact_lax": 0.956,
+     "entry_f1_lax": 0.996,
+     "entry_f1_strict": 0.918,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 1.0,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "A2": {
+    "arm": "no-prep",
+    "hidden_a": {
+     "accuracy": 0.853,
+     "bs_exact": 0.85,
+     "entries_exact_lax": 0.85,
+     "entry_f1_lax": 0.98,
+     "entry_f1_strict": 0.914,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.87,
+     "inconsistency_recall": 0.957,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.887,
+     "bs_exact": 0.883,
+     "entries_exact_lax": 0.867,
+     "entry_f1_lax": 0.987,
+     "entry_f1_strict": 0.927,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.9,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.95,
+     "bs_exact": 0.933,
+     "entries_exact_lax": 0.933,
+     "entry_f1_lax": 0.991,
+     "entry_f1_strict": 0.943,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 1.0,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "A3": {
+    "arm": "no-prep",
+    "hidden_a": {
+     "accuracy": 0.853,
+     "bs_exact": 0.842,
+     "entries_exact_lax": 0.842,
+     "entry_f1_lax": 0.98,
+     "entry_f1_strict": 0.95,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.913,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.893,
+     "bs_exact": 0.892,
+     "entries_exact_lax": 0.892,
+     "entry_f1_lax": 0.991,
+     "entry_f1_strict": 0.961,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.9,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.967,
+     "bs_exact": 0.956,
+     "entries_exact_lax": 0.956,
+     "entry_f1_lax": 0.996,
+     "entry_f1_strict": 0.977,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 1.0,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "A4": {
+    "arm": "no-prep",
+    "hidden_a": {
+     "accuracy": 0.825,
+     "bs_exact": 0.825,
+     "entries_exact_lax": 0.825,
+     "entry_f1_lax": 0.979,
+     "entry_f1_strict": 0.936,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.826,
+     "inconsistency_recall": 0.913,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.833,
+     "bs_exact": 0.842,
+     "entries_exact_lax": 0.842,
+     "entry_f1_lax": 0.984,
+     "entry_f1_strict": 0.944,
+     "error": "",
+     "false_alarms": 1,
+     "inconsistency_code_accuracy": 0.8,
+     "inconsistency_recall": 0.9,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.95,
+     "bs_exact": 0.933,
+     "entries_exact_lax": 0.933,
+     "entry_f1_lax": 0.995,
+     "entry_f1_strict": 0.966,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 1.0,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "B1": {
+    "arm": "scaffold-v6",
+    "hidden_a": {
+     "accuracy": 0.853,
+     "bs_exact": 0.85,
+     "entries_exact_lax": 0.792,
+     "entry_f1_lax": 0.97,
+     "entry_f1_strict": 0.872,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.87,
+     "inconsistency_recall": 0.957,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.867,
+     "bs_exact": 0.858,
+     "entries_exact_lax": 0.792,
+     "entry_f1_lax": 0.969,
+     "entry_f1_strict": 0.861,
+     "error": "",
+     "false_alarms": 1,
+     "inconsistency_code_accuracy": 0.9,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.933,
+     "bs_exact": 0.911,
+     "entries_exact_lax": 0.911,
+     "entry_f1_lax": 0.989,
+     "entry_f1_strict": 0.906,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 1.0,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "B2": {
+    "arm": "scaffold-v6",
+    "hidden_a": {
+     "accuracy": 0.741,
+     "bs_exact": 0.75,
+     "entries_exact_lax": 0.725,
+     "entry_f1_lax": 0.933,
+     "entry_f1_strict": 0.884,
+     "error": "",
+     "false_alarms": 4,
+     "inconsistency_code_accuracy": 0.696,
+     "inconsistency_recall": 0.957,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.793,
+     "bs_exact": 0.792,
+     "entries_exact_lax": 0.775,
+     "entry_f1_lax": 0.946,
+     "entry_f1_strict": 0.904,
+     "error": "",
+     "false_alarms": 4,
+     "inconsistency_code_accuracy": 0.8,
+     "inconsistency_recall": 0.9,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.9,
+     "bs_exact": 0.889,
+     "entries_exact_lax": 0.889,
+     "entry_f1_lax": 0.981,
+     "entry_f1_strict": 0.939,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.933,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "C1": {
+    "arm": "scaffold-v7",
+    "hidden_a": {
+     "accuracy": 0.804,
+     "bs_exact": 0.8,
+     "entries_exact_lax": 0.783,
+     "entry_f1_lax": 0.97,
+     "entry_f1_strict": 0.898,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.826,
+     "inconsistency_recall": 0.913,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.86,
+     "bs_exact": 0.85,
+     "entries_exact_lax": 0.817,
+     "entry_f1_lax": 0.981,
+     "entry_f1_strict": 0.899,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.9,
+     "inconsistency_recall": 0.967,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.9,
+     "bs_exact": 0.889,
+     "entries_exact_lax": 0.911,
+     "entry_f1_lax": 0.991,
+     "entry_f1_strict": 0.931,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.933,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   },
+   "C2": {
+    "arm": "scaffold-v7",
+    "hidden_a": {
+     "accuracy": 0.832,
+     "bs_exact": 0.825,
+     "entries_exact_lax": 0.792,
+     "entry_f1_lax": 0.973,
+     "entry_f1_strict": 0.936,
+     "error": "",
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.87,
+     "inconsistency_recall": 0.957,
+     "missing": 0,
+     "n": 143,
+     "n_clean": 120,
+     "n_inconsistent": 23,
+     "wrote_to_program_dir": []
+    },
+    "hidden_b": {
+     "accuracy": 0.887,
+     "bs_exact": 0.875,
+     "entries_exact_lax": 0.825,
+     "entry_f1_lax": 0.978,
+     "entry_f1_strict": 0.939,
+     "error": "",
+     "false_alarms": 1,
+     "inconsistency_code_accuracy": 0.933,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 150,
+     "n_clean": 120,
+     "n_inconsistent": 30,
+     "wrote_to_program_dir": []
+    },
+    "public": {
+     "accuracy": 0.95,
+     "bs_exact": 0.956,
+     "entries_exact_lax": 0.956,
+     "entry_f1_lax": 0.996,
+     "entry_f1_strict": 0.965,
+     "false_alarms": 0,
+     "inconsistency_code_accuracy": 0.933,
+     "inconsistency_recall": 1.0,
+     "missing": 0,
+     "n": 60,
+     "n_clean": 45,
+     "n_inconsistent": 15
+    }
+   }
+  }
+ },
+ "study": {
+  "dates": "2026-11-02 to 2026-11-05",
+  "harness": "Claude Code 2.1.318 subagents, one per team, each in its own workspace; isolation by instruction, audited",
+  "id": "close-the-books-2026-11",
+  "list_prices_usd_per_mtok": {
+   "cache_read": 0.2,
+   "cache_write_1h": 8.0,
+   "cache_write_5m": 5.0,
+   "input": 4.0,
+   "model": "Claude Opus 5.5",
+   "note": "added 2026-11-06 for the cost comparison; list prices, not what the study paid",
+   "output": 20.0,
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing (read 2026-11-06); cache reads on Claude Opus 5.5 are 0.05x the base input price, per the page's footnote"
+  },
+  "model": "claude-opus-5-5 (every assistant message in every transcript, except one follow-up launch on Claude Sonnet 5.5 that is reported apart)"
+ }
+}

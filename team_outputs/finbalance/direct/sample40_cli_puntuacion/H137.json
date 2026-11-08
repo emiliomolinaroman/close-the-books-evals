@@ -1,0 +1,1 @@
+{"has_inconsistency": true, "inconsistency_codes": ["deferred_tax_rollforward_mismatch"], "inconsistency_notes": ["D019 deferred tax memo: opening liability 0.00 plus movement 21.52 does not equal stated ending liability 2,085.75."], "entries": [], "balance_sheet": {"assets": {}, "liabilities": {}, "equity": {}}}

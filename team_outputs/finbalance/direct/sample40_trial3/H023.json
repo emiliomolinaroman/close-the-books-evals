@@ -1,0 +1,53 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D014"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 11979.45},
+  {"doc_refs": ["D014"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 718.76},
+  {"doc_refs": ["D014"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 718.77},
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "Service Revenue", "amount": 19198.62},
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "CGST Payable", "amount": 1151.91},
+  {"doc_refs": ["D003", "D002"], "debit_account": "Accounts Receivable", "credit_account": "SGST Payable", "amount": 1151.92},
+  {"doc_refs": ["D016"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 11421.49},
+  {"doc_refs": ["D016"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 285.54},
+  {"doc_refs": ["D016"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 285.53},
+  {"doc_refs": ["D004"], "debit_account": "Repairs Expense", "credit_account": "Accounts Payable", "amount": 19416.83},
+  {"doc_refs": ["D004"], "debit_account": "Input CGST Receivable", "credit_account": "Accounts Payable", "amount": 1165.01},
+  {"doc_refs": ["D004"], "debit_account": "Input SGST Receivable", "credit_account": "Accounts Payable", "amount": 1165.01},
+  {"doc_refs": ["D005", "D019"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 314.62},
+  {"doc_refs": ["D011", "D019"], "debit_account": "Equipment", "credit_account": "Cash", "amount": 38230.65},
+  {"doc_refs": ["D011"], "debit_account": "Equipment", "credit_account": "Notes Payable", "amount": 47469.13},
+  {"doc_refs": ["D010", "D019"], "debit_account": "Cash", "credit_account": "Loans Payable", "amount": 81501.37},
+  {"doc_refs": ["D015", "D019"], "debit_account": "Fuel Expense", "credit_account": "Cash", "amount": 482.42},
+  {"doc_refs": ["D006", "D003", "D019"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 12798.29},
+  {"doc_refs": ["D007", "D004", "D019", "D017"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 20439.54},
+  {"doc_refs": ["D009"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 1217.07},
+  {"doc_refs": ["D008", "D019"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 16991.31},
+  {"doc_refs": ["D008", "D019"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 1474.87},
+  {"doc_refs": ["D012"], "debit_account": "Depreciation Expense", "credit_account": "Accumulated Depreciation", "amount": 1935.33},
+  {"doc_refs": ["D013"], "debit_account": "Repairs Expense", "credit_account": "Accrued Expenses", "amount": 7073.33}
+ ],
+ "balance_sheet": {
+  "assets": {
+   "Cash": 117237.47,
+   "Accounts Receivable": 24011.05,
+   "Office Supplies": 1556.79,
+   "Vehicles": 30965.17,
+   "Equipment": 105900.11,
+   "Prepaid Insurance": 3243.08,
+   "Accumulated Depreciation": -1935.33,
+   "Input CGST Receivable": 2169.31,
+   "Input SGST Receivable": 2169.31
+  },
+  "liabilities": {
+   "Accounts Payable": 35843.23,
+   "Accrued Expenses": 8929.35,
+   "Notes Payable": 64728.20,
+   "Loans Payable": 89980.13,
+   "CGST Payable": 1151.91,
+   "SGST Payable": 1151.92
+  },
+  "equity": {
+   "Retained Earnings": -44060.83,
+   "Owner's Equity": 127593.05
+  }
+ }
+}

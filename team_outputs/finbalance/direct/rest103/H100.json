@@ -1,0 +1,15 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 36787.14},
+  {"doc_refs": ["D007"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 18695.41},
+  {"doc_refs": ["D008"], "debit_account": "Raw Materials Inventory", "credit_account": "Accounts Payable", "amount": 23263.94},
+  {"doc_refs": ["D003", "D004"], "debit_account": "Work In Process", "credit_account": "Raw Materials Inventory", "amount": 23615.22},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Finished Goods Inventory", "credit_account": "Work In Process", "amount": 23615.22},
+  {"doc_refs": ["D006"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 33799.17},
+  {"doc_refs": ["D006", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Finished Goods Inventory", "amount": 23615.22}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 174619.79, "Accounts Receivable": 33799.17, "Raw Materials Inventory": 173259.24},
+  "liabilities": {"Accounts Payable": 112687.66},
+  "equity": {"Retained Earnings": 10183.95, "Share Capital": 258806.59}
+ }}

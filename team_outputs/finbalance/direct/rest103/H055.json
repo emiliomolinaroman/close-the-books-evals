@@ -1,0 +1,25 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D003", "D002"], "debit_account": "Inventory", "credit_account": "Accounts Payable", "amount": 9423.75},
+  {"doc_refs": ["D009", "D008"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 14989.43},
+  {"doc_refs": ["D008", "D009"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 9738.27},
+  {"doc_refs": ["D005", "D004"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 33359.72},
+  {"doc_refs": ["D004", "D005"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 17514.82},
+  {"doc_refs": ["D007", "D006"], "debit_account": "Accounts Receivable", "credit_account": "Sales Revenue", "amount": 9489.36},
+  {"doc_refs": ["D006", "D007"], "debit_account": "Cost of Goods Sold", "credit_account": "Inventory", "amount": 6198.46}
+ ],
+ "balance_sheet": {
+  "assets": {
+   "Cash": 139602.13,
+   "Inventory": 59699.97,
+   "Accounts Receivable": 78958.36
+  },
+  "liabilities": {
+   "Accounts Payable": 49208.42
+  },
+  "equity": {
+   "Owner's Equity": 204665.08,
+   "Retained Earnings": 24386.96
+  }
+ }
+}

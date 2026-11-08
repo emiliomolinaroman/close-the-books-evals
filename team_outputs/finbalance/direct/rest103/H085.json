@@ -1,0 +1,16 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D006"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 22349.52},
+  {"doc_refs": ["D008"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 20781.36},
+  {"doc_refs": ["D004"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 14386.83},
+  {"doc_refs": ["D007"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 13795.47},
+  {"doc_refs": ["D005"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 26246.98},
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 24370.50},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 4375.36}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 132533.08, "Accounts Receivable": 133022.73},
+  "liabilities": {"Accounts Payable": 15130.11},
+  "equity": {"Owner's Equity": 132870.40, "Retained Earnings": 117555.30}
+ }
+}

@@ -1,0 +1,25 @@
+{"has_inconsistency": false, "inconsistency_codes": [], "inconsistency_notes": [],
+ "entries": [
+  {"doc_refs": ["D002"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 32207.96},
+  {"doc_refs": ["D015"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 29857.68},
+  {"doc_refs": ["D011"], "debit_account": "Accounts Receivable", "credit_account": "Rental Revenue", "amount": 19100.55},
+  {"doc_refs": ["D003"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 6135.07},
+  {"doc_refs": ["D012"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 32893.79},
+  {"doc_refs": ["D016"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 16649.59},
+  {"doc_refs": ["D013"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 12768.42},
+  {"doc_refs": ["D006"], "debit_account": "Cash", "credit_account": "Security Deposits Payable", "amount": 17431.06},
+  {"doc_refs": ["D010"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 10848.04},
+  {"doc_refs": ["D014"], "debit_account": "Maintenance Expense", "credit_account": "Accounts Payable", "amount": 44665.14},
+  {"doc_refs": ["D004", "D002"], "debit_account": "Cash", "credit_account": "Accounts Receivable", "amount": 32207.96},
+  {"doc_refs": ["D005", "D003"], "debit_account": "Accounts Payable", "credit_account": "Cash", "amount": 6135.07},
+  {"doc_refs": ["D008"], "debit_account": "Utilities Expense", "credit_account": "Accounts Payable", "amount": 2199.25},
+  {"doc_refs": ["D007"], "debit_account": "Salaries Expense", "credit_account": "Cash", "amount": 31368.23},
+  {"doc_refs": ["D007"], "debit_account": "Payroll Tax Expense", "credit_account": "Cash", "amount": 2641.49},
+  {"doc_refs": ["D009", "D006"], "debit_account": "Security Deposits Payable", "credit_account": "Cash", "amount": 16668.32}
+ ],
+ "balance_sheet": {
+  "assets": {"Cash": 198703.61, "Accounts Receivable": 73571.53, "Prepaid Insurance": 12368.73},
+  "liabilities": {"Accounts Payable": 131324.70, "Accrued Expenses": 4963.50, "Security Deposits Payable": 18231.72},
+  "equity": {"Retained Earnings": -47088.63, "Owner's Equity": 177212.58}
+ }
+}
